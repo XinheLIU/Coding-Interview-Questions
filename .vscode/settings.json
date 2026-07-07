@@ -1,0 +1,13 @@
+{
+  // LeetCode VS Code extension (LeetCode.vscode-leetcode): write every new solve
+  // straight into the problem-first layout — problems/<id>-<slug>/solution.<ext>.
+  // ${id} is not zero-padded (the template can't), which is why folders use bare ids.
+  "leetcode.filePath": {
+    "default": {
+      "folder": "problems/${id}-${kebab-case-name}",
+      "filename": "solution.${ext}"
+    }
+  },
+  // "leetcode" for leetcode.com, "leetcode-cn" for the China site.
+  "leetcode.endpoint": "leetcode"
+}

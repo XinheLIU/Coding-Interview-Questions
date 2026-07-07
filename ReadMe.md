@@ -1,5 +1,41 @@
 # Preparing a Coding Interview
 
+Last updated: 2026-07-07
+
+## Repository layout
+
+Solutions are **problem-first**: one folder per problem, every language together.
+
+```text
+problems/<id>-<slug>/
+    solution.py            # or .cpp / .sql; a variant is solution.v2.py
+    README.md              # frontmatter metadata (id, title, difficulty, topics, leetcode) + notes
+book/                      # VitePress "book" — prose chapters that transclude the real solution files
+    by-topic/  by-difficulty/   # GENERATED indexes — do not edit by hand
+scripts/
+    reorg.py               # one-time language-first → problem-first migration
+    gen_index.py           # regenerate topic/difficulty indexes + sidebar from frontmatter
+```
+
+Browse the rendered book locally with `npm run docs:dev`, or build it with `npm run docs:build`.
+
+## VS Code setup — LeetCode extension
+
+Install **[`LeetCode.vscode-leetcode`](https://marketplace.visualstudio.com/items?itemName=LeetCode.vscode-leetcode)** (LeetCode-OpenSource/vscode-leetcode) — the extension every solution here was authored with (they carry its `@lc app=leetcode` markers).
+
+`.vscode/settings.json` already points it at the problem-first layout, so each new solve lands in the right folder automatically:
+
+```jsonc
+"leetcode.filePath": {
+  "default": { "folder": "problems/${id}-${kebab-case-name}", "filename": "solution.${ext}" }
+},
+"leetcode.endpoint": "leetcode"   // or "leetcode-cn" for the China site
+```
+
+After adding or retagging a problem, run `python3 scripts/gen_index.py` to refresh the topic/difficulty indexes.
+
+---
+
 ### Principles
 
 * Build Knowledge Structures

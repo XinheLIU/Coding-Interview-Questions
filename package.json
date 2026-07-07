@@ -1,0 +1,15 @@
+{
+  "name": "coding-interview-questions-book",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A book + synced-code site for LeetCode solutions, built with VitePress.",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
