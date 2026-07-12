@@ -8,6 +8,15 @@
       "filename": "solution.${ext}"
     }
   },
+  // Disable GitHub Copilot features for this workspace only.
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.editor.enableCodeActions": false,
   // "leetcode" for leetcode.com, "leetcode-cn" for the China site.
   "leetcode.endpoint": "leetcode"
 }

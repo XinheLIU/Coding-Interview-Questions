@@ -45,7 +45,7 @@
 # @lc code=start
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
-        # put i at nums[i-1]
+        # put i at nums[i-1] (each number at the right place)
         n = len(nums)
         for i in range(n):
             v = nums[i]

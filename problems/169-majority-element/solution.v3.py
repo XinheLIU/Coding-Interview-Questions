@@ -7,13 +7,12 @@
 # @lc code=start
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        # Moore voting
-        candidate, cnt = None, 0
+        # hashmap solution
+        count = {}
         for num in nums:
-            if cnt == 0:
-                candidate = num
-            cnt += (1 if num == candidate else -1)
-        return candidate
-        
+            count[num] = count.get(num, 0) + 1
+            if count[num] > len(nums) // 2:
+                return num
+
 # @lc code=end
 
