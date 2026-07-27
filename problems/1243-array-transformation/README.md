@@ -5,6 +5,7 @@ slug: array-transformation
 difficulty:
 topics: [array]
 leetcode: 
+relations: []
 ---
 
 # 1243. Array Transformation

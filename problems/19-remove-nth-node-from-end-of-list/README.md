@@ -5,6 +5,7 @@ slug: remove-nth-node-from-end-of-list
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 19. Remove Nth Node From End of List

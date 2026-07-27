@@ -5,6 +5,7 @@ slug: balanced-binary-tree
 difficulty:
 topics: [binary-tree, recursion]
 leetcode: https://leetcode.com/problems/balanced-binary-tree/
+relations: []
 ---
 
 # 110. Balanced Binary Tree

@@ -5,6 +5,7 @@ slug: minimum-depth-of-binary-tree
 difficulty:
 topics: [binary-tree, recursion]
 leetcode: https://leetcode.com/problems/minimum-depth-of-binary-tree/
+relations: []
 ---
 
 # 111. Minimum Depth Of Binary Tree

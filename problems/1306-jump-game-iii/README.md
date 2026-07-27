@@ -5,6 +5,7 @@ slug: jump-game-iii
 difficulty:
 topics: [greedy]
 leetcode: https://leetcode.com/problems/jump-game-iii/
+relations: []
 ---
 
 # 1306. Jump Game Iii

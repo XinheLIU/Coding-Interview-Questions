@@ -5,6 +5,7 @@ slug: factor-combinations
 difficulty:
 topics: [back-tracking, dfs]
 leetcode: https://leetcode.com/problems/factor-combinations/
+relations: []
 ---
 
 # 254. Factor Combinations

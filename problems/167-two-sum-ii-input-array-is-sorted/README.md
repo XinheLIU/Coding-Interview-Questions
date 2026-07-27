@@ -5,6 +5,7 @@ slug: two-sum-ii-input-array-is-sorted
 difficulty:
 topics: [array, k-sum]
 leetcode: 
+relations: []
 ---
 
 # 167. Two Sum II - Input array is sorted

@@ -3,8 +3,9 @@ id: 190
 title: Reverse Bits
 slug: reverse-bits
 difficulty:
-topics: []
+topics: [bitwise, math]
 leetcode: https://leetcode.com/problems/reverse-bits/
+relations: []
 ---
 
 # 190. Reverse Bits

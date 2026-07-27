@@ -5,6 +5,7 @@ slug: design-circular-queue
 difficulty:
 topics: [queue]
 leetcode: https://leetcode.com/problems/design-circular-queue/
+relations: []
 ---
 
 # 622. Design Circular Queue

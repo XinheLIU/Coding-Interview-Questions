@@ -5,6 +5,7 @@ slug: invert-binary-tree
 difficulty:
 topics: [binary-tree, level-order, recursion]
 leetcode: https://leetcode.com/problems/invert-binary-tree/
+relations: []
 ---
 
 # 226. Invert Binary Tree

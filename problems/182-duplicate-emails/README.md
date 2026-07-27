@@ -2,9 +2,10 @@
 id: 182
 title: Duplicate Emails
 slug: duplicate-emails
-difficulty:
-topics: [easy]
+difficulty: Easy
+topics: [sql]
 leetcode: https://leetcode.com/problems/duplicate-emails/
+relations: []
 ---
 
 # 182. Duplicate Emails

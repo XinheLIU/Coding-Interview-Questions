@@ -5,6 +5,7 @@ slug: palindromic-substrings
 difficulty:
 topics: [palindrome, string]
 leetcode: https://leetcode.com/problems/palindromic-substrings/
+relations: []
 ---
 
 # 647. Palindromic Substrings

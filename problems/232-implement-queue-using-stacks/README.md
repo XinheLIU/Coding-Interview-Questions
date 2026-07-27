@@ -5,6 +5,7 @@ slug: implement-queue-using-stacks
 difficulty:
 topics: [queue]
 leetcode: 
+relations: []
 ---
 
 # 232. Implement Queue using Stacks

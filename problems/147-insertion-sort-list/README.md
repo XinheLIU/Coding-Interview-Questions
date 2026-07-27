@@ -5,6 +5,7 @@ slug: insertion-sort-list
 difficulty:
 topics: [sorting]
 leetcode: https://leetcode.com/problems/insertion-sort-list/
+relations: []
 ---
 
 # 147. Insertion Sort List

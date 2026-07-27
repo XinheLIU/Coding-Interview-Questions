@@ -5,6 +5,7 @@ slug: longest-common-subsequence
 difficulty:
 topics: [dynamic-programming]
 leetcode: https://leetcode.com/problems/longest-common-subsequence/
+relations: []
 ---
 
 # 1143. Longest Common Subsequence

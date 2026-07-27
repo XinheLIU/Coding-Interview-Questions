@@ -5,6 +5,7 @@ slug: subtree-of-another-tree
 difficulty:
 topics: [binary-tree, recursion]
 leetcode: https://leetcode.com/problems/subtree-of-another-tree/
+relations: []
 ---
 
 # 572. Subtree of Another Tree

@@ -5,6 +5,7 @@ slug: palindrome-permutation-ii
 difficulty:
 topics: [back-tracking, dfs]
 leetcode: 
+relations: []
 ---
 
 # 267. Palindrome Permutation II

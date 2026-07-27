@@ -5,6 +5,7 @@ slug: squares-of-a-sorted-array
 difficulty:
 topics: [array, two-pointers]
 leetcode: https://leetcode.com/problems/squares-of-a-sorted-array/
+relations: []
 ---
 
 # 977. Squares Of A Sorted Array

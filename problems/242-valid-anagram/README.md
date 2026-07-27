@@ -3,8 +3,9 @@ id: 242
 title: Valid Anagram
 slug: valid-anagram
 difficulty:
-topics: [hash-table, hashable, string]
+topics: [hash-table, string]
 leetcode: https://leetcode.com/problems/valid-anagram/
+relations: []
 ---
 
 # 242. Valid Anagram

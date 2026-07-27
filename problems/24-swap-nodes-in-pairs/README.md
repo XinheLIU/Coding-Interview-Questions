@@ -5,6 +5,7 @@ slug: swap-nodes-in-pairs
 difficulty:
 topics: [linked-list]
 leetcode: https://leetcode.com/problems/swap-nodes-in-pairs/
+relations: []
 ---
 
 # 24. Swap Nodes In Pairs

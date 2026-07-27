@@ -5,6 +5,7 @@ slug: reverse-linked-list-ii
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: [{"type": "specializes", "target": 25, "reason": "Reverse in k-groups repeatedly applies the m-to-n reversal across non-overlapping windows of size k."}]
 ---
 
 # 92. Reverse Linked List II

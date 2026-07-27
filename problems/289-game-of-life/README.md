@@ -5,6 +5,7 @@ slug: game-of-life
 difficulty:
 topics: [2d-array, array]
 leetcode: https://leetcode.com/problems/game-of-life/
+relations: []
 ---
 
 # 289. Game of Life

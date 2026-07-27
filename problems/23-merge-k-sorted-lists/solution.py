@@ -1,3 +1,10 @@
+#
+# @lc app=leetcode id=23 lang=python3
+#
+# [23] Merge k Sorted Lists
+#
+
+# @lc code=start
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -21,3 +28,4 @@ class Solution:
         if l1:
             l1.next = self.merge2Lists(l1.next, l2)
         return l1
+# @lc code=end

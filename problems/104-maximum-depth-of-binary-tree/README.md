@@ -5,6 +5,7 @@ slug: maximum-depth-of-binary-tree
 difficulty:
 topics: [binary-tree, recursion]
 leetcode: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+relations: []
 ---
 
 # 104. Maximum Depth Of Binary Tree

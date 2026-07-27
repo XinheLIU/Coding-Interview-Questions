@@ -5,6 +5,7 @@ slug: daily-temperatures
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/daily-temperatures/
+relations: []
 ---
 
 # 739. Daily Temperatures

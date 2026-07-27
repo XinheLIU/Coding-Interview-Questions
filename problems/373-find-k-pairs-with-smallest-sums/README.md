@@ -5,6 +5,7 @@ slug: find-k-pairs-with-smallest-sums
 difficulty:
 topics: [heap-priority-queue]
 leetcode: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
+relations: [{"type": "same-pattern", "target": 23, "reason": "Find K Pairs walks a k-way merge frontier with a heap, exactly like merging k sorted lists."}]
 ---
 
 # 373. Find K Pairs With Smallest Sums

@@ -5,6 +5,7 @@ slug: decode-string
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/decode-string/
+relations: []
 ---
 
 # 394. Decode String

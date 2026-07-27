@@ -5,6 +5,7 @@ slug: copy-list-with-random-pointer
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 138. Copy List with Random Pointer

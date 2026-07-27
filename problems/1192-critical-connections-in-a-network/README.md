@@ -5,6 +5,7 @@ slug: critical-connections-in-a-network
 difficulty:
 topics: [graph]
 leetcode: 
+relations: []
 ---
 
 # 1192. Critical Connections in a Network

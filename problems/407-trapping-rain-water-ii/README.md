@@ -5,6 +5,7 @@ slug: trapping-rain-water-ii
 difficulty:
 topics: [heap-priority-queue]
 leetcode: https://leetcode.com/problems/trapping-rain-water-ii/
+relations: []
 ---
 
 # 407. Trapping Rain Water Ii

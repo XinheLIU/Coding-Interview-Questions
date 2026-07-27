@@ -5,6 +5,7 @@ slug: merge-sorted-array
 difficulty:
 topics: [array, two-pointers]
 leetcode: https://leetcode.com/problems/merge-sorted-array/
+relations: []
 ---
 
 # 88. Merge Sorted Array

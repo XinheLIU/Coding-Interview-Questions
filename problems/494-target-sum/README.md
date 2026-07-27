@@ -5,6 +5,7 @@ slug: target-sum
 difficulty:
 topics: [array, dynamic-programming, knapsack]
 leetcode: https://leetcode.com/problems/target-sum/
+relations: []
 ---
 
 # 494. Target Sum

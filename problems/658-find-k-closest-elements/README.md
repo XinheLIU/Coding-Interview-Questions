@@ -3,8 +3,9 @@ id: 658
 title: Find K Closest Elements
 slug: find-k-closest-elements
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: https://leetcode.com/problems/find-k-closest-elements/
+relations: []
 ---
 
 # 658. Find K Closest Elements

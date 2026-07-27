@@ -5,6 +5,7 @@ slug: design-log-storage-system
 difficulty:
 topics: [design]
 leetcode: 
+relations: []
 ---
 
 # 635. Design Log Storage System

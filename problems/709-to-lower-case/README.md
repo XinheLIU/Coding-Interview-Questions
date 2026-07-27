@@ -5,6 +5,7 @@ slug: to-lower-case
 difficulty:
 topics: [string]
 leetcode: https://leetcode.com/problems/to-lower-case/
+relations: []
 ---
 
 # 709. To Lower Case

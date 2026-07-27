@@ -5,6 +5,7 @@ slug: candy-crush
 difficulty:
 topics: [2d-array, array]
 leetcode: 
+relations: []
 ---
 
 # 723. Candy Crush

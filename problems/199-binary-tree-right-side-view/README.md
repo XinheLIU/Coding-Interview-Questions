@@ -5,6 +5,7 @@ slug: binary-tree-right-side-view
 difficulty:
 topics: [binary-tree, level-order]
 leetcode: https://leetcode.com/problems/binary-tree-right-side-view/
+relations: []
 ---
 
 # 199. Binary Tree Right Side View

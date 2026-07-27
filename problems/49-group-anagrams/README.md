@@ -3,8 +3,9 @@ id: 49
 title: Group Anagrams
 slug: group-anagrams
 difficulty:
-topics: [hash-table, hashable, string]
+topics: [hash-table, string]
 leetcode: https://leetcode.com/problems/group-anagrams/
+relations: []
 ---
 
 # 49. Group Anagrams

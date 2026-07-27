@@ -5,6 +5,7 @@ slug: jewels-and-stones
 difficulty:
 topics: [string]
 leetcode: https://leetcode.com/problems/jewels-and-stones/
+relations: []
 ---
 
 # 771. Jewels And Stones

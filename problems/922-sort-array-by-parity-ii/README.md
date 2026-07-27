@@ -5,6 +5,7 @@ slug: sort-array-by-parity-ii
 difficulty:
 topics: [sorting]
 leetcode: https://leetcode.com/problems/sort-array-by-parity-ii/
+relations: []
 ---
 
 # 922. Sort Array By Parity Ii

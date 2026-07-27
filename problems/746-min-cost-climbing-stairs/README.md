@@ -5,6 +5,7 @@ slug: min-cost-climbing-stairs
 difficulty:
 topics: [dynamic-programming]
 leetcode: https://leetcode.com/problems/min-cost-climbing-stairs/
+relations: []
 ---
 
 # 746. Min Cost Climbing Stairs

@@ -3,8 +3,9 @@ id: 185
 title: Department Top Three Salaries
 slug: department-top-three-salaries
 difficulty:
-topics: []
+topics: [sql]
 leetcode: https://leetcode.com/problems/department-top-three-salaries/
+relations: []
 ---
 
 # 185. Department Top Three Salaries

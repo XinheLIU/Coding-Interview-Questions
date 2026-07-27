@@ -5,6 +5,7 @@ slug: decode-ways
 difficulty:
 topics: [dynamic-programming]
 leetcode: https://leetcode.com/problems/decode-ways/
+relations: []
 ---
 
 # 91. Decode Ways

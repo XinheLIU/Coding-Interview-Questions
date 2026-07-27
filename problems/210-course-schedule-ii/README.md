@@ -5,6 +5,7 @@ slug: course-schedule-ii
 difficulty:
 topics: [bfs]
 leetcode: https://leetcode.com/problems/course-schedule-ii/
+relations: []
 ---
 
 # 210. Course Schedule Ii

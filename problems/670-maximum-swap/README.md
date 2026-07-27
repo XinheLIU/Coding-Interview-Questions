@@ -5,6 +5,7 @@ slug: maximum-swap
 difficulty:
 topics: [greedy]
 leetcode: https://leetcode.com/problems/maximum-swap/
+relations: []
 ---
 
 # 670. Maximum Swap

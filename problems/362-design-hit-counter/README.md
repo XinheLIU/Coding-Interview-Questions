@@ -5,6 +5,7 @@ slug: design-hit-counter
 difficulty:
 topics: [design]
 leetcode: 
+relations: []
 ---
 
 # 362. Design Hit Counter

@@ -21,4 +21,3 @@ class Solution:
         return False
         
 # @lc code=end
-

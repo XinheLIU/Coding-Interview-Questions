@@ -5,6 +5,7 @@ slug: odd-even-linked-list
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 328. Odd Even Linked List

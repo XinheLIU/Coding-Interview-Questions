@@ -5,6 +5,7 @@ slug: remove-duplicates-from-sorted-list
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: [{"type": "specializes", "target": 82, "reason": "Remove Duplicates from Sorted List II deletes all duplicates rather than keeping one representative."}]
 ---
 
 # 83. Remove Duplicates from Sorted List

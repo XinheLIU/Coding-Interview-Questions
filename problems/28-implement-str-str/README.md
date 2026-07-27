@@ -5,6 +5,7 @@ slug: implement-str-str
 difficulty:
 topics: [string]
 leetcode: https://leetcode.com/problems/implement-str-str/
+relations: []
 ---
 
 # 28. Implement Str Str

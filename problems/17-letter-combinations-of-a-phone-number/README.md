@@ -5,6 +5,7 @@ slug: letter-combinations-of-a-phone-number
 difficulty:
 topics: [back-tracking, dfs]
 leetcode: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+relations: []
 ---
 
 # 17. Letter Combinations Of A Phone Number

@@ -3,8 +3,9 @@ id: 277
 title: Find the Celebrity
 slug: find-the-celebrity
 difficulty:
-topics: []
+topics: [array, greedy]
 leetcode: 
+relations: []
 ---
 
 # 277. Find the Celebrity

@@ -5,6 +5,7 @@ slug: evaluate-reverse-polish-notation
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/evaluate-reverse-polish-notation/
+relations: []
 ---
 
 # 150. Evaluate Reverse Polish Notation

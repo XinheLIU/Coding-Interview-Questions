@@ -3,8 +3,9 @@ id: 41
 title: First Missing Positive
 slug: first-missing-positive
 difficulty:
-topics: [array, hashing]
+topics: [array, hash-table]
 leetcode: https://leetcode.com/problems/first-missing-positive/
+relations: []
 ---
 
 # 41. First Missing Positive

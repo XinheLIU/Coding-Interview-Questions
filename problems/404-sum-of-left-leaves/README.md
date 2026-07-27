@@ -5,6 +5,7 @@ slug: sum-of-left-leaves
 difficulty:
 topics: [binary-tree, recursion]
 leetcode: https://leetcode.com/problems/sum-of-left-leaves/
+relations: []
 ---
 
 # 404. Sum Of Left Leaves

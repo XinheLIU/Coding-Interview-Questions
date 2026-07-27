@@ -5,6 +5,7 @@ slug: two-sum-iii-data-structure-design
 difficulty:
 topics: [array, k-sum]
 leetcode: 
+relations: []
 ---
 
 # 170. Two Sum III - Data structure design

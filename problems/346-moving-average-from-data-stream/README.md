@@ -5,6 +5,7 @@ slug: moving-average-from-data-stream
 difficulty:
 topics: [sliding-window]
 leetcode: 
+relations: []
 ---
 
 # 346. Moving Average from Data Stream

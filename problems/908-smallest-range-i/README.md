@@ -3,8 +3,9 @@ id: 908
 title: Smallest Range I
 slug: smallest-range-i
 difficulty:
-topics: []
+topics: [array, math]
 leetcode: https://leetcode.com/problems/smallest-range-i/
+relations: [{"type": "specializes", "target": 910, "reason": "Smallest Range II pairs each element with +K or -K and finds the optimal split — greedy on sorted array."}]
 ---
 
 # 908. Smallest Range I

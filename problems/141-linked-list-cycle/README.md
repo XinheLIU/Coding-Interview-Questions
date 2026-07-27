@@ -5,6 +5,7 @@ slug: linked-list-cycle
 difficulty:
 topics: [linked-list, two-pointers]
 leetcode: https://leetcode.com/problems/linked-list-cycle/
+relations: [{"type": "specializes", "target": 142, "reason": "Linked List Cycle II extends Floyd's two-pointer to locate the exact entry node of the cycle."}]
 ---
 
 # 141. Linked List Cycle

@@ -5,6 +5,7 @@ slug: rotate-list
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 61. Rotate List

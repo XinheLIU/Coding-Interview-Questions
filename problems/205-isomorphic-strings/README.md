@@ -3,8 +3,9 @@ id: 205
 title: Isomorphic Strings
 slug: isomorphic-strings
 difficulty:
-topics: [hashable, string]
+topics: [hash-table, string]
 leetcode: https://leetcode.com/problems/isomorphic-strings/
+relations: []
 ---
 
 # 205. Isomorphic Strings

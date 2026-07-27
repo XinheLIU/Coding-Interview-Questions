@@ -3,8 +3,9 @@ id: 980
 title: Unique Paths Iii
 slug: unique-paths-iii
 difficulty:
-topics: []
+topics: [2d-array, back-tracking, dfs]
 leetcode: https://leetcode.com/problems/unique-paths-iii/
+relations: []
 ---
 
 # 980. Unique Paths Iii

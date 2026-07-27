@@ -5,6 +5,7 @@ slug: longest-substring-with-at-least-k-repeating-characters
 difficulty:
 topics: [string, substring]
 leetcode: https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
+relations: []
 ---
 
 # 395. Longest Substring With At Least K Repeating Characters

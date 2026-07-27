@@ -3,8 +3,9 @@ id: 290
 title: Word Pattern
 slug: word-pattern
 difficulty:
-topics: [hashable, string]
+topics: [hash-table, string]
 leetcode: https://leetcode.com/problems/word-pattern/
+relations: []
 ---
 
 # 290. Word Pattern

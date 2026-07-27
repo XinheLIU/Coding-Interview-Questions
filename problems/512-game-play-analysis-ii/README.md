@@ -2,9 +2,10 @@
 id: 512
 title: Game Play Analysis II
 slug: game-play-analysis-ii
-difficulty:
-topics: [easy]
+difficulty: Easy
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 512. Game Play Analysis II

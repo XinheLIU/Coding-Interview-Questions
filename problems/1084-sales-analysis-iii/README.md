@@ -2,9 +2,10 @@
 id: 1084
 title: Sales Analysis III
 slug: sales-analysis-iii
-difficulty:
-topics: [easy]
+difficulty: Easy
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 1084. Sales Analysis III

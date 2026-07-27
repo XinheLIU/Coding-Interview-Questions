@@ -3,8 +3,9 @@ id: 1180
 title: Count Substrings with Only One Distinct Letter
 slug: count-substrings-with-only-one-distinct-letter
 difficulty:
-topics: []
+topics: [math, string]
 leetcode: 
+relations: []
 ---
 
 # 1180. Count Substrings with Only One Distinct Letter

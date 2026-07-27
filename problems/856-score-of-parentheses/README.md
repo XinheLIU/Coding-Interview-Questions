@@ -5,6 +5,7 @@ slug: score-of-parentheses
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/score-of-parentheses/
+relations: []
 ---
 
 # 856. Score Of Parentheses

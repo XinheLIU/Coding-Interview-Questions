@@ -5,6 +5,7 @@ slug: shortest-word-distance-iii
 difficulty:
 topics: [array, two-pointers]
 leetcode: 
+relations: []
 ---
 
 # 245. Shortest Word Distance III

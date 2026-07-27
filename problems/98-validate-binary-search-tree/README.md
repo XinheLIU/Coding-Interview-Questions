@@ -5,6 +5,7 @@ slug: validate-binary-search-tree
 difficulty:
 topics: [binary-search-tree, binary-tree]
 leetcode: https://leetcode.com/problems/validate-binary-search-tree/
+relations: []
 ---
 
 # 98. Validate Binary Search Tree

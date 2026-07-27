@@ -5,6 +5,7 @@ slug: word-ladder-ii
 difficulty:
 topics: [bfs]
 leetcode: https://leetcode.com/problems/word-ladder-ii/
+relations: []
 ---
 
 # 126. Word Ladder Ii

@@ -3,8 +3,9 @@ id: 354
 title: Russian Doll Envelopes
 slug: russian-doll-envelopes
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: 
+relations: []
 ---
 
 # 354. Russian Doll Envelopes

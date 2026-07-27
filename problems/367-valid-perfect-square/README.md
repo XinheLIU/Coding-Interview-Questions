@@ -5,6 +5,7 @@ slug: valid-perfect-square
 difficulty:
 topics: [math]
 leetcode: https://leetcode.com/problems/valid-perfect-square/
+relations: []
 ---
 
 # 367. Valid Perfect Square

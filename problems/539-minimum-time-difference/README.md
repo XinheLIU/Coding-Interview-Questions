@@ -3,8 +3,9 @@ id: 539
 title: Minimum Time Difference
 slug: minimum-time-difference
 difficulty:
-topics: [operation, string]
+topics: [string]
 leetcode: https://leetcode.com/problems/minimum-time-difference/
+relations: []
 ---
 
 # 539. Minimum Time Difference

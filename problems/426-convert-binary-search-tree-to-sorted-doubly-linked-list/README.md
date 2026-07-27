@@ -5,6 +5,7 @@ slug: convert-binary-search-tree-to-sorted-doubly-linked-list
 difficulty:
 topics: [binary-search-tree, binary-tree]
 leetcode: 
+relations: []
 ---
 
 # 426. Convert Binary Search Tree to Sorted Doubly Linked List

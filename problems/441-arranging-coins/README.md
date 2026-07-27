@@ -3,8 +3,9 @@ id: 441
 title: Arranging Coins
 slug: arranging-coins
 difficulty:
-topics: [binary-search, divide-and-conquer, math]
+topics: [binary-search, math]
 leetcode: https://leetcode.com/problems/arranging-coins/
+relations: []
 ---
 
 # 441. Arranging Coins

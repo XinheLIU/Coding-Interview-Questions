@@ -5,6 +5,7 @@ slug: next-permutation
 difficulty:
 topics: [math]
 leetcode: https://leetcode.com/problems/next-permutation/
+relations: []
 ---
 
 # 31. Next Permutation

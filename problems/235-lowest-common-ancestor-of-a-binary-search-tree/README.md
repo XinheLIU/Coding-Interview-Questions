@@ -5,6 +5,7 @@ slug: lowest-common-ancestor-of-a-binary-search-tree
 difficulty:
 topics: [binary-search-tree, binary-tree, recursion]
 leetcode: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+relations: []
 ---
 
 # 235. Lowest Common Ancestor Of A Binary Search Tree

@@ -5,6 +5,7 @@ slug: top-k-frequent-words
 difficulty:
 topics: [heap-priority-queue]
 leetcode: https://leetcode.com/problems/top-k-frequent-words/
+relations: []
 ---
 
 # 692. Top K Frequent Words

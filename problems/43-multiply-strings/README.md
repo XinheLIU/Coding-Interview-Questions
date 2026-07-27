@@ -5,6 +5,7 @@ slug: multiply-strings
 difficulty:
 topics: [math]
 leetcode: https://leetcode.com/problems/multiply-strings/
+relations: []
 ---
 
 # 43. Multiply Strings

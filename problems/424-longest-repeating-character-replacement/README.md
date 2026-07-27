@@ -5,6 +5,7 @@ slug: longest-repeating-character-replacement
 difficulty:
 topics: [sliding-window]
 leetcode: https://leetcode.com/problems/longest-repeating-character-replacement/
+relations: []
 ---
 
 # 424. Longest Repeating Character Replacement

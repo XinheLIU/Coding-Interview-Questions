@@ -2,9 +2,10 @@
 id: 183
 title: Customers Who Never Order
 slug: customers-who-never-order
-difficulty:
-topics: [easy]
+difficulty: Easy
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 183. Customers Who Never Order

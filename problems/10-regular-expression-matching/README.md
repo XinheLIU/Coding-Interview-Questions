@@ -5,6 +5,7 @@ slug: regular-expression-matching
 difficulty:
 topics: [dynamic-programming, recursion]
 leetcode: https://leetcode.com/problems/regular-expression-matching/
+relations: []
 ---
 
 # 10. Regular Expression Matching

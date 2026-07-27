@@ -5,6 +5,7 @@ slug: median-of-two-sorted-arrays
 difficulty:
 topics: [binary-search, divide-and-conquer]
 leetcode: https://leetcode.com/problems/median-of-two-sorted-arrays/
+relations: []
 ---
 
 # 4. Median Of Two Sorted Arrays

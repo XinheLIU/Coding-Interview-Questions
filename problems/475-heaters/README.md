@@ -3,8 +3,9 @@ id: 475
 title: Heaters
 slug: heaters
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: 
+relations: []
 ---
 
 # 475. Heaters

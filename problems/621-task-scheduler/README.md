@@ -5,6 +5,7 @@ slug: task-scheduler
 difficulty:
 topics: [greedy]
 leetcode: https://leetcode.com/problems/task-scheduler/
+relations: []
 ---
 
 # 621. Task Scheduler

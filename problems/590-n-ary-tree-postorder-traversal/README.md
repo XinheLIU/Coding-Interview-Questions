@@ -5,6 +5,7 @@ slug: n-ary-tree-postorder-traversal
 difficulty:
 topics: [binary-tree, traversal]
 leetcode: https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+relations: []
 ---
 
 # 590. N Ary Tree Postorder Traversal

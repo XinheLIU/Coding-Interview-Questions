@@ -5,6 +5,7 @@ slug: longest-substring-with-at-most-k-distinct-characters
 difficulty:
 topics: [sliding-window]
 leetcode: 
+relations: []
 ---
 
 # 340. Longest Substring with At Most K Distinct Characters

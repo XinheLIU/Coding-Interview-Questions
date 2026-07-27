@@ -5,6 +5,7 @@ slug: permutation-in-string
 difficulty:
 topics: [sliding-window]
 leetcode: https://leetcode.com/problems/permutation-in-string/
+relations: []
 ---
 
 # 567. Permutation In String

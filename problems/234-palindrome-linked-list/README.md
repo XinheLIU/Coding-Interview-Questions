@@ -5,6 +5,7 @@ slug: palindrome-linked-list
 difficulty:
 topics: [linked-list, two-pointers]
 leetcode: 
+relations: []
 ---
 
 # 234. Palindrome Linked List

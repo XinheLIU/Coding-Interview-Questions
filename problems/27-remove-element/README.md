@@ -5,6 +5,7 @@ slug: remove-element
 difficulty:
 topics: [array, two-pointers]
 leetcode: https://leetcode.com/problems/remove-element/
+relations: []
 ---
 
 # 27. Remove Element

@@ -5,6 +5,7 @@ slug: inorder-successor-in-bst-ii
 difficulty:
 topics: [binary-search-tree, binary-tree]
 leetcode: 
+relations: []
 ---
 
 # 510. Inorder Successor in BST II

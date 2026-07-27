@@ -5,6 +5,7 @@ slug: reverse-nodes-in-k-group
 difficulty:
 topics: [linked-list]
 leetcode: https://leetcode.com/problems/reverse-nodes-in-k-group/
+relations: []
 ---
 
 # 25. Reverse Nodes In K Group

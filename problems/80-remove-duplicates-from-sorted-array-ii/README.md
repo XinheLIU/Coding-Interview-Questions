@@ -5,6 +5,7 @@ slug: remove-duplicates-from-sorted-array-ii
 difficulty:
 topics: [array, two-pointers]
 leetcode: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+relations: []
 ---
 
 # 80. Remove Duplicates from Sorted Array II

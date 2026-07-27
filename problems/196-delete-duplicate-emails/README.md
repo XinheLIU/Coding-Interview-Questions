@@ -2,9 +2,10 @@
 id: 196
 title: Delete Duplicate Emails
 slug: delete-duplicate-emails
-difficulty:
-topics: [easy]
+difficulty: Easy
+topics: [sql]
 leetcode: https://leetcode.com/problems/delete-duplicate-emails/
+relations: []
 ---
 
 # 196. Delete Duplicate Emails

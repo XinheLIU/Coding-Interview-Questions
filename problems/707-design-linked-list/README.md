@@ -5,6 +5,7 @@ slug: design-linked-list
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 707. Design Linked List

@@ -5,6 +5,7 @@ slug: pascals-triangle-ii
 difficulty:
 topics: [dynamic-programming]
 leetcode: https://leetcode.com/problems/pascals-triangle-ii/
+relations: []
 ---
 
 # 119. Pascals Triangle Ii

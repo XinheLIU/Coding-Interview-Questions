@@ -5,6 +5,7 @@ slug: permutations-ii
 difficulty:
 topics: [back-tracking, dfs]
 leetcode: https://leetcode.com/problems/permutations-ii/
+relations: []
 ---
 
 # 47. Permutations Ii

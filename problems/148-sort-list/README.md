@@ -3,8 +3,9 @@ id: 148
 title: Sort List
 slug: sort-list
 difficulty:
-topics: [linked-list, sorting, two-pointers]
+topics: [divide-and-conquer, linked-list, sorting, two-pointers]
 leetcode: https://leetcode.com/problems/sort-list/
+relations: []
 ---
 
 # 148. Sort List

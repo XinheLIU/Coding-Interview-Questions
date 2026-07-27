@@ -1,21 +1,33 @@
 #!/usr/bin/env python3
 """Regenerate topic/difficulty index pages from per-problem README frontmatter.
 
-Reads problems/*/README.md, writes book/by-topic/<topic>.md and
-book/by-difficulty/<level>.md, and prints a sidebar fragment for .vitepress/config.mts.
-Idempotent — re-run after adding or retagging a problem. Stdlib only.
+Reads problems/*/README.md, writes book/by-topic/<topic>.md,
+book/by-difficulty/<level>.md, and VitePress navigation/graph data.
+Idempotent — re-run after adding, retagging, or relating a problem. Stdlib only.
 
 Frontmatter is the single source of truth; this reads it, never writes it.
+Chapter membership comes from `scripts/taxonomy.py` — see `classify()` there.
 """
 from __future__ import annotations
 
 import json
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import taxonomy
 
 REPO = Path(__file__).resolve().parent.parent
 PROBLEMS = REPO / "problems"
 BOOK = REPO / "book"
+RELATION_TYPES = {
+    "builds-on",
+    "contrasts",
+    "generalizes",
+    "same-pattern",
+    "specializes",
+}
 
 
 def parse_frontmatter(md: Path) -> dict | None:
@@ -31,14 +43,83 @@ def parse_frontmatter(md: Path) -> dict | None:
         key, val = key.strip(), val.strip()
         if key == "topics":
             val = [t.strip() for t in val.strip("[]").split(",") if t.strip()]
+        elif key == "relations":
+            try:
+                val = json.loads(val)
+            except json.JSONDecodeError as error:
+                raise ValueError(f"{md}: relations must be valid inline JSON") from error
         elif key == "id":
             val = int(val) if val.isdigit() else None
         fm[key] = val
     return fm
 
 
+def validated_relations(fm: dict, readme: Path) -> list[dict[str, int | str]]:
+    raw_relations = fm.get("relations") or []
+    if not isinstance(raw_relations, list):
+        raise ValueError(f"{readme}: relations must be a JSON list")
+
+    relations = []
+    for index, relation in enumerate(raw_relations):
+        location = f"{readme}: relations[{index}]"
+        if not isinstance(relation, dict):
+            raise ValueError(f"{location} must be an object")
+
+        relation_type = relation.get("type")
+        target = relation.get("target")
+        reason = relation.get("reason")
+        if relation_type not in RELATION_TYPES:
+            allowed = ", ".join(sorted(RELATION_TYPES))
+            raise ValueError(f"{location}.type must be one of: {allowed}")
+        if not isinstance(target, int) or isinstance(target, bool):
+            raise ValueError(f"{location}.target must be an integer problem id")
+        if target == fm.get("id"):
+            raise ValueError(f"{location} cannot target its own problem")
+        if not isinstance(reason, str) or not reason.strip():
+            raise ValueError(f"{location}.reason must explain the relationship")
+
+        relations.append({
+            "type": relation_type,
+            "target": target,
+            "reason": reason.strip(),
+        })
+    return relations
+
+
 def langs_for(pdir: Path) -> list[str]:
     return sorted({p.suffix[1:] for p in pdir.glob("solution*.*")})
+
+
+def resolved_chapter(fm: dict, readme: Path) -> tuple[str, str]:
+    """Return (chapter id, section) for a problem, honouring a `chapter:` override.
+
+    Every topic must be declared in taxonomy.TOPICS — an undeclared tag is a typo
+    and fails the build rather than silently creating an orphan topic page.
+    """
+    topics = fm.get("topics") or []
+    if not topics:
+        raise ValueError(f"{readme}: topics must not be empty")
+
+    undeclared = [t for t in topics if t not in taxonomy.TOPICS]
+    if undeclared:
+        raise ValueError(
+            f"{readme}: undeclared topic(s) {undeclared}. "
+            f"Add them to TOPICS in scripts/taxonomy.py or fix the typo."
+        )
+
+    chapter, section = taxonomy.classify(topics)
+
+    override = (fm.get("chapter") or "").strip()
+    if override:
+        if override not in taxonomy.CHAPTERS_BY_ID:
+            allowed = ", ".join(c.id for c in taxonomy.CHAPTERS)
+            raise ValueError(f"{readme}: chapter must be one of: {allowed}")
+        if override != chapter:
+            # The override moves the problem; keep a section that exists in the
+            # destination chapter so the index can still group it.
+            chapter = override
+            section = taxonomy.sections_of(chapter)[0]
+    return chapter, section
 
 
 def link_line(p: dict) -> str:
@@ -68,12 +149,26 @@ def main() -> None:
         fm = parse_frontmatter(readme)
         if not fm or fm.get("id") is None:
             continue
+        chapter, section = resolved_chapter(fm, readme)
         problems.append({
             "id": fm["id"], "title": fm.get("title", pdir.name), "dir": pdir.name,
-            "topics": fm.get("topics") or ["untagged"],
+            "topics": fm.get("topics") or [],
             "difficulty": (fm.get("difficulty") or "").strip() or "Unrated",
             "leetcode": fm.get("leetcode", ""), "langs": langs_for(pdir),
+            "relations": validated_relations(fm, readme),
+            "chapter": chapter, "section": section,
         })
+
+    problems_by_id = {p["id"]: p for p in problems}
+    if len(problems_by_id) != len(problems):
+        raise ValueError("Problem ids must be unique")
+    for problem in problems:
+        for relation in problem["relations"]:
+            if relation["target"] not in problems_by_id:
+                raise ValueError(
+                    f"problems/{problem['dir']}/README.md: relation target "
+                    f"{relation['target']} does not exist"
+                )
 
     by_topic: dict[str, list] = {}
     by_diff: dict[str, list] = {}
@@ -110,6 +205,65 @@ def main() -> None:
     out = REPO / ".vitepress" / "sidebar-problems.json"
     out.write_text(json.dumps(fragment, indent=2) + "\n")
     print(f"Wrote {out.relative_to(REPO)} (imported by config.mts).")
+
+    by_chapter: dict[str, list] = {}
+    for p in problems:
+        by_chapter.setdefault(p["chapter"], []).append(p)
+
+    graph = {
+        # Chapter metadata drives the homepage curriculum map. `flow` holds the
+        # prerequisite edges between chapters; `sections` the in-chapter grouping.
+        "chapters": [
+            {
+                "id": chapter.id,
+                "title": chapter.title,
+                "page": chapter.page,
+                "blurb": chapter.blurb,
+                "col": chapter.col,
+                "row": chapter.row,
+                "count": len(by_chapter.get(chapter.id) or []),
+                "sections": [
+                    {
+                        "name": name,
+                        "count": sum(
+                            1 for p in by_chapter.get(chapter.id) or []
+                            if p["section"] == name
+                        ),
+                    }
+                    for name in taxonomy.sections_of(chapter.id)
+                ],
+            }
+            for chapter in taxonomy.CHAPTERS
+        ],
+        "flow": [{"source": s, "target": t} for s, t in taxonomy.CHAPTER_FLOW],
+        "nodes": [
+            {
+                "id": p["id"],
+                "title": p["title"],
+                "dir": p["dir"],
+                "topics": p["topics"],
+                "difficulty": p["difficulty"],
+                "chapter": p["chapter"],
+                "section": p["section"],
+                "langs": p["langs"],
+            }
+            for p in sorted(problems, key=lambda p: p["id"])
+        ],
+        "edges": [
+            {
+                "source": p["id"],
+                "target": relation["target"],
+                "type": relation["type"],
+                "reason": relation["reason"],
+            }
+            for p in sorted(problems, key=lambda p: p["id"])
+            for relation in p["relations"]
+        ],
+    }
+    graph_out = REPO / ".vitepress" / "problem-graph.json"
+    graph_out.write_text(json.dumps(graph, indent=2) + "\n")
+    print(f"Wrote {graph_out.relative_to(REPO)} ({len(graph['edges'])} relations, "
+          f"{len(graph['chapters'])} chapters).")
 
 
 if __name__ == "__main__":

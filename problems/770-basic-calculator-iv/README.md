@@ -5,6 +5,7 @@ slug: basic-calculator-iv
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/basic-calculator-iv/
+relations: []
 ---
 
 # 770. Basic Calculator Iv

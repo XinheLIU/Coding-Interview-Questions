@@ -5,6 +5,7 @@ slug: delete-node-in-a-bst
 difficulty:
 topics: [binary-search-tree, binary-tree]
 leetcode: 
+relations: []
 ---
 
 # 450. Delete Node in a BST

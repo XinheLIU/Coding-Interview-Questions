@@ -3,8 +3,9 @@ id: 287
 title: Find The Duplicate Number
 slug: find-the-duplicate-number
 difficulty:
-topics: [array, binary-search, divide-and-conquer, hashing]
+topics: [array, binary-search, hash-table]
 leetcode: https://leetcode.com/problems/find-the-duplicate-number/
+relations: []
 ---
 
 # 287. Find The Duplicate Number

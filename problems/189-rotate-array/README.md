@@ -5,6 +5,7 @@ slug: rotate-array
 difficulty:
 topics: [array]
 leetcode: https://leetcode.com/problems/rotate-array/
+relations: []
 ---
 
 # 189. Rotate Array

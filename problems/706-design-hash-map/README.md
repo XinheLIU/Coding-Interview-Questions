@@ -5,6 +5,7 @@ slug: design-hash-map
 difficulty:
 topics: [design]
 leetcode: 
+relations: []
 ---
 
 # 706. Design HashMap

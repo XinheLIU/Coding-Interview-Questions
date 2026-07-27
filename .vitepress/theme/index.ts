@@ -1,0 +1,16 @@
+import DefaultTheme from 'vitepress/theme'
+import Layout from './Layout.vue'
+import ChapterGraph from './ChapterGraph.vue'
+import ChapterIndex from './ChapterIndex.vue'
+import CurriculumMap from './CurriculumMap.vue'
+
+export default {
+  extends: DefaultTheme,
+  Layout,
+  // Registered globally so chapter Markdown can use them without an import.
+  enhanceApp({ app }) {
+    app.component('ChapterGraph', ChapterGraph)
+    app.component('ChapterIndex', ChapterIndex)
+    app.component('CurriculumMap', CurriculumMap)
+  }
+}

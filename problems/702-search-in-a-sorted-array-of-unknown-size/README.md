@@ -3,8 +3,9 @@ id: 702
 title: Search in a Sorted Array of Unknown Size
 slug: search-in-a-sorted-array-of-unknown-size
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: 
+relations: []
 ---
 
 # 702. Search in a Sorted Array of Unknown Size

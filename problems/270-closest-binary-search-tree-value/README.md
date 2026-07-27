@@ -5,6 +5,7 @@ slug: closest-binary-search-tree-value
 difficulty:
 topics: [binary-search-tree, binary-tree]
 leetcode: 
+relations: []
 ---
 
 # 270. Closest Binary Search Tree Value

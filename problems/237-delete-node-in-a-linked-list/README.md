@@ -5,6 +5,7 @@ slug: delete-node-in-a-linked-list
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 237. Delete Node in a Linked List

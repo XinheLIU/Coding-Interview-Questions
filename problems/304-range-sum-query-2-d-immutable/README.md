@@ -5,6 +5,7 @@ slug: range-sum-query-2-d-immutable
 difficulty:
 topics: [array, cum-sum]
 leetcode: https://leetcode.com/problems/range-sum-query-2-d-immutable/
+relations: []
 ---
 
 # 304. Range Sum Query 2 D Immutable

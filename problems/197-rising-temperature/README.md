@@ -2,9 +2,10 @@
 id: 197
 title: Rising Temperature
 slug: rising-temperature
-difficulty:
-topics: [easy]
+difficulty: Easy
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 197. Rising Temperature

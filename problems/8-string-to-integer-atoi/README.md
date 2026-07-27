@@ -3,8 +3,9 @@ id: 8
 title: String To Integer Atoi
 slug: string-to-integer-atoi
 difficulty:
-topics: [operation, string]
+topics: [string]
 leetcode: https://leetcode.com/problems/string-to-integer-atoi/
+relations: []
 ---
 
 # 8. String To Integer Atoi

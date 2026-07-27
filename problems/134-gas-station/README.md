@@ -5,6 +5,7 @@ slug: gas-station
 difficulty:
 topics: [greedy]
 leetcode: https://leetcode.com/problems/gas-station/
+relations: []
 ---
 
 # 134. Gas Station

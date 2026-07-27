@@ -5,6 +5,7 @@ slug: paint-house
 difficulty:
 topics: [dynamic-programming]
 leetcode: https://leetcode.com/problems/paint-house/
+relations: []
 ---
 
 # 256. Paint House

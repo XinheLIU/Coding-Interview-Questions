@@ -3,8 +3,9 @@ id: 240
 title: Search A 2 D Matrix Ii
 slug: search-a-2-d-matrix-ii
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: https://leetcode.com/problems/search-a-2-d-matrix-ii/
+relations: []
 ---
 
 # 240. Search A 2 D Matrix Ii

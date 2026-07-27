@@ -3,8 +3,9 @@ id: 184
 title: Department Highest Salary
 slug: department-highest-salary
 difficulty:
-topics: []
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 184. Department Highest Salary

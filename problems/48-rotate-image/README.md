@@ -5,6 +5,7 @@ slug: rotate-image
 difficulty:
 topics: [2d-array, array]
 leetcode: https://leetcode.com/problems/rotate-image/
+relations: []
 ---
 
 # 48. Rotate Image

@@ -5,6 +5,7 @@ slug: find-all-anagrams-in-a-string
 difficulty:
 topics: [sliding-window]
 leetcode: https://leetcode.com/problems/find-all-anagrams-in-a-string/
+relations: []
 ---
 
 # 438. Find All Anagrams In A String

@@ -3,8 +3,9 @@ id: 177
 title: Nth Highest Salary
 slug: nth-highest-salary
 difficulty:
-topics: []
+topics: [sql]
 leetcode: https://leetcode.com/problems/nth-highest-salary/
+relations: []
 ---
 
 # 177. Nth Highest Salary

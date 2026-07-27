@@ -5,6 +5,7 @@ slug: binary-search-tree-iterator
 difficulty:
 topics: [binary-search-tree, binary-tree]
 leetcode: https://leetcode.com/problems/binary-search-tree-iterator/
+relations: []
 ---
 
 # 173. Binary Search Tree Iterator

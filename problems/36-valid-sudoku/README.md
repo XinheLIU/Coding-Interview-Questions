@@ -5,6 +5,7 @@ slug: valid-sudoku
 difficulty:
 topics: [back-tracking, dfs]
 leetcode: https://leetcode.com/problems/valid-sudoku/
+relations: []
 ---
 
 # 36. Valid Sudoku

@@ -5,6 +5,7 @@ slug: maximal-rectangle
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/maximal-rectangle/
+relations: []
 ---
 
 # 85. Maximal Rectangle

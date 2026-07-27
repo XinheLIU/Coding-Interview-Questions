@@ -3,8 +3,9 @@ id: 541
 title: Reverse String Ii
 slug: reverse-string-ii
 difficulty:
-topics: [operation, string]
+topics: [string]
 leetcode: https://leetcode.com/problems/reverse-string-ii/
+relations: []
 ---
 
 # 541. Reverse String Ii

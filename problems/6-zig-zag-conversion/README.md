@@ -5,6 +5,7 @@ slug: zig-zag-conversion
 difficulty:
 topics: [string]
 leetcode: https://leetcode.com/problems/zig-zag-conversion/
+relations: []
 ---
 
 # 6. Zig Zag Conversion

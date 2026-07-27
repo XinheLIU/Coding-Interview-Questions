@@ -5,6 +5,7 @@ slug: car-pooling
 difficulty:
 topics: [hash-table]
 leetcode: https://leetcode.com/problems/car-pooling/
+relations: []
 ---
 
 # 1094. Car Pooling

@@ -3,8 +3,9 @@ id: 767
 title: Reorganize String
 slug: reorganize-string
 difficulty:
-topics: []
+topics: [greedy, heap-priority-queue, string]
 leetcode: https://leetcode.com/problems/reorganize-string/
+relations: []
 ---
 
 # 767. Reorganize String

@@ -3,8 +3,9 @@ id: 366
 title: Find Leaves of Binary Tree
 slug: find-leaves-of-binary-tree
 difficulty:
-topics: []
+topics: [binary-tree, dfs, recursion]
 leetcode: 
+relations: []
 ---
 
 # 366. Find Leaves of Binary Tree

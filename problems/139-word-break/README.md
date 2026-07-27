@@ -3,8 +3,9 @@ id: 139
 title: Word Break
 slug: word-break
 difficulty:
-topics: []
+topics: [dynamic-programming, string]
 leetcode: https://leetcode.com/problems/word-break/
+relations: []
 ---
 
 # 139. Word Break

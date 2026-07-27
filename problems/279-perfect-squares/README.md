@@ -3,8 +3,9 @@ id: 279
 title: Perfect Squares
 slug: perfect-squares
 difficulty:
-topics: []
+topics: [dynamic-programming, math]
 leetcode: https://leetcode.com/problems/perfect-squares/
+relations: []
 ---
 
 # 279. Perfect Squares

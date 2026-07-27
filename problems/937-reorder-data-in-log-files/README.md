@@ -5,6 +5,7 @@ slug: reorder-data-in-log-files
 difficulty:
 topics: [sorting]
 leetcode: https://leetcode.com/problems/reorder-data-in-log-files/
+relations: []
 ---
 
 # 937. Reorder Data In Log Files

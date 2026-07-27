@@ -5,6 +5,7 @@ slug: linked-list-components
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 817. Linked List Components

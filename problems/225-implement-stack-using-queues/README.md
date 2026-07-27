@@ -5,6 +5,7 @@ slug: implement-stack-using-queues
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/implement-stack-using-queues/
+relations: []
 ---
 
 # 225. Implement Stack Using Queues

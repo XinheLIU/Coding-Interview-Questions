@@ -5,6 +5,7 @@ slug: combinations
 difficulty:
 topics: [back-tracking, dfs]
 leetcode: https://leetcode.com/problems/combinations/
+relations: []
 ---
 
 # 77. Combinations

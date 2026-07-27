@@ -3,8 +3,9 @@ id: 387
 title: First Unique Character In A String
 slug: first-unique-character-in-a-string
 difficulty:
-topics: [hashable, string]
+topics: [hash-table, string]
 leetcode: https://leetcode.com/problems/first-unique-character-in-a-string/
+relations: []
 ---
 
 # 387. First Unique Character In A String

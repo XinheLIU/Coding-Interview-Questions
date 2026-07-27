@@ -2,9 +2,10 @@
 id: 175
 title: Combine-Two-Tables
 slug: combine-two-tables
-difficulty:
-topics: [easy]
+difficulty: Easy
+topics: [sql]
 leetcode: https://leetcode.com/problems/combine-two-tables/
+relations: []
 ---
 
 # 175. Combine-Two-Tables

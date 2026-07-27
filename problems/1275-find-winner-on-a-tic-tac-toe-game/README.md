@@ -5,6 +5,7 @@ slug: find-winner-on-a-tic-tac-toe-game
 difficulty:
 topics: [2d-array, array]
 leetcode: 
+relations: []
 ---
 
 # 1275. Find Winner on a Tic Tac Toe Game

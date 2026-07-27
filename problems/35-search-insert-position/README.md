@@ -3,8 +3,9 @@ id: 35
 title: Search Insert Position
 slug: search-insert-position
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: https://leetcode.com/problems/search-insert-position/
+relations: []
 ---
 
 # 35. Search Insert Position

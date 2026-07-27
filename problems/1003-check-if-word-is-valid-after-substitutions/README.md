@@ -5,6 +5,7 @@ slug: check-if-word-is-valid-after-substitutions
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/
+relations: []
 ---
 
 # 1003. Check If Word Is Valid After Substitutions

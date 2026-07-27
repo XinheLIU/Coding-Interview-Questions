@@ -3,8 +3,9 @@ id: 962
 title: Maximum Width Ramp
 slug: maximum-width-ramp
 difficulty:
-topics: []
+topics: [array, sorting, stack]
 leetcode: https://leetcode.com/problems/maximum-width-ramp/
+relations: []
 ---
 
 # 962. Maximum Width Ramp

@@ -5,6 +5,7 @@ slug: hexspeak
 difficulty:
 topics: [bitwise]
 leetcode: 
+relations: []
 ---
 
 # 1271. Hexspeak

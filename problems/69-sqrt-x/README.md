@@ -3,8 +3,9 @@ id: 69
 title: Sqrt X
 slug: sqrt-x
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: https://leetcode.com/problems/sqrt-x/
+relations: []
 ---
 
 # 69. Sqrt X

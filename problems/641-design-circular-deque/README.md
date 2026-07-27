@@ -5,6 +5,7 @@ slug: design-circular-deque
 difficulty:
 topics: [queue]
 leetcode: https://leetcode.com/problems/design-circular-deque/
+relations: []
 ---
 
 # 641. Design Circular Deque

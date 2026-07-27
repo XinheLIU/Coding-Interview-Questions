@@ -5,6 +5,7 @@ slug: longest-continuous-increasing-subsequence
 difficulty:
 topics: [array, dynamic-programming]
 leetcode: https://leetcode.com/problems/longest-continuous-increasing-subsequence/
+relations: []
 ---
 
 # 674. Longest Continuous Increasing Subsequence

@@ -5,6 +5,7 @@ slug: walking-robot-simulation
 difficulty:
 topics: [2d-array, array]
 leetcode: https://leetcode.com/problems/walking-robot-simulation/
+relations: []
 ---
 
 # 874. Walking Robot Simulation

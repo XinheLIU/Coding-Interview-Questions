@@ -5,6 +5,7 @@ slug: array-nesting
 difficulty:
 topics: [array]
 leetcode: https://leetcode.com/problems/array-nesting/
+relations: []
 ---
 
 # 565. Array Nesting

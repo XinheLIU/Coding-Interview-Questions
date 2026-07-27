@@ -5,6 +5,7 @@ slug: split-linked-list-in-parts
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 725. Split Linked List in Parts

@@ -3,8 +3,9 @@ id: 261
 title: Graph Valid Tree
 slug: graph-valid-tree
 difficulty:
-topics: []
+topics: [graph, union-find]
 leetcode: 
+relations: []
 ---
 
 # 261. Graph Valid Tree

@@ -3,8 +3,9 @@ id: 875
 title: Koko Eating Bananas
 slug: koko-eating-bananas
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: 
+relations: []
 ---
 
 # 875. Koko Eating Bananas

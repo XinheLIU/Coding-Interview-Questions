@@ -5,6 +5,7 @@ slug: jump-game-ii
 difficulty:
 topics: [greedy]
 leetcode: https://leetcode.com/problems/jump-game-ii/
+relations: []
 ---
 
 # 45. Jump Game Ii

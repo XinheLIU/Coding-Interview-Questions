@@ -5,9 +5,10 @@
 #
 
 # @lc code=start
+from collections import deque
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
-        stack = collections.deque([-1])
+        stack = deque([-1])
         ret = 0
         for i, c in enumerate(s):
             if c == "(":
@@ -15,10 +16,13 @@ class Solution:
             else:
                 stack.pop()
                 if not stack:
+                    # stack empty, restart counting
                     stack.append(i)
                 else:
+                    # must matched a "("
+                    # the longest sequence left bound is the element next to stack head
                     ret = max(ret, i - stack[-1])
-        return ret
+        return ret  
 # @lc code=end
 '''
 class Solution:

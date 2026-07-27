@@ -2,9 +2,10 @@
 id: 595
 title: Big Countries
 slug: big-countries
-difficulty:
-topics: [easy]
+difficulty: Easy
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 595. Big Countries

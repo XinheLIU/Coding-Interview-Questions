@@ -5,6 +5,7 @@ slug: greatest-common-divisor-of-strings
 difficulty:
 topics: [string, substring]
 leetcode: https://leetcode.com/problems/greatest-common-divisor-of-strings/
+relations: []
 ---
 
 # 1071. Greatest Common Divisor Of Strings

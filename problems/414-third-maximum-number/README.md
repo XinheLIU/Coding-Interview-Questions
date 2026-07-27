@@ -5,6 +5,7 @@ slug: third-maximum-number
 difficulty:
 topics: [math]
 leetcode: 
+relations: []
 ---
 
 # 414. Third Maximum Number

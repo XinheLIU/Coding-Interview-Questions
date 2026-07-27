@@ -3,8 +3,9 @@ id: 162
 title: Find Peak Element
 slug: find-peak-element
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: https://leetcode.com/problems/find-peak-element/
+relations: []
 ---
 
 # 162. Find Peak Element

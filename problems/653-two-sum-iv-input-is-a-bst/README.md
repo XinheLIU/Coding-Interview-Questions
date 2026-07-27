@@ -5,6 +5,7 @@ slug: two-sum-iv-input-is-a-bst
 difficulty:
 topics: [array, k-sum]
 leetcode: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+relations: []
 ---
 
 # 653. Two Sum IV - Input is a BST

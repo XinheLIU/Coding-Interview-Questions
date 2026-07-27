@@ -5,6 +5,7 @@ slug: length-of-last-word
 difficulty:
 topics: [string]
 leetcode: https://leetcode.com/problems/length-of-last-word/
+relations: []
 ---
 
 # 58. Length Of Last Word

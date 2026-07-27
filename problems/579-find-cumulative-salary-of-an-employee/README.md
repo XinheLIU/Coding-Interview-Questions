@@ -3,8 +3,9 @@ id: 579
 title: Find Cumulative Salary of an Employee
 slug: find-cumulative-salary-of-an-employee
 difficulty:
-topics: []
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 579. Find Cumulative Salary of an Employee

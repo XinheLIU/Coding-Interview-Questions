@@ -2,9 +2,10 @@
 id: 181
 title: Employees-Earning-More-Than-Their-Managers
 slug: employees-earning-more-than-their-managers
-difficulty:
-topics: [easy]
+difficulty: Easy
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 181. Employees-Earning-More-Than-Their-Managers

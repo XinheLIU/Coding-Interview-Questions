@@ -3,8 +3,9 @@ id: 262
 title: Trips and Users
 slug: trips-and-users
 difficulty:
-topics: []
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 262. Trips and Users

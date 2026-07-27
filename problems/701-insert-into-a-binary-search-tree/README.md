@@ -5,6 +5,7 @@ slug: insert-into-a-binary-search-tree
 difficulty:
 topics: [binary-search-tree, binary-tree]
 leetcode: 
+relations: []
 ---
 
 # 701. Insert into a Binary Search Tree

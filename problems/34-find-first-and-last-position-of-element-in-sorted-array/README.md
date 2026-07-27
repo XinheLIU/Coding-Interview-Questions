@@ -3,8 +3,9 @@ id: 34
 title: Find First And Last Position Of Element In Sorted Array
 slug: find-first-and-last-position-of-element-in-sorted-array
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+relations: []
 ---
 
 # 34. Find First And Last Position Of Element In Sorted Array

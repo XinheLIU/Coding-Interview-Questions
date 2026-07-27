@@ -5,6 +5,7 @@ slug: nth-magical-number
 difficulty:
 topics: [math]
 leetcode: https://leetcode.com/problems/nth-magical-number/
+relations: []
 ---
 
 # 878. Nth Magical Number

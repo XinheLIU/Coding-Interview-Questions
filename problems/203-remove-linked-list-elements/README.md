@@ -5,6 +5,7 @@ slug: remove-linked-list-elements
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 203. Remove Linked List Elements

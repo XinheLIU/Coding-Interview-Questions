@@ -3,8 +3,9 @@ id: 819
 title: Most Common Word
 slug: most-common-word
 difficulty:
-topics: [hashable, string]
+topics: [hash-table, string]
 leetcode: https://leetcode.com/problems/most-common-word/
+relations: []
 ---
 
 # 819. Most Common Word

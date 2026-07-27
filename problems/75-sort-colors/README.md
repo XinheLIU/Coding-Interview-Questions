@@ -5,6 +5,7 @@ slug: sort-colors
 difficulty:
 topics: [sorting]
 leetcode: https://leetcode.com/problems/sort-colors/
+relations: []
 ---
 
 # 75. Sort Colors

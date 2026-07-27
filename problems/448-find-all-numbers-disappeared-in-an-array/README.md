@@ -3,8 +3,9 @@ id: 448
 title: Find All Numbers Disappeared In An Array
 slug: find-all-numbers-disappeared-in-an-array
 difficulty:
-topics: [array, hashing]
+topics: [array, hash-table]
 leetcode: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+relations: []
 ---
 
 # 448. Find All Numbers Disappeared In An Array

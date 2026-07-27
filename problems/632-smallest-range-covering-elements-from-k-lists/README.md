@@ -5,6 +5,7 @@ slug: smallest-range-covering-elements-from-k-lists
 difficulty:
 topics: [heap-priority-queue]
 leetcode: https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
+relations: []
 ---
 
 # 632. Smallest Range Covering Elements From K Lists

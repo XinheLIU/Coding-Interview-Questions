@@ -5,6 +5,7 @@ slug: move-zeroes
 difficulty:
 topics: [array, two-pointers]
 leetcode: https://leetcode.com/problems/move-zeroes/
+relations: []
 ---
 
 # 283. Move Zeroes

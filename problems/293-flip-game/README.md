@@ -3,8 +3,9 @@ id: 293
 title: Flip Game
 slug: flip-game
 difficulty:
-topics: [dfs, recursion]
+topics: [back-tracking, dfs]
 leetcode: 
+relations: []
 ---
 
 # 293. Flip Game

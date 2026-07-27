@@ -5,6 +5,7 @@ slug: min-stack
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/min-stack/
+relations: []
 ---
 
 # 155. Min Stack

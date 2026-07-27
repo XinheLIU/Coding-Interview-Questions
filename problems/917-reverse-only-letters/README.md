@@ -3,8 +3,9 @@ id: 917
 title: Reverse Only Letters
 slug: reverse-only-letters
 difficulty:
-topics: [operation, string]
+topics: [string]
 leetcode: https://leetcode.com/problems/reverse-only-letters/
+relations: []
 ---
 
 # 917. Reverse Only Letters

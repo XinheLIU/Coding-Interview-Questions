@@ -1,3 +1,10 @@
+#
+# @lc app=leetcode id=70 lang=python3
+#
+# [70] Climbing Stairs
+#
+
+# @lc code=start
 class Solution:
     def climbStairs(self, n):
         """
@@ -9,3 +16,4 @@ class Solution:
         for _ in range(n):
             x, y = y, x + y
         return y
+# @lc code=end

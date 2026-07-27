@@ -27,7 +27,8 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Book', link: '/book/dynamic-programming' }
+      { text: 'Chapters', link: '/book/linear-structures' },
+      { text: 'By Topic', link: '/book/by-topic/array' }
     ],
 
     sidebar: [
@@ -36,17 +37,28 @@ export default defineConfig({
         items: [{ text: 'Interview Principles', link: '/' }]
       },
       {
-        text: 'Patterns',
+        // Curriculum order — mirrors CHAPTERS in scripts/taxonomy.py. Keep the
+        // two in sync: the taxonomy decides which problems land in each chapter,
+        // this list decides the reading order shown in the sidebar.
+        text: 'Chapters',
         items: [
+          { text: 'Linear Structures', link: '/book/linear-structures' },
+          { text: 'Trees & Heaps', link: '/book/trees' },
+          { text: 'Recursion & Divide and Conquer', link: '/book/recursion' },
+          { text: 'Search & Sort', link: '/book/search-and-sort' },
           { text: 'Dynamic Programming', link: '/book/dynamic-programming' },
+          { text: 'Techniques', link: '/book/techniques' },
+          { text: 'SQL', link: '/book/sql' }
+        ]
+      },
+      {
+        text: 'Template Deep Dives',
+        collapsed: true,
+        items: [
           { text: 'Binary Search', link: '/book/binary-search' },
           { text: 'BFS', link: '/book/bfs' },
           { text: 'DFS', link: '/book/dfs' }
         ]
-      },
-      {
-        text: 'SQL',
-        items: [{ text: 'Window Functions & Ranking', link: '/book/sql' }]
       },
       ...problemsSidebar
     ],

@@ -1,0 +1,6780 @@
+{
+  "chapters": [
+    {
+      "id": "linear-structures",
+      "title": "Linear Structures",
+      "page": "/book/linear-structures",
+      "blurb": "Arrays, strings, linked lists, hashing, stacks and queues \u2014 where indices and pointers earn their keep.",
+      "col": 0,
+      "row": 1,
+      "count": 152,
+      "sections": [
+        {
+          "name": "Sliding Window",
+          "count": 12
+        },
+        {
+          "name": "Two Pointers",
+          "count": 20
+        },
+        {
+          "name": "Prefix Sums",
+          "count": 10
+        },
+        {
+          "name": "Hashing & k-Sum",
+          "count": 28
+        },
+        {
+          "name": "Stacks & Queues",
+          "count": 24
+        },
+        {
+          "name": "Linked Lists",
+          "count": 18
+        },
+        {
+          "name": "Strings",
+          "count": 23
+        },
+        {
+          "name": "Arrays & Matrices",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "id": "trees",
+      "title": "Trees & Heaps",
+      "page": "/book/trees",
+      "blurb": "The first branching structure: binary trees, BSTs, tries, heaps.",
+      "col": 1,
+      "row": 0,
+      "count": 55,
+      "sections": [
+        {
+          "name": "Tries",
+          "count": 3
+        },
+        {
+          "name": "Heaps & Priority Queues",
+          "count": 10
+        },
+        {
+          "name": "Binary Search Trees",
+          "count": 9
+        },
+        {
+          "name": "Binary Trees",
+          "count": 33
+        },
+        {
+          "name": "Tree Traversal",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "id": "recursion",
+      "title": "Recursion & Divide and Conquer",
+      "page": "/book/recursion",
+      "blurb": "Trusting the recursive call, and splitting a problem until it is trivial.",
+      "col": 1,
+      "row": 2,
+      "count": 8,
+      "sections": [
+        {
+          "name": "Divide and Conquer",
+          "count": 8
+        },
+        {
+          "name": "Recursion",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "id": "search-and-sort",
+      "title": "Search & Sort",
+      "page": "/book/search-and-sort",
+      "blurb": "Ordering, halving, and systematic exploration: sorting, binary search, DFS, BFS, backtracking, graphs.",
+      "col": 2,
+      "row": 1,
+      "count": 78,
+      "sections": [
+        {
+          "name": "Backtracking",
+          "count": 23
+        },
+        {
+          "name": "Graphs",
+          "count": 6
+        },
+        {
+          "name": "Depth-First Search",
+          "count": 3
+        },
+        {
+          "name": "Breadth-First Search",
+          "count": 7
+        },
+        {
+          "name": "Binary Search",
+          "count": 25
+        },
+        {
+          "name": "Sorting",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "id": "dynamic-programming",
+      "title": "Dynamic Programming",
+      "page": "/book/dynamic-programming",
+      "blurb": "Naming a state, writing its transition, and paying for each subproblem once.",
+      "col": 3,
+      "row": 1,
+      "count": 47,
+      "sections": [
+        {
+          "name": "Knapsack",
+          "count": 3
+        },
+        {
+          "name": "Core DP",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "id": "techniques",
+      "title": "Techniques",
+      "page": "/book/techniques",
+      "blurb": "Sharp tools that assume the fundamentals: bit tricks, greedy exchange arguments, math, data-structure design.",
+      "col": 4,
+      "row": 1,
+      "count": 35,
+      "sections": [
+        {
+          "name": "Data Structure Design",
+          "count": 8
+        },
+        {
+          "name": "Bit Manipulation",
+          "count": 6
+        },
+        {
+          "name": "Greedy",
+          "count": 9
+        },
+        {
+          "name": "Math & Number Theory",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "sql",
+      "title": "SQL",
+      "page": "/book/sql",
+      "blurb": "Set-at-a-time thinking: joins, grouping, and window functions.",
+      "col": 4,
+      "row": 2.6,
+      "count": 22,
+      "sections": [
+        {
+          "name": "SQL",
+          "count": 22
+        }
+      ]
+    }
+  ],
+  "flow": [
+    {
+      "source": "linear-structures",
+      "target": "trees"
+    },
+    {
+      "source": "linear-structures",
+      "target": "recursion"
+    },
+    {
+      "source": "trees",
+      "target": "search-and-sort"
+    },
+    {
+      "source": "recursion",
+      "target": "search-and-sort"
+    },
+    {
+      "source": "search-and-sort",
+      "target": "dynamic-programming"
+    },
+    {
+      "source": "dynamic-programming",
+      "target": "techniques"
+    }
+  ],
+  "nodes": [
+    {
+      "id": 1,
+      "title": "Two Sum",
+      "dir": "1-two-sum",
+      "topics": [
+        "array",
+        "hash-table",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Longest Substring Without Repeating Characters",
+      "dir": "3-longest-substring-without-repeating-characters",
+      "topics": [
+        "hash-table",
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Median Of Two Sorted Arrays",
+      "dir": "4-median-of-two-sorted-arrays",
+      "topics": [
+        "binary-search",
+        "divide-and-conquer"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "recursion",
+      "section": "Divide and Conquer",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Longest Palindromic Substring",
+      "dir": "5-longest-palindromic-substring",
+      "topics": [
+        "palindrome",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Zig Zag Conversion",
+      "dir": "6-zig-zag-conversion",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "String To Integer Atoi",
+      "dir": "8-string-to-integer-atoi",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Regular Expression Matching",
+      "dir": "10-regular-expression-matching",
+      "topics": [
+        "dynamic-programming",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Container With Most Water",
+      "dir": "11-container-with-most-water",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Longest Common Prefix",
+      "dir": "14-longest-common-prefix",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "3 Sum",
+      "dir": "15-3-sum",
+      "topics": [
+        "array",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "3 Sum Closest",
+      "dir": "16-3-sum-closest",
+      "topics": [
+        "array",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Letter Combinations Of A Phone Number",
+      "dir": "17-letter-combinations-of-a-phone-number",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "4 Sum",
+      "dir": "18-4-sum",
+      "topics": [
+        "array",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Remove Nth Node From End of List",
+      "dir": "19-remove-nth-node-from-end-of-list",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Valid Parentheses",
+      "dir": "20-valid-parentheses",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Merge Two Sorted Lists",
+      "dir": "21-merge-two-sorted-lists",
+      "topics": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Generate Parentheses",
+      "dir": "22-generate-parentheses",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Merge k Sorted Lists",
+      "dir": "23-merge-k-sorted-lists",
+      "topics": [
+        "divide-and-conquer",
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "recursion",
+      "section": "Divide and Conquer",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Swap Nodes In Pairs",
+      "dir": "24-swap-nodes-in-pairs",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Reverse Nodes In K Group",
+      "dir": "25-reverse-nodes-in-k-group",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Remove Duplicates from Sorted Array",
+      "dir": "26-remove-duplicates-from-sorted-array",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Remove Element",
+      "dir": "27-remove-element",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Implement Str Str",
+      "dir": "28-implement-str-str",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Next Permutation",
+      "dir": "31-next-permutation",
+      "topics": [
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Longest Valid Parentheses",
+      "dir": "32-longest-valid-parentheses",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Search In Rotated Sorted Array",
+      "dir": "33-search-in-rotated-sorted-array",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Find First And Last Position Of Element In Sorted Array",
+      "dir": "34-find-first-and-last-position-of-element-in-sorted-array",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Search Insert Position",
+      "dir": "35-search-insert-position",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Valid Sudoku",
+      "dir": "36-valid-sudoku",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Sudoku Solver",
+      "dir": "37-sudoku-solver",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Combination Sum",
+      "dir": "39-combination-sum",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Combination Sum Ii",
+      "dir": "40-combination-sum-ii",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "First Missing Positive",
+      "dir": "41-first-missing-positive",
+      "topics": [
+        "array",
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Trapping Rain Water",
+      "dir": "42-trapping-rain-water",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Multiply Strings",
+      "dir": "43-multiply-strings",
+      "topics": [
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Wildcard Matching",
+      "dir": "44-wildcard-matching",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Jump Game Ii",
+      "dir": "45-jump-game-ii",
+      "topics": [
+        "greedy"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Greedy",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Permutations",
+      "dir": "46-permutations",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Permutations Ii",
+      "dir": "47-permutations-ii",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Rotate Image",
+      "dir": "48-rotate-image",
+      "topics": [
+        "2d-array",
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Group Anagrams",
+      "dir": "49-group-anagrams",
+      "topics": [
+        "hash-table",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Pow X N",
+      "dir": "50-pow-x-n",
+      "topics": [
+        "divide-and-conquer",
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "recursion",
+      "section": "Divide and Conquer",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 51,
+      "title": "N Queens",
+      "dir": "51-n-queens",
+      "topics": [
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Depth-First Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 52,
+      "title": "N Queens Ii",
+      "dir": "52-n-queens-ii",
+      "topics": [
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Depth-First Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Maximum Subarray",
+      "dir": "53-maximum-subarray",
+      "topics": [
+        "array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Spiral Matrix",
+      "dir": "54-spiral-matrix",
+      "topics": [
+        "2d-array",
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Jump Game",
+      "dir": "55-jump-game",
+      "topics": [
+        "greedy"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Greedy",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Merge Intervals",
+      "dir": "56-merge-intervals",
+      "topics": [
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Length Of Last Word",
+      "dir": "58-length-of-last-word",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Spiral Matrix Ii",
+      "dir": "59-spiral-matrix-ii",
+      "topics": [
+        "2d-array",
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Rotate List",
+      "dir": "61-rotate-list",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Unique Paths",
+      "dir": "62-unique-paths",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Unique Paths Ii",
+      "dir": "63-unique-paths-ii",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Minimum Path Sum",
+      "dir": "64-minimum-path-sum",
+      "topics": [
+        "2d-array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Sqrt X",
+      "dir": "69-sqrt-x",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Climbing Stairs",
+      "dir": "70-climbing-stairs",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Edit Distance",
+      "dir": "72-edit-distance",
+      "topics": [
+        "2d-array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Set Matrix Zeroes",
+      "dir": "73-set-matrix-zeroes",
+      "topics": [
+        "2d-array",
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Search A 2 D Matrix",
+      "dir": "74-search-a-2-d-matrix",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Sort Colors",
+      "dir": "75-sort-colors",
+      "topics": [
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Minimum Window Substring",
+      "dir": "76-minimum-window-substring",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Combinations",
+      "dir": "77-combinations",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Subsets",
+      "dir": "78-subsets",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Word Search",
+      "dir": "79-word-search",
+      "topics": [
+        "2d-array",
+        "back-tracking",
+        "dfs",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Remove Duplicates from Sorted Array II",
+      "dir": "80-remove-duplicates-from-sorted-array-ii",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Remove Duplicates from Sorted List II",
+      "dir": "82-remove-duplicates-from-sorted-list-ii",
+      "topics": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Remove Duplicates from Sorted List",
+      "dir": "83-remove-duplicates-from-sorted-list",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Largest Rectangle In Histogram",
+      "dir": "84-largest-rectangle-in-histogram",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Maximal Rectangle",
+      "dir": "85-maximal-rectangle",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Parition List",
+      "dir": "86-parition-list",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Merge Sorted Array",
+      "dir": "88-merge-sorted-array",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Subsets Ii",
+      "dir": "90-subsets-ii",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Decode Ways",
+      "dir": "91-decode-ways",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Reverse Linked List II",
+      "dir": "92-reverse-linked-list-ii",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Restore Ip Addresses",
+      "dir": "93-restore-ip-addresses",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Binary Tree Inorder Traversal",
+      "dir": "94-binary-tree-inorder-traversal",
+      "topics": [
+        "binary-tree",
+        "traversal"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Validate Binary Search Tree",
+      "dir": "98-validate-binary-search-tree",
+      "topics": [
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Search Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Same Tree",
+      "dir": "100-same-tree",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 101,
+      "title": "Symmetric Tree",
+      "dir": "101-symmetric-tree",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Binary Tree Level Order Traversal",
+      "dir": "102-binary-tree-level-order-traversal",
+      "topics": [
+        "binary-tree",
+        "level-order"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Maximum Depth Of Binary Tree",
+      "dir": "104-maximum-depth-of-binary-tree",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Construct Binary Tree From Preorder And Inorder Traversal",
+      "dir": "105-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "topics": [
+        "binary-tree",
+        "divide-and-conquer",
+        "traversal"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 106,
+      "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "dir": "106-construct-binary-tree-from-inorder-and-postorder-traversal",
+      "topics": [
+        "binary-tree",
+        "divide-and-conquer",
+        "traversal"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 107,
+      "title": "Binary Tree Level Order Traversal II",
+      "dir": "107-binary-tree-level-order-traversal-ii",
+      "topics": [
+        "binary-tree",
+        "level-order"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 109,
+      "title": "Convert Sorted List To Binary Search Tree",
+      "dir": "109-convert-sorted-list-to-binary-search-tree",
+      "topics": [
+        "binary-tree",
+        "linked-list",
+        "recursion",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 110,
+      "title": "Balanced Binary Tree",
+      "dir": "110-balanced-binary-tree",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 111,
+      "title": "Minimum Depth Of Binary Tree",
+      "dir": "111-minimum-depth-of-binary-tree",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 112,
+      "title": "Path Sum",
+      "dir": "112-path-sum",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 113,
+      "title": "Path Sum Ii",
+      "dir": "113-path-sum-ii",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 114,
+      "title": "Flatten Binary Tree To Linked List",
+      "dir": "114-flatten-binary-tree-to-linked-list",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 115,
+      "title": "Distinct Subsequences",
+      "dir": "115-distinct-subsequences",
+      "topics": [
+        "dynamic-programming",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 118,
+      "title": "Pascals Triangle",
+      "dir": "118-pascals-triangle",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 119,
+      "title": "Pascals Triangle Ii",
+      "dir": "119-pascals-triangle-ii",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 120,
+      "title": "Triangle",
+      "dir": "120-triangle",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 121,
+      "title": "Best Time To Buy And Sell Stock",
+      "dir": "121-best-time-to-buy-and-sell-stock",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 122,
+      "title": "Best Time To Buy And Sell Stock Ii",
+      "dir": "122-best-time-to-buy-and-sell-stock-ii",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 123,
+      "title": "Best Time To Buy And Sell Stock Iii",
+      "dir": "123-best-time-to-buy-and-sell-stock-iii",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 124,
+      "title": "Binary Tree Maximum Path Sum",
+      "dir": "124-binary-tree-maximum-path-sum",
+      "topics": [
+        "binary-tree",
+        "dfs",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 125,
+      "title": "Valid Palindrome",
+      "dir": "125-valid-palindrome",
+      "topics": [
+        "palindrome",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 126,
+      "title": "Word Ladder Ii",
+      "dir": "126-word-ladder-ii",
+      "topics": [
+        "bfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Breadth-First Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 127,
+      "title": "Word Ladder",
+      "dir": "127-word-ladder",
+      "topics": [
+        "bfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Breadth-First Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 128,
+      "title": "Longest Consecutive Sequence",
+      "dir": "128-longest-consecutive-sequence",
+      "topics": [
+        "array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 133,
+      "title": "Clone Graph",
+      "dir": "133-clone-graph",
+      "topics": [
+        "bfs",
+        "dfs",
+        "graph"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Graphs",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 134,
+      "title": "Gas Station",
+      "dir": "134-gas-station",
+      "topics": [
+        "greedy"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Greedy",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 136,
+      "title": "Single Number",
+      "dir": "136-single-number",
+      "topics": [
+        "array",
+        "bitwise"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Bit Manipulation",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 138,
+      "title": "Copy List with Random Pointer",
+      "dir": "138-copy-list-with-random-pointer",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 139,
+      "title": "Word Break",
+      "dir": "139-word-break",
+      "topics": [
+        "dynamic-programming",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 141,
+      "title": "Linked List Cycle",
+      "dir": "141-linked-list-cycle",
+      "topics": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 142,
+      "title": "Linked List Cycle Ii",
+      "dir": "142-linked-list-cycle-ii",
+      "topics": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 143,
+      "title": "Reorder List",
+      "dir": "143-reorder-list",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 144,
+      "title": "Binary Tree Preorder Traversal",
+      "dir": "144-binary-tree-preorder-traversal",
+      "topics": [
+        "binary-tree",
+        "traversal"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 145,
+      "title": "Binary Tree Postorder Traversal",
+      "dir": "145-binary-tree-postorder-traversal",
+      "topics": [
+        "binary-tree",
+        "traversal"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 146,
+      "title": "LRU Cache",
+      "dir": "146-lru-cache",
+      "topics": [
+        "design"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Data Structure Design",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 147,
+      "title": "Insertion Sort List",
+      "dir": "147-insertion-sort-list",
+      "topics": [
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 148,
+      "title": "Sort List",
+      "dir": "148-sort-list",
+      "topics": [
+        "divide-and-conquer",
+        "linked-list",
+        "sorting",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "recursion",
+      "section": "Divide and Conquer",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 150,
+      "title": "Evaluate Reverse Polish Notation",
+      "dir": "150-evaluate-reverse-polish-notation",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 151,
+      "title": "Reverse Words In A String",
+      "dir": "151-reverse-words-in-a-string",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 152,
+      "title": "Maximum Product Subarray",
+      "dir": "152-maximum-product-subarray",
+      "topics": [
+        "array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 153,
+      "title": "Find Minimum In Rotated Sorted Array",
+      "dir": "153-find-minimum-in-rotated-sorted-array",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 154,
+      "title": "Find Minimum In Rotated Sorted Array Ii",
+      "dir": "154-find-minimum-in-rotated-sorted-array-ii",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 155,
+      "title": "Min Stack",
+      "dir": "155-min-stack",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 159,
+      "title": "Longest Substring with At Most Two Distinct Characters",
+      "dir": "159-longest-substring-with-at-most-two-distinct-characters",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 160,
+      "title": "Intersection of Two Linked Lists",
+      "dir": "160-intersection-of-two-linked-lists",
+      "topics": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 162,
+      "title": "Find Peak Element",
+      "dir": "162-find-peak-element",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 163,
+      "title": "Missing Ranges",
+      "dir": "163-missing-ranges",
+      "topics": [
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 167,
+      "title": "Two Sum II - Input array is sorted",
+      "dir": "167-two-sum-ii-input-array-is-sorted",
+      "topics": [
+        "array",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 169,
+      "title": "Majority Element",
+      "dir": "169-majority-element",
+      "topics": [
+        "hash-table",
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 170,
+      "title": "Two Sum III - Data structure design",
+      "dir": "170-two-sum-iii-data-structure-design",
+      "topics": [
+        "array",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 173,
+      "title": "Binary Search Tree Iterator",
+      "dir": "173-binary-search-tree-iterator",
+      "topics": [
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Search Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 174,
+      "title": "Dungeon Game",
+      "dir": "174-dungeon-game",
+      "topics": [
+        "2d-array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 175,
+      "title": "Combine-Two-Tables",
+      "dir": "175-combine-two-tables",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "py",
+        "sql"
+      ]
+    },
+    {
+      "id": 176,
+      "title": "Second Highest Salary",
+      "dir": "176-second-highest-salary",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 177,
+      "title": "Nth Highest Salary",
+      "dir": "177-nth-highest-salary",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "py",
+        "sql"
+      ]
+    },
+    {
+      "id": 181,
+      "title": "Employees-Earning-More-Than-Their-Managers",
+      "dir": "181-employees-earning-more-than-their-managers",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 182,
+      "title": "Duplicate Emails",
+      "dir": "182-duplicate-emails",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 183,
+      "title": "Customers Who Never Order",
+      "dir": "183-customers-who-never-order",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 184,
+      "title": "Department Highest Salary",
+      "dir": "184-department-highest-salary",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 185,
+      "title": "Department Top Three Salaries",
+      "dir": "185-department-top-three-salaries",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 186,
+      "title": "Reverse Words In A String Ii",
+      "dir": "186-reverse-words-in-a-string-ii",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 188,
+      "title": "Best Time To Buy And Sell Stock Iv",
+      "dir": "188-best-time-to-buy-and-sell-stock-iv",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 189,
+      "title": "Rotate Array",
+      "dir": "189-rotate-array",
+      "topics": [
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 190,
+      "title": "Reverse Bits",
+      "dir": "190-reverse-bits",
+      "topics": [
+        "bitwise",
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Bit Manipulation",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 191,
+      "title": "Number Of 1 Bits",
+      "dir": "191-number-of-1-bits",
+      "topics": [
+        "bitwise"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Bit Manipulation",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 196,
+      "title": "Delete Duplicate Emails",
+      "dir": "196-delete-duplicate-emails",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 197,
+      "title": "Rising Temperature",
+      "dir": "197-rising-temperature",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 198,
+      "title": "House Robber",
+      "dir": "198-house-robber",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 199,
+      "title": "Binary Tree Right Side View",
+      "dir": "199-binary-tree-right-side-view",
+      "topics": [
+        "binary-tree",
+        "level-order"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 200,
+      "title": "Number Of Islands",
+      "dir": "200-number-of-islands",
+      "topics": [
+        "union-find"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Graphs",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 202,
+      "title": "Happy Number",
+      "dir": "202-happy-number",
+      "topics": [
+        "hash-table",
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 203,
+      "title": "Remove Linked List Elements",
+      "dir": "203-remove-linked-list-elements",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 205,
+      "title": "Isomorphic Strings",
+      "dir": "205-isomorphic-strings",
+      "topics": [
+        "hash-table",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 206,
+      "title": "Reverse Linked List",
+      "dir": "206-reverse-linked-list",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 207,
+      "title": "Course Schedule",
+      "dir": "207-course-schedule",
+      "topics": [
+        "bfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Breadth-First Search",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 208,
+      "title": "Implement Trie Prefix Tree",
+      "dir": "208-implement-trie-prefix-tree",
+      "topics": [
+        "string",
+        "substring",
+        "trie"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Tries",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 210,
+      "title": "Course Schedule Ii",
+      "dir": "210-course-schedule-ii",
+      "topics": [
+        "bfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Breadth-First Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 211,
+      "title": "Add and Search Word - Data structure design",
+      "dir": "211-add-and-search-word-data-structure-design",
+      "topics": [
+        "dfs",
+        "string",
+        "trie"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Tries",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 212,
+      "title": "Word Search Ii",
+      "dir": "212-word-search-ii",
+      "topics": [
+        "2d-array",
+        "back-tracking",
+        "dfs",
+        "trie"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Tries",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 213,
+      "title": "House Robber Ii",
+      "dir": "213-house-robber-ii",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 215,
+      "title": "Kth Largest Element In An Array",
+      "dir": "215-kth-largest-element-in-an-array",
+      "topics": [
+        "divide-and-conquer",
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "recursion",
+      "section": "Divide and Conquer",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 216,
+      "title": "Combination Sum Iii",
+      "dir": "216-combination-sum-iii",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 217,
+      "title": "Contains Duplicate",
+      "dir": "217-contains-duplicate",
+      "topics": [
+        "array",
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 219,
+      "title": "Contains Duplicate II",
+      "dir": "219-contains-duplicate-ii",
+      "topics": [
+        "array",
+        "hash-table",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 220,
+      "title": "Contains Duplicate Iii",
+      "dir": "220-contains-duplicate-iii",
+      "topics": [
+        "array",
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 221,
+      "title": "Maximal Square",
+      "dir": "221-maximal-square",
+      "topics": [
+        "2d-array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 224,
+      "title": "Basic Calculator",
+      "dir": "224-basic-calculator",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 225,
+      "title": "Implement Stack Using Queues",
+      "dir": "225-implement-stack-using-queues",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 226,
+      "title": "Invert Binary Tree",
+      "dir": "226-invert-binary-tree",
+      "topics": [
+        "binary-tree",
+        "level-order",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 227,
+      "title": "Basic Calculator Ii",
+      "dir": "227-basic-calculator-ii",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 229,
+      "title": "Majority Element Ii",
+      "dir": "229-majority-element-ii",
+      "topics": [
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 231,
+      "title": "Power Of Two",
+      "dir": "231-power-of-two",
+      "topics": [
+        "bitwise"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Bit Manipulation",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 232,
+      "title": "Implement Queue using Stacks",
+      "dir": "232-implement-queue-using-stacks",
+      "topics": [
+        "queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 234,
+      "title": "Palindrome Linked List",
+      "dir": "234-palindrome-linked-list",
+      "topics": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 235,
+      "title": "Lowest Common Ancestor Of A Binary Search Tree",
+      "dir": "235-lowest-common-ancestor-of-a-binary-search-tree",
+      "topics": [
+        "binary-search-tree",
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Search Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 236,
+      "title": "Lowest Common Ancestor Of A Binary Tree",
+      "dir": "236-lowest-common-ancestor-of-a-binary-tree",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 237,
+      "title": "Delete Node in a Linked List",
+      "dir": "237-delete-node-in-a-linked-list",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 238,
+      "title": "Product Of Array Except Self",
+      "dir": "238-product-of-array-except-self",
+      "topics": [
+        "array",
+        "cum-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Prefix Sums",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 239,
+      "title": "Sliding Window Maximum",
+      "dir": "239-sliding-window-maximum",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 240,
+      "title": "Search A 2 D Matrix Ii",
+      "dir": "240-search-a-2-d-matrix-ii",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 241,
+      "title": "Different Ways To Add Parentheses",
+      "dir": "241-different-ways-to-add-parentheses",
+      "topics": [
+        "dfs",
+        "divide-and-conquer"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "recursion",
+      "section": "Divide and Conquer",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 242,
+      "title": "Valid Anagram",
+      "dir": "242-valid-anagram",
+      "topics": [
+        "hash-table",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 243,
+      "title": "Shortest Word Distance",
+      "dir": "243-shortest-word-distance",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 244,
+      "title": "Shortest Word Distance II",
+      "dir": "244-shortest-word-distance-ii",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 245,
+      "title": "Shortest Word Distance III",
+      "dir": "245-shortest-word-distance-iii",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 252,
+      "title": "Meeting Rooms",
+      "dir": "252-meeting-rooms",
+      "topics": [
+        "heap-priority-queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Heaps & Priority Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 253,
+      "title": "meeting-rooms II",
+      "dir": "253-meeting-rooms-ii",
+      "topics": [
+        "heap-priority-queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Heaps & Priority Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 254,
+      "title": "Factor Combinations",
+      "dir": "254-factor-combinations",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 256,
+      "title": "Paint House",
+      "dir": "256-paint-house",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 259,
+      "title": "3 Sum Smaller",
+      "dir": "259-3-sum-smaller",
+      "topics": [
+        "array",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 261,
+      "title": "Graph Valid Tree",
+      "dir": "261-graph-valid-tree",
+      "topics": [
+        "graph",
+        "union-find"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Graphs",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 262,
+      "title": "Trips and Users",
+      "dir": "262-trips-and-users",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 263,
+      "title": "Ugly Number",
+      "dir": "263-ugly-number",
+      "topics": [
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 266,
+      "title": "Palindrome Permutation",
+      "dir": "266-palindrome-permutation",
+      "topics": [
+        "back-tracking",
+        "dfs",
+        "palindrome",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 267,
+      "title": "Palindrome Permutation II",
+      "dir": "267-palindrome-permutation-ii",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 268,
+      "title": "Missing Number",
+      "dir": "268-missing-number",
+      "topics": [
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 270,
+      "title": "Closest Binary Search Tree Value",
+      "dir": "270-closest-binary-search-tree-value",
+      "topics": [
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Search Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 273,
+      "title": "Integer To English Words",
+      "dir": "273-integer-to-english-words",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 277,
+      "title": "Find the Celebrity",
+      "dir": "277-find-the-celebrity",
+      "topics": [
+        "array",
+        "greedy"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Greedy",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 278,
+      "title": "First Bad Version",
+      "dir": "278-first-bad-version",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 279,
+      "title": "Perfect Squares",
+      "dir": "279-perfect-squares",
+      "topics": [
+        "dynamic-programming",
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 280,
+      "title": "Wiggle Sort Ii",
+      "dir": "280-wiggle-sort-ii",
+      "topics": [
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 283,
+      "title": "Move Zeroes",
+      "dir": "283-move-zeroes",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 285,
+      "title": "Inorder Successor in BST",
+      "dir": "285-inorder-successor-in-bst",
+      "topics": [
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Search Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 287,
+      "title": "Find The Duplicate Number",
+      "dir": "287-find-the-duplicate-number",
+      "topics": [
+        "array",
+        "binary-search",
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 289,
+      "title": "Game of Life",
+      "dir": "289-game-of-life",
+      "topics": [
+        "2d-array",
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 290,
+      "title": "Word Pattern",
+      "dir": "290-word-pattern",
+      "topics": [
+        "hash-table",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 293,
+      "title": "Flip Game",
+      "dir": "293-flip-game",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 295,
+      "title": "Find Median From Data Stream",
+      "dir": "295-find-median-from-data-stream",
+      "topics": [
+        "heap-priority-queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Heaps & Priority Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 297,
+      "title": "Serialize And Deserialize Binary Tree",
+      "dir": "297-serialize-and-deserialize-binary-tree",
+      "topics": [
+        "binary-tree",
+        "dfs",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 300,
+      "title": "Longest Increasing Subsequence",
+      "dir": "300-longest-increasing-subsequence",
+      "topics": [
+        "array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 303,
+      "title": "Range Sum Query Immutable",
+      "dir": "303-range-sum-query-immutable",
+      "topics": [
+        "array",
+        "cum-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Prefix Sums",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 304,
+      "title": "Range Sum Query 2 D Immutable",
+      "dir": "304-range-sum-query-2-d-immutable",
+      "topics": [
+        "array",
+        "cum-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Prefix Sums",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 307,
+      "title": "Range Sum Query Mutable",
+      "dir": "307-range-sum-query-mutable",
+      "topics": [
+        "array",
+        "cum-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Prefix Sums",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 309,
+      "title": "Best Time To Buy And Sell Stock With Cooldown",
+      "dir": "309-best-time-to-buy-and-sell-stock-with-cooldown",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 322,
+      "title": "Coin Change",
+      "dir": "322-coin-change",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 323,
+      "title": "Number of Connected Components in an Undirected Graph",
+      "dir": "323-number-of-connected-components-in-an-undirected-graph",
+      "topics": [
+        "union-find"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Graphs",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 324,
+      "title": "Wiggle Sort Ii",
+      "dir": "324-wiggle-sort-ii",
+      "topics": [
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 325,
+      "title": "Maximum Size Subarray Sum Equals k",
+      "dir": "325-maximum-size-subarray-sum-equals-k",
+      "topics": [
+        "array",
+        "cum-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Prefix Sums",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 328,
+      "title": "Odd Even Linked List",
+      "dir": "328-odd-even-linked-list",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 332,
+      "title": "Reconstruct Itinerary",
+      "dir": "332-reconstruct-itinerary",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 337,
+      "title": "House Robber Iii",
+      "dir": "337-house-robber-iii",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 338,
+      "title": "Counting Bits",
+      "dir": "338-counting-bits",
+      "topics": [
+        "bitwise",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 340,
+      "title": "Longest Substring with At Most K Distinct Characters",
+      "dir": "340-longest-substring-with-at-most-k-distinct-characters",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 344,
+      "title": "Reverse String",
+      "dir": "344-reverse-string",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 345,
+      "title": "Reverse Vowels Of A String",
+      "dir": "345-reverse-vowels-of-a-string",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 346,
+      "title": "Moving Average from Data Stream",
+      "dir": "346-moving-average-from-data-stream",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 347,
+      "title": "Top K Frequent Elements",
+      "dir": "347-top-k-frequent-elements",
+      "topics": [
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 349,
+      "title": "Intersection of Two Arrays",
+      "dir": "349-intersection-of-two-arrays",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 350,
+      "title": "Intersection Of Two Arrays Ii",
+      "dir": "350-intersection-of-two-arrays-ii",
+      "topics": [
+        "array",
+        "hash-table",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 354,
+      "title": "Russian Doll Envelopes",
+      "dir": "354-russian-doll-envelopes",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 355,
+      "title": "Design Twitter",
+      "dir": "355-design-twitter",
+      "topics": [
+        "design"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Data Structure Design",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 359,
+      "title": "Logger Rate Limiter",
+      "dir": "359-logger-rate-limiter",
+      "topics": [
+        "design"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Data Structure Design",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 362,
+      "title": "Design Hit Counter",
+      "dir": "362-design-hit-counter",
+      "topics": [
+        "design"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Data Structure Design",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 363,
+      "title": "Max Sum of Rectangle No Larger Than K",
+      "dir": "363-max-sum-of-rectangle-no-larger-than-k",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 366,
+      "title": "Find Leaves of Binary Tree",
+      "dir": "366-find-leaves-of-binary-tree",
+      "topics": [
+        "binary-tree",
+        "dfs",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 367,
+      "title": "Valid Perfect Square",
+      "dir": "367-valid-perfect-square",
+      "topics": [
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 373,
+      "title": "Find K Pairs With Smallest Sums",
+      "dir": "373-find-k-pairs-with-smallest-sums",
+      "topics": [
+        "heap-priority-queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Heaps & Priority Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 374,
+      "title": "Guess Number Higher or Lower",
+      "dir": "374-guess-number-higher-or-lower",
+      "topics": [
+        "binary-search",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 375,
+      "title": "Guess Number Higher Or Lower Ii",
+      "dir": "375-guess-number-higher-or-lower-ii",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 377,
+      "title": "Combination Sum Iv",
+      "dir": "377-combination-sum-iv",
+      "topics": [
+        "dfs",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 378,
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "dir": "378-kth-smallest-element-in-a-sorted-matrix",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 380,
+      "title": "Insert Delete Get Random O 1",
+      "dir": "380-insert-delete-get-random-o-1",
+      "topics": [
+        "design"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Data Structure Design",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 387,
+      "title": "First Unique Character In A String",
+      "dir": "387-first-unique-character-in-a-string",
+      "topics": [
+        "hash-table",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 394,
+      "title": "Decode String",
+      "dir": "394-decode-string",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 395,
+      "title": "Longest Substring With At Least K Repeating Characters",
+      "dir": "395-longest-substring-with-at-least-k-repeating-characters",
+      "topics": [
+        "string",
+        "substring"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 401,
+      "title": "Binary Watch",
+      "dir": "401-binary-watch",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 404,
+      "title": "Sum Of Left Leaves",
+      "dir": "404-sum-of-left-leaves",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 407,
+      "title": "Trapping Rain Water Ii",
+      "dir": "407-trapping-rain-water-ii",
+      "topics": [
+        "heap-priority-queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Heaps & Priority Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 412,
+      "title": "Fizz Buzz",
+      "dir": "412-fizz-buzz",
+      "topics": [
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 414,
+      "title": "Third Maximum Number",
+      "dir": "414-third-maximum-number",
+      "topics": [
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 416,
+      "title": "Partition Equal Subset Sum",
+      "dir": "416-partition-equal-subset-sum",
+      "topics": [
+        "dynamic-programming",
+        "knapsack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Knapsack",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 424,
+      "title": "Longest Repeating Character Replacement",
+      "dir": "424-longest-repeating-character-replacement",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 426,
+      "title": "Convert Binary Search Tree to Sorted Doubly Linked List",
+      "dir": "426-convert-binary-search-tree-to-sorted-doubly-linked-list",
+      "topics": [
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Search Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 429,
+      "title": "N Ary Tree Level Order Traversal",
+      "dir": "429-n-ary-tree-level-order-traversal",
+      "topics": [
+        "binary-tree",
+        "level-order",
+        "traversal"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 430,
+      "title": "Flatten a Multilevel Doubly Linked List",
+      "dir": "430-flatten-a-multilevel-doubly-linked-list",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 433,
+      "title": "Minimum Genetic Mutation",
+      "dir": "433-minimum-genetic-mutation",
+      "topics": [
+        "bfs",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Breadth-First Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 436,
+      "title": "Find Right Interval",
+      "dir": "436-find-right-interval",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 437,
+      "title": "Path Sum Iii",
+      "dir": "437-path-sum-iii",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 438,
+      "title": "Find All Anagrams In A String",
+      "dir": "438-find-all-anagrams-in-a-string",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 441,
+      "title": "Arranging Coins",
+      "dir": "441-arranging-coins",
+      "topics": [
+        "binary-search",
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 442,
+      "title": "Find All Duplicates In An Array",
+      "dir": "442-find-all-duplicates-in-an-array",
+      "topics": [
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 445,
+      "title": "Add Two Numbers Ii",
+      "dir": "445-add-two-numbers-ii",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 448,
+      "title": "Find All Numbers Disappeared In An Array",
+      "dir": "448-find-all-numbers-disappeared-in-an-array",
+      "topics": [
+        "array",
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 450,
+      "title": "Delete Node in a BST",
+      "dir": "450-delete-node-in-a-bst",
+      "topics": [
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Search Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 454,
+      "title": "4Sum II",
+      "dir": "454-4sum-ii",
+      "topics": [
+        "array",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 455,
+      "title": "Assign Cookies",
+      "dir": "455-assign-cookies",
+      "topics": [
+        "greedy"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Greedy",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 459,
+      "title": "Repeated Substring Pattern",
+      "dir": "459-repeated-substring-pattern",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 464,
+      "title": "Can I Win",
+      "dir": "464-can-i-win",
+      "topics": [
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 474,
+      "title": "Ones And Zeroes",
+      "dir": "474-ones-and-zeroes",
+      "topics": [
+        "dynamic-programming",
+        "knapsack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Knapsack",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 475,
+      "title": "Heaters",
+      "dir": "475-heaters",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 480,
+      "title": "Sliding Window Median",
+      "dir": "480-sliding-window-median",
+      "topics": [
+        "heap-priority-queue",
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Heaps & Priority Queues",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 485,
+      "title": "Max Consecutive Ones",
+      "dir": "485-max-consecutive-ones",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 487,
+      "title": "Max Consecutive Ones Ii",
+      "dir": "487-max-consecutive-ones-ii",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 490,
+      "title": "The Maze",
+      "dir": "490-the-maze",
+      "topics": [
+        "2d-array",
+        "bfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Breadth-First Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 494,
+      "title": "Target Sum",
+      "dir": "494-target-sum",
+      "topics": [
+        "array",
+        "dynamic-programming",
+        "knapsack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Knapsack",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 496,
+      "title": "Next Greater Element I",
+      "dir": "496-next-greater-element-i",
+      "topics": [
+        "array",
+        "hash-table",
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 503,
+      "title": "Next Greater Element Ii",
+      "dir": "503-next-greater-element-ii",
+      "topics": [
+        "array",
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 509,
+      "title": "Fibonacci Number",
+      "dir": "509-fibonacci-number",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 510,
+      "title": "Inorder Successor in BST II",
+      "dir": "510-inorder-successor-in-bst-ii",
+      "topics": [
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Search Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 511,
+      "title": "Game Play Analysis I",
+      "dir": "511-game-play-analysis-i",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 512,
+      "title": "Game Play Analysis II",
+      "dir": "512-game-play-analysis-ii",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 515,
+      "title": "Find Largest Value In Each Tree Row",
+      "dir": "515-find-largest-value-in-each-tree-row",
+      "topics": [
+        "binary-tree",
+        "level-order"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 516,
+      "title": "Longest Palindromic Subsequence",
+      "dir": "516-longest-palindromic-subsequence",
+      "topics": [
+        "dynamic-programming",
+        "palindrome",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 518,
+      "title": "Coin Change 2",
+      "dir": "518-coin-change-2",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 523,
+      "title": "Continuous Subarray Sum",
+      "dir": "523-continuous-subarray-sum",
+      "topics": [
+        "array",
+        "cum-sum",
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Prefix Sums",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 525,
+      "title": "Contiguous Array",
+      "dir": "525-contiguous-array",
+      "topics": [
+        "array",
+        "cum-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Prefix Sums",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 529,
+      "title": "Minesweeper",
+      "dir": "529-minesweeper",
+      "topics": [
+        "2d-array",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Depth-First Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 531,
+      "title": "Lonely Pixel I",
+      "dir": "531-lonely-pixel-i",
+      "topics": [
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 533,
+      "title": "Lonely Pixel II",
+      "dir": "533-lonely-pixel-ii",
+      "topics": [
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 539,
+      "title": "Minimum Time Difference",
+      "dir": "539-minimum-time-difference",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 541,
+      "title": "Reverse String Ii",
+      "dir": "541-reverse-string-ii",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 543,
+      "title": "Diameter Of Binary Tree",
+      "dir": "543-diameter-of-binary-tree",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 547,
+      "title": "Number Of Provinces",
+      "dir": "547-number-of-provinces",
+      "topics": [
+        "union-find"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Graphs",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 557,
+      "title": "Reverse Words In A String Iii",
+      "dir": "557-reverse-words-in-a-string-iii",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 559,
+      "title": "Maximum Depth Of N Ary Tree",
+      "dir": "559-maximum-depth-of-n-ary-tree",
+      "topics": [
+        "binary-tree"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 560,
+      "title": "Subarray Sum Equals K",
+      "dir": "560-subarray-sum-equals-k",
+      "topics": [
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 565,
+      "title": "Array Nesting",
+      "dir": "565-array-nesting",
+      "topics": [
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 567,
+      "title": "Permutation In String",
+      "dir": "567-permutation-in-string",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 572,
+      "title": "Subtree of Another Tree",
+      "dir": "572-subtree-of-another-tree",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 579,
+      "title": "Find Cumulative Salary of an Employee",
+      "dir": "579-find-cumulative-salary-of-an-employee",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 587,
+      "title": "Erect The Fence",
+      "dir": "587-erect-the-fence",
+      "topics": [
+        "array",
+        "math",
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 589,
+      "title": "N Ary Tree Preorder Traversal",
+      "dir": "589-n-ary-tree-preorder-traversal",
+      "topics": [
+        "binary-tree",
+        "traversal"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 590,
+      "title": "N Ary Tree Postorder Traversal",
+      "dir": "590-n-ary-tree-postorder-traversal",
+      "topics": [
+        "binary-tree",
+        "traversal"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 595,
+      "title": "Big Countries",
+      "dir": "595-big-countries",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 611,
+      "title": "Valid Triangle Number",
+      "dir": "611-valid-triangle-number",
+      "topics": [
+        "array",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 615,
+      "title": "Average Salary- Departments VS Company",
+      "dir": "615-average-salary-departments-vs-company",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 621,
+      "title": "Task Scheduler",
+      "dir": "621-task-scheduler",
+      "topics": [
+        "greedy"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Greedy",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 622,
+      "title": "Design Circular Queue",
+      "dir": "622-design-circular-queue",
+      "topics": [
+        "queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 628,
+      "title": "Maximum Product of Three Numbers",
+      "dir": "628-maximum-product-of-three-numbers",
+      "topics": [
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 632,
+      "title": "Smallest Range Covering Elements From K Lists",
+      "dir": "632-smallest-range-covering-elements-from-k-lists",
+      "topics": [
+        "heap-priority-queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Heaps & Priority Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 635,
+      "title": "Design Log Storage System",
+      "dir": "635-design-log-storage-system",
+      "topics": [
+        "design"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Data Structure Design",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 641,
+      "title": "Design Circular Deque",
+      "dir": "641-design-circular-deque",
+      "topics": [
+        "queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 643,
+      "title": "Maximum Average Subarray I",
+      "dir": "643-maximum-average-subarray-i",
+      "topics": [
+        "array",
+        "cum-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Prefix Sums",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 644,
+      "title": "Maximum Average Subarray Ii",
+      "dir": "644-maximum-average-subarray-ii",
+      "topics": [
+        "array",
+        "cum-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Prefix Sums",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 647,
+      "title": "Palindromic Substrings",
+      "dir": "647-palindromic-substrings",
+      "topics": [
+        "palindrome",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 653,
+      "title": "Two Sum IV - Input is a BST",
+      "dir": "653-two-sum-iv-input-is-a-bst",
+      "topics": [
+        "array",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 658,
+      "title": "Find K Closest Elements",
+      "dir": "658-find-k-closest-elements",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 666,
+      "title": "Path Sum IV",
+      "dir": "666-path-sum-iv",
+      "topics": [
+        "binary-tree",
+        "recursion"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 668,
+      "title": "Kth Smallest Number In Multiplication Table",
+      "dir": "668-kth-smallest-number-in-multiplication-table",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 670,
+      "title": "Maximum Swap",
+      "dir": "670-maximum-swap",
+      "topics": [
+        "greedy"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Greedy",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 674,
+      "title": "Longest Continuous Increasing Subsequence",
+      "dir": "674-longest-continuous-increasing-subsequence",
+      "topics": [
+        "array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 679,
+      "title": "24 Game",
+      "dir": "679-24-game",
+      "topics": [
+        "back-tracking",
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 680,
+      "title": "Valid Palindrome Ii",
+      "dir": "680-valid-palindrome-ii",
+      "topics": [
+        "palindrome",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 692,
+      "title": "Top K Frequent Words",
+      "dir": "692-top-k-frequent-words",
+      "topics": [
+        "heap-priority-queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Heaps & Priority Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 701,
+      "title": "Insert into a Binary Search Tree",
+      "dir": "701-insert-into-a-binary-search-tree",
+      "topics": [
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Search Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 702,
+      "title": "Search in a Sorted Array of Unknown Size",
+      "dir": "702-search-in-a-sorted-array-of-unknown-size",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 703,
+      "title": "Kth Largest Element In A Stream",
+      "dir": "703-kth-largest-element-in-a-stream",
+      "topics": [
+        "heap-priority-queue"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Heaps & Priority Queues",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 704,
+      "title": "Binary Search",
+      "dir": "704-binary-search",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 705,
+      "title": "Design HashSet",
+      "dir": "705-design-hash-set",
+      "topics": [
+        "design"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Data Structure Design",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 706,
+      "title": "Design HashMap",
+      "dir": "706-design-hash-map",
+      "topics": [
+        "design"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Data Structure Design",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 707,
+      "title": "Design Linked List",
+      "dir": "707-design-linked-list",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 709,
+      "title": "To Lower Case",
+      "dir": "709-to-lower-case",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 713,
+      "title": "Subarray Product Less Than K",
+      "dir": "713-subarray-product-less-than-k",
+      "topics": [
+        "array",
+        "cum-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Prefix Sums",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 714,
+      "title": "Best Time To Buy And Sell Stock With Transaction Fee",
+      "dir": "714-best-time-to-buy-and-sell-stock-with-transaction-fee",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 716,
+      "title": "Max Stack",
+      "dir": "716-max-stack",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 719,
+      "title": "Find K-th Smallest Pair Distance",
+      "dir": "719-find-k-th-smallest-pair-distance",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 723,
+      "title": "Candy Crush",
+      "dir": "723-candy-crush",
+      "topics": [
+        "2d-array",
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 725,
+      "title": "Split Linked List in Parts",
+      "dir": "725-split-linked-list-in-parts",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 739,
+      "title": "Daily Temperatures",
+      "dir": "739-daily-temperatures",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 746,
+      "title": "Min Cost Climbing Stairs",
+      "dir": "746-min-cost-climbing-stairs",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 767,
+      "title": "Reorganize String",
+      "dir": "767-reorganize-string",
+      "topics": [
+        "greedy",
+        "heap-priority-queue",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Heaps & Priority Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 768,
+      "title": "Max Chunks To Make Sorted Ii",
+      "dir": "768-max-chunks-to-make-sorted-ii",
+      "topics": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 770,
+      "title": "Basic Calculator Iv",
+      "dir": "770-basic-calculator-iv",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 771,
+      "title": "Jewels And Stones",
+      "dir": "771-jewels-and-stones",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 772,
+      "title": "Basic Calculator Iii",
+      "dir": "772-basic-calculator-iii",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 774,
+      "title": "Minimize Max Distance to Gas Station",
+      "dir": "774-minimize-max-distance-to-gas-station",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 817,
+      "title": "Linked List Components",
+      "dir": "817-linked-list-components",
+      "topics": [
+        "linked-list"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Linked Lists",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 819,
+      "title": "Most Common Word",
+      "dir": "819-most-common-word",
+      "topics": [
+        "hash-table",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 832,
+      "title": "Flipping An Image",
+      "dir": "832-flipping-an-image",
+      "topics": [
+        "array",
+        "bitwise",
+        "cum-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Bit Manipulation",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 835,
+      "title": "Image Overlap",
+      "dir": "835-image-overlap",
+      "topics": [
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 852,
+      "title": "Peak Index In A Mountain Array",
+      "dir": "852-peak-index-in-a-mountain-array",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 856,
+      "title": "Score Of Parentheses",
+      "dir": "856-score-of-parentheses",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 860,
+      "title": "Lemonade Change",
+      "dir": "860-lemonade-change",
+      "topics": [
+        "greedy"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Greedy",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 873,
+      "title": "Length Of Longest Fibonacci Subsequence",
+      "dir": "873-length-of-longest-fibonacci-subsequence",
+      "topics": [
+        "array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 874,
+      "title": "Walking Robot Simulation",
+      "dir": "874-walking-robot-simulation",
+      "topics": [
+        "2d-array",
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 875,
+      "title": "Koko Eating Bananas",
+      "dir": "875-koko-eating-bananas",
+      "topics": [
+        "binary-search"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Binary Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 876,
+      "title": "Middle of the Linked List",
+      "dir": "876-middle-of-the-linked-list",
+      "topics": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "cpp",
+        "py"
+      ]
+    },
+    {
+      "id": 878,
+      "title": "Nth Magical Number",
+      "dir": "878-nth-magical-number",
+      "topics": [
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 885,
+      "title": "Spiral Matrix Iii",
+      "dir": "885-spiral-matrix-iii",
+      "topics": [
+        "2d-array",
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 889,
+      "title": "Construct Binary Tree from Preorder and Postorder Traversal",
+      "dir": "889-construct-binary-tree-from-preorder-and-postorder-traversal",
+      "topics": [
+        "binary-tree",
+        "divide-and-conquer",
+        "traversal"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "trees",
+      "section": "Binary Trees",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 905,
+      "title": "Sort Array By Parity",
+      "dir": "905-sort-array-by-parity",
+      "topics": [
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 908,
+      "title": "Smallest Range I",
+      "dir": "908-smallest-range-i",
+      "topics": [
+        "array",
+        "math"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 910,
+      "title": "Smallest Range Ii",
+      "dir": "910-smallest-range-ii",
+      "topics": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 912,
+      "title": "Sort An Array",
+      "dir": "912-sort-an-array",
+      "topics": [
+        "divide-and-conquer",
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "recursion",
+      "section": "Divide and Conquer",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 914,
+      "title": "Valid Mountain Array",
+      "dir": "914-valid-mountain-array",
+      "topics": [
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 917,
+      "title": "Reverse Only Letters",
+      "dir": "917-reverse-only-letters",
+      "topics": [
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 922,
+      "title": "Sort Array By Parity Ii",
+      "dir": "922-sort-array-by-parity-ii",
+      "topics": [
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 934,
+      "title": "Shortest Bridge",
+      "dir": "934-shortest-bridge",
+      "topics": [
+        "bfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Breadth-First Search",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 937,
+      "title": "Reorder Data In Log Files",
+      "dir": "937-reorder-data-in-log-files",
+      "topics": [
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 962,
+      "title": "Maximum Width Ramp",
+      "dir": "962-maximum-width-ramp",
+      "topics": [
+        "array",
+        "sorting",
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 973,
+      "title": "K Closest Points To Origin",
+      "dir": "973-k-closest-points-to-origin",
+      "topics": [
+        "array",
+        "divide-and-conquer",
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "recursion",
+      "section": "Divide and Conquer",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 975,
+      "title": "Odd Even Jump",
+      "dir": "975-odd-even-jump",
+      "topics": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 977,
+      "title": "Squares Of A Sorted Array",
+      "dir": "977-squares-of-a-sorted-array",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 980,
+      "title": "Unique Paths Iii",
+      "dir": "980-unique-paths-iii",
+      "topics": [
+        "2d-array",
+        "back-tracking",
+        "dfs"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Backtracking",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 986,
+      "title": "Interval List Intersections",
+      "dir": "986-interval-list-intersections",
+      "topics": [
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1003,
+      "title": "Check If Word Is Valid After Substitutions",
+      "dir": "1003-check-if-word-is-valid-after-substitutions",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1004,
+      "title": "Max Consecutive Ones Iii",
+      "dir": "1004-max-consecutive-ones-iii",
+      "topics": [
+        "sliding-window"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Sliding Window",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1010,
+      "title": "Pairs Of Songs With Total Durations Divisible By 60",
+      "dir": "1010-pairs-of-songs-with-total-durations-divisible-by-60",
+      "topics": [
+        "array",
+        "k-sum"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1031,
+      "title": "Maximum Sum Of Two Non Overlapping Subarrays",
+      "dir": "1031-maximum-sum-of-two-non-overlapping-subarrays",
+      "topics": [
+        "array",
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1071,
+      "title": "Greatest Common Divisor Of Strings",
+      "dir": "1071-greatest-common-divisor-of-strings",
+      "topics": [
+        "string",
+        "substring"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Strings",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1082,
+      "title": "Sales Analysis I",
+      "dir": "1082-sales-analysis-i",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 1083,
+      "title": "Sales Analysis II",
+      "dir": "1083-sales-analysis-ii",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 1084,
+      "title": "Sales Analysis III",
+      "dir": "1084-sales-analysis-iii",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Easy",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 1094,
+      "title": "Car Pooling",
+      "dir": "1094-car-pooling",
+      "topics": [
+        "hash-table"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Hashing & k-Sum",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1143,
+      "title": "Longest Common Subsequence",
+      "dir": "1143-longest-common-subsequence",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1180,
+      "title": "Count Substrings with Only One Distinct Letter",
+      "dir": "1180-count-substrings-with-only-one-distinct-letter",
+      "topics": [
+        "math",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Math & Number Theory",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1185,
+      "title": "Department Top Three Salaries",
+      "dir": "1185-department-top-three-salaries",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 1190,
+      "title": "Reverse Substrings Between Each Pair Of Parentheses",
+      "dir": "1190-reverse-substrings-between-each-pair-of-parentheses",
+      "topics": [
+        "stack"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1192,
+      "title": "Critical Connections in a Network",
+      "dir": "1192-critical-connections-in-a-network",
+      "topics": [
+        "graph"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Graphs",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1196,
+      "title": "How Many Apples Can You Put into the Basket",
+      "dir": "1196-how-many-apples-can-you-put-into-the-basket",
+      "topics": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "search-and-sort",
+      "section": "Sorting",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1243,
+      "title": "Array Transformation",
+      "dir": "1243-array-transformation",
+      "topics": [
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1271,
+      "title": "Hexspeak",
+      "dir": "1271-hexspeak",
+      "topics": [
+        "bitwise"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Bit Manipulation",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1275,
+      "title": "Find Winner on a Tic Tac Toe Game",
+      "dir": "1275-find-winner-on-a-tic-tac-toe-game",
+      "topics": [
+        "2d-array",
+        "array"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Arrays & Matrices",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1287,
+      "title": "Element Appearing More Than 25 In Sorted Array",
+      "dir": "1287-element-appearing-more-than-25-in-sorted-array",
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Two Pointers",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1306,
+      "title": "Jump Game Iii",
+      "dir": "1306-jump-game-iii",
+      "topics": [
+        "greedy"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "techniques",
+      "section": "Greedy",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1350,
+      "title": "Students With Invalid Departments",
+      "dir": "1350-students-with-invalid-departments",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 1544,
+      "title": "Make The String Great",
+      "dir": "1544-make-the-string-great",
+      "topics": [
+        "stack",
+        "string"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "linear-structures",
+      "section": "Stacks & Queues",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 1990,
+      "title": "Count the Number of Experiments",
+      "dir": "1990-count-the-number-of-experiments",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Unrated",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": 1,
+      "target": 167,
+      "type": "generalizes",
+      "reason": "Sorted input removes the hash map \u2014 two pointers suffice when random access is free."
+    },
+    {
+      "source": 1,
+      "target": 170,
+      "type": "builds-on",
+      "reason": "Inverts the lookup direction: store previously seen numbers and query by complement."
+    },
+    {
+      "source": 3,
+      "target": 159,
+      "type": "specializes",
+      "reason": "At-Most-Two-Distinct generalises the two-pointer invariant from unique chars to a 2-char frequency cap."
+    },
+    {
+      "source": 3,
+      "target": 340,
+      "type": "specializes",
+      "reason": "At-Most-K-Distinct further generalises to an arbitrary k-character frequency cap."
+    },
+    {
+      "source": 3,
+      "target": 76,
+      "type": "specializes",
+      "reason": "Minimum Window Substring adds a coverage requirement \u2014 the window shrinks only when all required chars are covered."
+    },
+    {
+      "source": 5,
+      "target": 516,
+      "type": "specializes",
+      "reason": "Longest Palindromic Subsequence lifts the contiguous constraint into a 2-D DP on substring boundaries."
+    },
+    {
+      "source": 5,
+      "target": 647,
+      "type": "specializes",
+      "reason": "Palindromic Substrings counts all palindromic windows using the same expand-from-centre scan."
+    },
+    {
+      "source": 15,
+      "target": 1,
+      "type": "builds-on",
+      "reason": "Reduces 3Sum to 2Sum on the sorted tail for each fixed first element."
+    },
+    {
+      "source": 15,
+      "target": 16,
+      "type": "specializes",
+      "reason": "3Sum Closest uses the same sorted two-pointer scan but tracks the nearest sum instead of an exact match."
+    },
+    {
+      "source": 15,
+      "target": 18,
+      "type": "specializes",
+      "reason": "4Sum wraps a second fixed element around the same 3Sum two-pointer kernel."
+    },
+    {
+      "source": 20,
+      "target": 22,
+      "type": "builds-on",
+      "reason": "Generate Parentheses uses backtracking to produce all valid strings whose validity mirrors the stack check in #20."
+    },
+    {
+      "source": 20,
+      "target": 32,
+      "type": "builds-on",
+      "reason": "Longest Valid Parentheses reuses stack-based matching but extends it to track the start index of each valid window."
+    },
+    {
+      "source": 21,
+      "target": 23,
+      "type": "builds-on",
+      "reason": "Merge K Lists applies the two-list merge pairwise via a min-heap or divide-and-conquer tournament."
+    },
+    {
+      "source": 23,
+      "target": 148,
+      "type": "builds-on",
+      "reason": "Sort List reduces to merge sort whose merge step is exactly #21 applied to two linked-list halves."
+    },
+    {
+      "source": 23,
+      "target": 632,
+      "type": "same-pattern",
+      "reason": "Smallest Range Covering K Lists advances the same k-way heap frontier, tracking the window span instead of emitting nodes."
+    },
+    {
+      "source": 26,
+      "target": 80,
+      "type": "specializes",
+      "reason": "Remove Duplicates II allows two occurrences \u2014 the write-pointer logic widens from k=1 to k=2."
+    },
+    {
+      "source": 32,
+      "target": 20,
+      "type": "builds-on",
+      "reason": "Reuses stack-based parenthesis matching, then tracks substring boundaries to maximize valid length."
+    },
+    {
+      "source": 33,
+      "target": 153,
+      "type": "specializes",
+      "reason": "Find Minimum in Rotated Array removes the target comparison and seeks the break point directly."
+    },
+    {
+      "source": 33,
+      "target": 34,
+      "type": "specializes",
+      "reason": "Find First and Last Position runs two separate binary searches for the left and right bounds."
+    },
+    {
+      "source": 39,
+      "target": 40,
+      "type": "specializes",
+      "reason": "Adds the no-reuse constraint: sort + skip duplicates in the DFS to avoid revisiting the same candidate."
+    },
+    {
+      "source": 39,
+      "target": 377,
+      "type": "builds-on",
+      "reason": "Combination Sum IV counts ordered sequences \u2014 the counting version is a 1D knapsack DP rather than backtracking."
+    },
+    {
+      "source": 40,
+      "target": 216,
+      "type": "specializes",
+      "reason": "Restricts candidates to 1-9 with a fixed count, changing only the range passed to DFS."
+    },
+    {
+      "source": 42,
+      "target": 84,
+      "type": "same-pattern",
+      "reason": "Both use a decreasing monotonic stack; #42 counts horizontal water while #84 computes a maximal rectangle width."
+    },
+    {
+      "source": 42,
+      "target": 407,
+      "type": "specializes",
+      "reason": "Trapping Rain Water II fills a 2-D basin \u2014 the monotonic stack becomes a min-heap flooding inward from the border."
+    },
+    {
+      "source": 46,
+      "target": 47,
+      "type": "specializes",
+      "reason": "Permutations II has duplicates \u2014 sort and skip same-value elements at the same recursion level."
+    },
+    {
+      "source": 51,
+      "target": 52,
+      "type": "specializes",
+      "reason": "N-Queens II only counts solutions, so the same diagonal-conflict DFS increments a counter instead of materialising boards."
+    },
+    {
+      "source": 51,
+      "target": 37,
+      "type": "same-pattern",
+      "reason": "Sudoku Solver is the same constraint-propagation backtracking: place, check conflicts, recurse, undo."
+    },
+    {
+      "source": 54,
+      "target": 59,
+      "type": "specializes",
+      "reason": "Spiral Matrix II fills the spiral instead of reading it \u2014 same boundary-shrink loop in reverse."
+    },
+    {
+      "source": 54,
+      "target": 885,
+      "type": "specializes",
+      "reason": "Spiral Matrix III generates coordinates in spiral order starting from an arbitrary origin."
+    },
+    {
+      "source": 55,
+      "target": 45,
+      "type": "specializes",
+      "reason": "Jump Game II asks for the minimum jumps \u2014 greedy farthest-reach becomes a BFS level counter."
+    },
+    {
+      "source": 55,
+      "target": 1306,
+      "type": "specializes",
+      "reason": "Jump Game III adds backward jumps and a target, turning the greedy into BFS reachability."
+    },
+    {
+      "source": 59,
+      "target": 885,
+      "type": "specializes",
+      "reason": "Spiral Matrix III walks off-grid, so the boundary-shrink loop becomes a step-length-growing walk with bounds checks."
+    },
+    {
+      "source": 62,
+      "target": 63,
+      "type": "specializes",
+      "reason": "Adds obstacles: cells with obstacles get dp=0; the rest use the same transition."
+    },
+    {
+      "source": 62,
+      "target": 980,
+      "type": "specializes",
+      "reason": "Unique Paths III requires visiting every empty cell exactly once, needing backtracking over the DP count."
+    },
+    {
+      "source": 63,
+      "target": 980,
+      "type": "specializes",
+      "reason": "Unique Paths III must visit every empty cell exactly once, so the DP table gives way to exhaustive backtracking."
+    },
+    {
+      "source": 70,
+      "target": 746,
+      "type": "specializes",
+      "reason": "Min Cost Climbing Stairs adds a cost per stair \u2014 the Fibonacci recurrence gains a min() overlay."
+    },
+    {
+      "source": 74,
+      "target": 240,
+      "type": "specializes",
+      "reason": "Search a 2D Matrix II loses the fully-sorted-flattening property, so the search walks from a corner instead of halving."
+    },
+    {
+      "source": 78,
+      "target": 90,
+      "type": "specializes",
+      "reason": "Subsets II has duplicate elements \u2014 sort and skip the same element at the same DFS depth to de-dup."
+    },
+    {
+      "source": 79,
+      "target": 212,
+      "type": "builds-on",
+      "reason": "Word Search II replaces single-word DFS with trie-guided search for all words simultaneously."
+    },
+    {
+      "source": 79,
+      "target": 529,
+      "type": "same-pattern",
+      "reason": "Minesweeper floods the same 4/8-neighbour grid DFS, but reveals cells instead of matching a word."
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "type": "specializes",
+      "reason": "Remove Duplicates from Sorted List II deletes all duplicates rather than keeping one representative."
+    },
+    {
+      "source": 84,
+      "target": 85,
+      "type": "builds-on",
+      "reason": "Maximal Rectangle reduces each row to a histogram and applies the #84 stack algorithm per row."
+    },
+    {
+      "source": 92,
+      "target": 25,
+      "type": "specializes",
+      "reason": "Reverse in k-groups repeatedly applies the m-to-n reversal across non-overlapping windows of size k."
+    },
+    {
+      "source": 102,
+      "target": 107,
+      "type": "specializes",
+      "reason": "Level Order II reverses the output \u2014 append to a deque front instead of the back."
+    },
+    {
+      "source": 102,
+      "target": 199,
+      "type": "specializes",
+      "reason": "Right Side View keeps only the last node per level from a standard BFS traversal."
+    },
+    {
+      "source": 102,
+      "target": 515,
+      "type": "specializes",
+      "reason": "Find Largest Value in Each Row tracks the per-level maximum rather than the full level list."
+    },
+    {
+      "source": 112,
+      "target": 113,
+      "type": "specializes",
+      "reason": "Path Sum II collects all valid paths rather than a boolean \u2014 accumulate the path list in DFS."
+    },
+    {
+      "source": 113,
+      "target": 437,
+      "type": "specializes",
+      "reason": "Path Sum III counts any-start paths \u2014 a prefix-sum hash map avoids the O(n^2) re-traversal."
+    },
+    {
+      "source": 118,
+      "target": 119,
+      "type": "specializes",
+      "reason": "Pascal's Triangle II needs only row k, so the O(n^2) table collapses to one rolling row."
+    },
+    {
+      "source": 121,
+      "target": 122,
+      "type": "specializes",
+      "reason": "Unlimited transactions turns the problem into summing every positive price delta."
+    },
+    {
+      "source": 121,
+      "target": 309,
+      "type": "specializes",
+      "reason": "Adds a cooldown day \u2014 the greedy accumulation from II becomes a DP on hold/sold/cooldown states."
+    },
+    {
+      "source": 121,
+      "target": 714,
+      "type": "specializes",
+      "reason": "Adds a per-transaction fee \u2014 same unlimited-transaction structure but subtract fee on each sell."
+    },
+    {
+      "source": 121,
+      "target": 123,
+      "type": "specializes",
+      "reason": "At-most-2 transactions splits into a forward pass for the first and a backward pass for the second."
+    },
+    {
+      "source": 122,
+      "target": 123,
+      "type": "specializes",
+      "reason": "At-most-2 transactions can no longer be greedy \u2014 split into a forward and a backward best-profit pass."
+    },
+    {
+      "source": 123,
+      "target": 188,
+      "type": "specializes",
+      "reason": "Generalises the 2-transaction DP to k transactions by tracking localmax per transaction count."
+    },
+    {
+      "source": 125,
+      "target": 680,
+      "type": "specializes",
+      "reason": "Valid Palindrome II allows one deletion \u2014 greedily skip the mismatching character and re-check each side."
+    },
+    {
+      "source": 127,
+      "target": 126,
+      "type": "specializes",
+      "reason": "Word Ladder II records all shortest-path predecessors via BFS, then reconstructs all paths with DFS."
+    },
+    {
+      "source": 133,
+      "target": 200,
+      "type": "contrasts",
+      "reason": "Clone Graph traverses the same adjacency structure but builds a copy instead of counting components."
+    },
+    {
+      "source": 136,
+      "target": 268,
+      "type": "contrasts",
+      "reason": "Missing Number can also be solved by XOR-ing indices against values \u2014 same self-cancelling-pairs invariant."
+    },
+    {
+      "source": 141,
+      "target": 142,
+      "type": "specializes",
+      "reason": "Linked List Cycle II extends Floyd's two-pointer to locate the exact entry node of the cycle."
+    },
+    {
+      "source": 146,
+      "target": 155,
+      "type": "same-pattern",
+      "reason": "Min Stack pairs main + aux stacks \u2014 same dual-structure O(1) trick as the hash-map + list in LRU."
+    },
+    {
+      "source": 146,
+      "target": 380,
+      "type": "same-pattern",
+      "reason": "Insert Delete GetRandom pairs a hash map with a dynamic array to achieve O(1) for all three operations."
+    },
+    {
+      "source": 151,
+      "target": 186,
+      "type": "specializes",
+      "reason": "Reverse Words II must work in place \u2014 reverse the whole array, then reverse each word."
+    },
+    {
+      "source": 153,
+      "target": 154,
+      "type": "specializes",
+      "reason": "With duplicates the invariant weakens: a middle equal to right forces r-- before the halving."
+    },
+    {
+      "source": 169,
+      "target": 229,
+      "type": "specializes",
+      "reason": "Majority Element II runs two simultaneous Boyer-Moore counters, since up to two elements can exceed n/3."
+    },
+    {
+      "source": 186,
+      "target": 557,
+      "type": "contrasts",
+      "reason": "Reverse Words III reverses the letters inside each word while keeping word order, the exact inverse of II."
+    },
+    {
+      "source": 191,
+      "target": 231,
+      "type": "same-pattern",
+      "reason": "Power of Two is the n & (n-1) == 0 special case of the clear-lowest-set-bit trick used to count bits."
+    },
+    {
+      "source": 191,
+      "target": 338,
+      "type": "builds-on",
+      "reason": "Counting Bits caches results for every i < n, replacing the per-number loop with dp[i] = dp[i >> 1] + (i & 1)."
+    },
+    {
+      "source": 198,
+      "target": 213,
+      "type": "specializes",
+      "reason": "Circular arrangement means either the first or last house is excluded \u2014 run linear DP twice on the two sub-arrays."
+    },
+    {
+      "source": 198,
+      "target": 337,
+      "type": "specializes",
+      "reason": "Tree layout replaces the linear chain with DFS post-order: rob node vs. rob both children."
+    },
+    {
+      "source": 200,
+      "target": 547,
+      "type": "same-pattern",
+      "reason": "Both count connected components; the grid's implicit 4-neighbour adjacency becomes an explicit adjacency matrix."
+    },
+    {
+      "source": 200,
+      "target": 323,
+      "type": "same-pattern",
+      "reason": "Same component count on an explicit edge list rather than an implicit grid."
+    },
+    {
+      "source": 206,
+      "target": 92,
+      "type": "specializes",
+      "reason": "Reverse sublist [m,n] by inserting each node after the anchor rather than reversing the whole list."
+    },
+    {
+      "source": 207,
+      "target": 210,
+      "type": "specializes",
+      "reason": "Course Schedule II returns the topological order itself, not just feasibility."
+    },
+    {
+      "source": 208,
+      "target": 211,
+      "type": "specializes",
+      "reason": "Add and Search Word extends the trie with wildcard '.' that fans out DFS across all children."
+    },
+    {
+      "source": 208,
+      "target": 212,
+      "type": "specializes",
+      "reason": "Word Search II preloads all words into a trie and prunes the 2-D DFS early on trie misses."
+    },
+    {
+      "source": 213,
+      "target": 337,
+      "type": "specializes",
+      "reason": "House Robber III replaces the circular array with a tree \u2014 the two DP states become a post-order return pair."
+    },
+    {
+      "source": 215,
+      "target": 703,
+      "type": "contrasts",
+      "reason": "Kth Largest in a Stream cannot re-partition on each insert, so quickselect gives way to a bounded size-k min-heap."
+    },
+    {
+      "source": 216,
+      "target": 377,
+      "type": "contrasts",
+      "reason": "Combination Sum IV counts ordered sequences, so backtracking over combinations is replaced by a 1-D counting DP."
+    },
+    {
+      "source": 217,
+      "target": 219,
+      "type": "specializes",
+      "reason": "Contains Duplicate II adds a window constraint k \u2014 maintain a sliding-window hash set of the last k elements."
+    },
+    {
+      "source": 219,
+      "target": 220,
+      "type": "specializes",
+      "reason": "Contains Duplicate III relaxes equality to a value window t \u2014 bucket by v // t so neighbours land in adjacent buckets."
+    },
+    {
+      "source": 224,
+      "target": 227,
+      "type": "specializes",
+      "reason": "Basic Calculator II drops parentheses but adds * and /, so precedence is handled by peeking at the stack top instead of recursing."
+    },
+    {
+      "source": 227,
+      "target": 772,
+      "type": "builds-on",
+      "reason": "Basic Calculator III combines the precedence handling of II with the parenthesis recursion of I."
+    },
+    {
+      "source": 243,
+      "target": 244,
+      "type": "specializes",
+      "reason": "Shortest Word Distance II precomputes position lists and merges them with a two-pointer scan per query."
+    },
+    {
+      "source": 244,
+      "target": 245,
+      "type": "specializes",
+      "reason": "Shortest Word Distance III handles word1 == word2 by tracking the previous seen index of the same word."
+    },
+    {
+      "source": 252,
+      "target": 253,
+      "type": "specializes",
+      "reason": "Meeting Rooms II counts concurrent meetings rather than detecting any overlap \u2014 sort starts and ends separately."
+    },
+    {
+      "source": 253,
+      "target": 56,
+      "type": "same-pattern",
+      "reason": "Both sort intervals by start and sweep; merge combines overlaps while Meeting Rooms II counts them."
+    },
+    {
+      "source": 266,
+      "target": 267,
+      "type": "specializes",
+      "reason": "Palindrome Permutation II generates all such strings \u2014 half-frequency halves are permuted by backtracking."
+    },
+    {
+      "source": 280,
+      "target": 324,
+      "type": "specializes",
+      "reason": "Wiggle Sort II requires strict inequality \u2014 median-partition + index-mapping avoids a full O(n log n) sort."
+    },
+    {
+      "source": 285,
+      "target": 510,
+      "type": "specializes",
+      "reason": "Inorder Successor II has parent pointers \u2014 climb toward root instead of descending from it."
+    },
+    {
+      "source": 295,
+      "target": 480,
+      "type": "builds-on",
+      "reason": "Sliding Window Median keeps the same two-heap median invariant but must also evict elements leaving the window."
+    },
+    {
+      "source": 300,
+      "target": 354,
+      "type": "specializes",
+      "reason": "Russian Doll Envelopes sorts by (width asc, height desc) to reduce the 2-D problem to a 1-D LIS."
+    },
+    {
+      "source": 303,
+      "target": 304,
+      "type": "specializes",
+      "reason": "Range Sum Query 2D extends the 1-D prefix array to a 2-D prefix table with inclusion-exclusion queries."
+    },
+    {
+      "source": 303,
+      "target": 307,
+      "type": "specializes",
+      "reason": "Range Sum Query Mutable replaces the static prefix array with a Binary Indexed Tree for O(log n) updates."
+    },
+    {
+      "source": 322,
+      "target": 518,
+      "type": "specializes",
+      "reason": "Coin Change 2 counts the number of ways rather than the minimum \u2014 unbounded knapsack counting DP."
+    },
+    {
+      "source": 322,
+      "target": 416,
+      "type": "same-pattern",
+      "reason": "Both fill a capacity-indexed DP table; coin change minimises count while subset-sum only asks reachability."
+    },
+    {
+      "source": 323,
+      "target": 261,
+      "type": "specializes",
+      "reason": "Graph Valid Tree adds the acyclic + single-component check: exactly n-1 edges and one component."
+    },
+    {
+      "source": 344,
+      "target": 541,
+      "type": "specializes",
+      "reason": "Reverse String II reverses every-other k-sized block \u2014 apply the same two-pointer to a sliding window."
+    },
+    {
+      "source": 347,
+      "target": 692,
+      "type": "same-pattern",
+      "reason": "Top K Frequent Words is the same count-then-select-k problem with a lexicographic tiebreak on equal frequency."
+    },
+    {
+      "source": 349,
+      "target": 350,
+      "type": "specializes",
+      "reason": "Intersection II counts duplicates \u2014 use a frequency map instead of a set."
+    },
+    {
+      "source": 373,
+      "target": 23,
+      "type": "same-pattern",
+      "reason": "Find K Pairs walks a k-way merge frontier with a heap, exactly like merging k sorted lists."
+    },
+    {
+      "source": 374,
+      "target": 375,
+      "type": "contrasts",
+      "reason": "Guess Number II pays the guessed value as a cost, turning a binary search into a minimax interval DP."
+    },
+    {
+      "source": 416,
+      "target": 494,
+      "type": "builds-on",
+      "reason": "Target Sum rewrites +/- assignment as choosing a positive subset with a fixed sum \u2014 the same subset-sum DP."
+    },
+    {
+      "source": 416,
+      "target": 474,
+      "type": "generalizes",
+      "reason": "Ones and Zeroes is subset-sum with two independent capacities, so the DP table gains a second dimension."
+    },
+    {
+      "source": 437,
+      "target": 666,
+      "type": "builds-on",
+      "reason": "Path Sum IV encodes nodes numerically; reconstruct the tree first, then the same DFS applies."
+    },
+    {
+      "source": 454,
+      "target": 1,
+      "type": "builds-on",
+      "reason": "Splits four lists into two pairs, hashes the pair sums, then queries by complement \u2014 two-pass 2Sum."
+    },
+    {
+      "source": 485,
+      "target": 487,
+      "type": "specializes",
+      "reason": "Max Consecutive Ones II allows one flip \u2014 a two-pointer window tracks at most one zero inside."
+    },
+    {
+      "source": 487,
+      "target": 1004,
+      "type": "specializes",
+      "reason": "Max Consecutive Ones III generalises the one-flip window to k flips."
+    },
+    {
+      "source": 496,
+      "target": 503,
+      "type": "specializes",
+      "reason": "Next Greater Element II wraps the array circularly \u2014 iterate 2n indices with modulo on a monotonic stack."
+    },
+    {
+      "source": 509,
+      "target": 70,
+      "type": "specializes",
+      "reason": "Climbing Stairs counts two-step paths \u2014 recurrence is identical, dp[n] = F(n+1)."
+    },
+    {
+      "source": 511,
+      "target": 512,
+      "type": "specializes",
+      "reason": "Game Play Analysis II extends from first-login to multi-date queries on the same player."
+    },
+    {
+      "source": 531,
+      "target": 533,
+      "type": "specializes",
+      "reason": "Lonely Pixel II adds a group constraint \u2014 a pixel qualifies only if its row set is consistent."
+    },
+    {
+      "source": 643,
+      "target": 644,
+      "type": "specializes",
+      "reason": "Maximum Average Subarray II lifts the fixed-length constraint \u2014 a sliding minimum + prefix-sum trick."
+    },
+    {
+      "source": 703,
+      "target": 692,
+      "type": "same-pattern",
+      "reason": "Both keep only the top k under a heap; frequency counting replaces raw values as the heap key."
+    },
+    {
+      "source": 704,
+      "target": 33,
+      "type": "specializes",
+      "reason": "Rotated Sorted Array has one break point \u2014 check which half is sorted to pick the correct side."
+    },
+    {
+      "source": 704,
+      "target": 35,
+      "type": "specializes",
+      "reason": "Search Insert Position adapts binary search to return the insertion index on a miss."
+    },
+    {
+      "source": 772,
+      "target": 770,
+      "type": "specializes",
+      "reason": "Basic Calculator IV carries symbolic variables, so the operand type becomes a polynomial rather than an int."
+    },
+    {
+      "source": 905,
+      "target": 922,
+      "type": "specializes",
+      "reason": "Sort Array By Parity II requires alternating positions \u2014 two write pointers, one per parity."
+    },
+    {
+      "source": 908,
+      "target": 910,
+      "type": "specializes",
+      "reason": "Smallest Range II pairs each element with +K or -K and finds the optimal split \u2014 greedy on sorted array."
+    },
+    {
+      "source": 1082,
+      "target": 1083,
+      "type": "specializes",
+      "reason": "Sales Analysis II adds a negative filter \u2014 exclude sellers who also sold a disallowed product."
+    },
+    {
+      "source": 1083,
+      "target": 1084,
+      "type": "specializes",
+      "reason": "Sales Analysis III further restricts to the first and last reporting period, adding a date range filter."
+    }
+  ]
+}

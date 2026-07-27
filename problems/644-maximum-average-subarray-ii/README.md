@@ -5,6 +5,7 @@ slug: maximum-average-subarray-ii
 difficulty:
 topics: [array, cum-sum]
 leetcode: https://leetcode.com/problems/maximum-average-subarray-ii/
+relations: []
 ---
 
 # 644. Maximum Average Subarray Ii

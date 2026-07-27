@@ -3,8 +3,9 @@ id: 94
 title: Binary Tree Inorder Traversal
 slug: binary-tree-inorder-traversal
 difficulty:
-topics: [binary-tree, traversal, tree]
+topics: [binary-tree, traversal]
 leetcode: https://leetcode.com/problems/binary-tree-inorder-traversal/
+relations: []
 ---
 
 # 94. Binary Tree Inorder Traversal

@@ -5,6 +5,7 @@ slug: course-schedule
 difficulty:
 topics: [bfs]
 leetcode: https://leetcode.com/problems/course-schedule/
+relations: [{"type": "specializes", "target": 210, "reason": "Course Schedule II returns the topological order itself, not just feasibility."}]
 ---
 
 # 207. Course Schedule

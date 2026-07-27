@@ -5,6 +5,7 @@ slug: find-all-duplicates-in-an-array
 difficulty:
 topics: [array]
 leetcode: https://leetcode.com/problems/find-all-duplicates-in-an-array/
+relations: []
 ---
 
 # 442. Find All Duplicates In An Array

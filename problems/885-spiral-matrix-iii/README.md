@@ -5,6 +5,7 @@ slug: spiral-matrix-iii
 difficulty:
 topics: [2d-array, array]
 leetcode: https://leetcode.com/problems/spiral-matrix-iii/
+relations: []
 ---
 
 # 885. Spiral Matrix Iii

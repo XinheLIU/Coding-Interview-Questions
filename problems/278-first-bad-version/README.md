@@ -3,8 +3,9 @@ id: 278
 title: First Bad Version
 slug: first-bad-version
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: https://leetcode.com/problems/first-bad-version/
+relations: []
 ---
 
 # 278. First Bad Version

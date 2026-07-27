@@ -5,6 +5,7 @@ slug: symmetric-tree
 difficulty:
 topics: [binary-tree, recursion]
 leetcode: https://leetcode.com/problems/symmetric-tree/
+relations: []
 ---
 
 # 101. Symmetric Tree

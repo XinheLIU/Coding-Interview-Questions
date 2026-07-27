@@ -5,6 +5,7 @@ slug: wildcard-matching
 difficulty:
 topics: [dynamic-programming]
 leetcode: https://leetcode.com/problems/wildcard-matching/
+relations: []
 ---
 
 # 44. Wildcard Matching

@@ -5,6 +5,7 @@ slug: same-tree
 difficulty:
 topics: [binary-tree, recursion]
 leetcode: https://leetcode.com/problems/same-tree/
+relations: []
 ---
 
 # 100. Same Tree

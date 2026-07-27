@@ -3,8 +3,9 @@ id: 615
 title: Average Salary- Departments VS Company
 slug: average-salary-departments-vs-company
 difficulty:
-topics: []
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 615. Average Salary- Departments VS Company

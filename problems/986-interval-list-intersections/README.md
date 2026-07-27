@@ -5,6 +5,7 @@ slug: interval-list-intersections
 difficulty:
 topics: [sorting]
 leetcode: 
+relations: []
 ---
 
 # 986. Interval List Intersections

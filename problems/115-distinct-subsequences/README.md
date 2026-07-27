@@ -3,8 +3,9 @@ id: 115
 title: Distinct Subsequences
 slug: distinct-subsequences
 difficulty:
-topics: []
+topics: [dynamic-programming, string]
 leetcode: https://leetcode.com/problems/distinct-subsequences/
+relations: []
 ---
 
 # 115. Distinct Subsequences

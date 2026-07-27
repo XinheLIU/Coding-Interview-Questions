@@ -5,6 +5,7 @@ slug: flatten-binary-tree-to-linked-list
 difficulty:
 topics: [binary-tree, recursion]
 leetcode: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+relations: []
 ---
 
 # 114. Flatten Binary Tree To Linked List

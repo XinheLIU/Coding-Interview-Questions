@@ -5,6 +5,7 @@ slug: maximum-depth-of-n-ary-tree
 difficulty:
 topics: [binary-tree]
 leetcode: https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
+relations: []
 ---
 
 # 559. Maximum Depth Of N Ary Tree

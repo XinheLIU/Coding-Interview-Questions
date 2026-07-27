@@ -5,6 +5,7 @@ slug: max-stack
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/max-stack/
+relations: []
 ---
 
 # 716. Max Stack

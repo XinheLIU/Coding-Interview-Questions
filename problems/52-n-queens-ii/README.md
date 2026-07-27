@@ -5,6 +5,7 @@ slug: n-queens-ii
 difficulty:
 topics: [dfs]
 leetcode: https://leetcode.com/problems/n-queens-ii/
+relations: []
 ---
 
 # 52. N Queens Ii

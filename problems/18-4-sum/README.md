@@ -5,6 +5,7 @@ slug: 4-sum
 difficulty:
 topics: [array, k-sum]
 leetcode: https://leetcode.com/problems/4-sum/
+relations: []
 ---
 
 # 18. 4 Sum

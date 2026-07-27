@@ -3,8 +3,9 @@ id: 1350
 title: Students With Invalid Departments
 slug: students-with-invalid-departments
 difficulty:
-topics: []
+topics: [sql]
 leetcode: 
+relations: []
 ---
 
 # 1350. Students With Invalid Departments

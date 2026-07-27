@@ -5,6 +5,7 @@ slug: middle-of-the-linked-list
 difficulty:
 topics: [linked-list, two-pointers]
 leetcode: 
+relations: []
 ---
 
 # 876. Middle of the Linked List

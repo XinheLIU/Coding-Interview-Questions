@@ -3,8 +3,9 @@ id: 774
 title: Minimize Max Distance to Gas Station
 slug: minimize-max-distance-to-gas-station
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: 
+relations: []
 ---
 
 # 774. Minimize Max Distance to Gas Station

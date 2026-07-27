@@ -1,8 +1,17 @@
-# Arrays and Linked Lists
+---
+chapter: linear-structures
+---
 
-Last updated: 2026-07-12
+# Linear Structures
 
-Two ends of one trade-off. Everything below assumes you know the Big-O table — the point is what's worth *saying* about it.
+Last updated: 2026-07-26
+
+Arrays, strings, linked lists, hash tables, stacks and queues. This is the
+foundation chapter: everything later in the book is built out of these, and the
+habits you form here — reaching for a sentinel node, knowing when a hash map buys
+you an order of magnitude — are the ones you reuse for the rest of your career.
+
+The through-line is a single trade-off, restated in different clothes.
 
 ## The trade-off, sharpened
 
@@ -36,3 +45,8 @@ Arrays buy **O(1) random access** with contiguity (address is `base + i*size`, a
 
 - *Arrays:* two pointers, sliding window, prefix sums, binary search.
 - *Lists:* fast/slow pointers (midpoint, cycle), in-place reversal, merge sorted.
+
+
+<ChapterGraph chapter="linear-structures" />
+
+<ChapterIndex chapter="linear-structures" />

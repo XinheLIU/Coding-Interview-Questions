@@ -5,6 +5,7 @@ slug: sliding-window-maximum
 difficulty:
 topics: [sliding-window]
 leetcode: https://leetcode.com/problems/sliding-window-maximum/
+relations: []
 ---
 
 # 239. Sliding Window Maximum

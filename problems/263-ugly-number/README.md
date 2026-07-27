@@ -3,8 +3,9 @@ id: 263
 title: Ugly Number
 slug: ugly-number
 difficulty:
-topics: []
+topics: [math]
 leetcode: 
+relations: []
 ---
 
 # 263. Ugly Number

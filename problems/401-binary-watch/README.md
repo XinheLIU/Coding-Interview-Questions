@@ -5,6 +5,7 @@ slug: binary-watch
 difficulty:
 topics: [back-tracking, dfs]
 leetcode: https://leetcode.com/problems/binary-watch/
+relations: []
 ---
 
 # 401. Binary Watch

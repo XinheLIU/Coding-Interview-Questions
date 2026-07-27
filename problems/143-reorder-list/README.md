@@ -5,6 +5,7 @@ slug: reorder-list
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 143. Reorder List

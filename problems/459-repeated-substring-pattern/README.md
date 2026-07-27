@@ -5,6 +5,7 @@ slug: repeated-substring-pattern
 difficulty:
 topics: [string]
 leetcode: https://leetcode.com/problems/repeated-substring-pattern/
+relations: []
 ---
 
 # 459. Repeated Substring Pattern

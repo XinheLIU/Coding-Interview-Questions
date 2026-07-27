@@ -5,6 +5,7 @@ slug: reverse-substrings-between-each-pair-of-parentheses
 difficulty:
 topics: [stack]
 leetcode: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/
+relations: []
 ---
 
 # 1190. Reverse Substrings Between Each Pair Of Parentheses

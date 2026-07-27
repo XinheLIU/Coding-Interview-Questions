@@ -5,6 +5,7 @@ slug: valid-mountain-array
 difficulty:
 topics: [array]
 leetcode: 
+relations: []
 ---
 
 # 914. Valid Mountain Array

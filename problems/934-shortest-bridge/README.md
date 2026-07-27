@@ -5,6 +5,7 @@ slug: shortest-bridge
 difficulty:
 topics: [bfs]
 leetcode: https://leetcode.com/problems/shortest-bridge/
+relations: []
 ---
 
 # 934. Shortest Bridge

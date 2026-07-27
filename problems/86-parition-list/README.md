@@ -5,6 +5,7 @@ slug: parition-list
 difficulty:
 topics: [linked-list]
 leetcode: 
+relations: []
 ---
 
 # 86. Parition List

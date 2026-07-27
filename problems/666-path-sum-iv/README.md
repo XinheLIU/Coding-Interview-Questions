@@ -5,6 +5,7 @@ slug: path-sum-iv
 difficulty:
 topics: [binary-tree, recursion]
 leetcode: https://leetcode.com/problems/path-sum-iv/
+relations: []
 ---
 
 # 666. Path Sum IV

@@ -5,6 +5,7 @@ slug: maximum-product-subarray
 difficulty:
 topics: [array, dynamic-programming]
 leetcode: https://leetcode.com/problems/maximum-product-subarray/
+relations: []
 ---
 
 # 152. Maximum Product Subarray

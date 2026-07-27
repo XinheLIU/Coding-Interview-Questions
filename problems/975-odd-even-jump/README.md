@@ -3,8 +3,9 @@ id: 975
 title: Odd Even Jump
 slug: odd-even-jump
 difficulty:
-topics: []
+topics: [array, dynamic-programming, sorting]
 leetcode: https://leetcode.com/problems/odd-even-jump/
+relations: []
 ---
 
 # 975. Odd Even Jump

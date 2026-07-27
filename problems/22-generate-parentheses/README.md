@@ -5,6 +5,7 @@ slug: generate-parentheses
 difficulty:
 topics: [back-tracking, dfs]
 leetcode: https://leetcode.com/problems/generate-parentheses/
+relations: []
 ---
 
 # 22. Generate Parentheses

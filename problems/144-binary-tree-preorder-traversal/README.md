@@ -5,6 +5,7 @@ slug: binary-tree-preorder-traversal
 difficulty:
 topics: [binary-tree, traversal]
 leetcode: https://leetcode.com/problems/binary-tree-preorder-traversal/
+relations: []
 ---
 
 # 144. Binary Tree Preorder Traversal

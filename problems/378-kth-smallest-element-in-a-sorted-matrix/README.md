@@ -3,8 +3,9 @@ id: 378
 title: Kth Smallest Element in a Sorted Matrix
 slug: kth-smallest-element-in-a-sorted-matrix
 difficulty:
-topics: [binary-search, divide-and-conquer]
+topics: [binary-search]
 leetcode: 
+relations: []
 ---
 
 # 378. Kth Smallest Element in a Sorted Matrix

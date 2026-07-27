@@ -3,8 +3,9 @@ id: 174
 title: Dungeon Game
 slug: dungeon-game
 difficulty:
-topics: [2d, dynamic-programming]
+topics: [2d-array, dynamic-programming]
 leetcode: https://leetcode.com/problems/dungeon-game/
+relations: []
 ---
 
 # 174. Dungeon Game

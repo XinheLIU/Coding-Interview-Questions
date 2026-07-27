@@ -5,6 +5,7 @@ slug: majority-element-ii
 difficulty:
 topics: [hash-table]
 leetcode: https://leetcode.com/problems/majority-element-ii/
+relations: []
 ---
 
 # 229. Majority Element Ii

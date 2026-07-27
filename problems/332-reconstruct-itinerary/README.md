@@ -5,6 +5,7 @@ slug: reconstruct-itinerary
 difficulty:
 topics: [back-tracking, dfs]
 leetcode: https://leetcode.com/problems/reconstruct-itinerary/
+relations: []
 ---
 
 # 332. Reconstruct Itinerary

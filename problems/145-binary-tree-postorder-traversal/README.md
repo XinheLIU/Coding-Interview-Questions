@@ -5,6 +5,7 @@ slug: binary-tree-postorder-traversal
 difficulty:
 topics: [binary-tree, traversal]
 leetcode: https://leetcode.com/problems/binary-tree-postorder-traversal/
+relations: []
 ---
 
 # 145. Binary Tree Postorder Traversal

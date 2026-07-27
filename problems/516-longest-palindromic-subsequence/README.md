@@ -3,8 +3,9 @@ id: 516
 title: Longest Palindromic Subsequence
 slug: longest-palindromic-subsequence
 difficulty:
-topics: []
+topics: [dynamic-programming, palindrome, string]
 leetcode: https://leetcode.com/problems/longest-palindromic-subsequence/
+relations: []
 ---
 
 # 516. Longest Palindromic Subsequence

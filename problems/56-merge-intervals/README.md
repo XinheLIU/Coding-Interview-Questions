@@ -5,6 +5,7 @@ slug: merge-intervals
 difficulty:
 topics: [array]
 leetcode: https://leetcode.com/problems/merge-intervals/
+relations: []
 ---
 
 # 56. Merge Intervals

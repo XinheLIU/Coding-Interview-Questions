@@ -5,6 +5,7 @@ slug: design-hash-set
 difficulty:
 topics: [design]
 leetcode: 
+relations: []
 ---
 
 # 705. Design HashSet

@@ -5,6 +5,7 @@ slug: triangle
 difficulty:
 topics: [dynamic-programming]
 leetcode: https://leetcode.com/problems/triangle/
+relations: []
 ---
 
 # 120. Triangle

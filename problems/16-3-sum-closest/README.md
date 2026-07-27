@@ -5,6 +5,7 @@ slug: 3-sum-closest
 difficulty:
 topics: [array, k-sum]
 leetcode: https://leetcode.com/problems/3-sum-closest/
+relations: []
 ---
 
 # 16. 3 Sum Closest

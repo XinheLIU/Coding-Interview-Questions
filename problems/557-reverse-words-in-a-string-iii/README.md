@@ -3,8 +3,9 @@ id: 557
 title: Reverse Words In A String Iii
 slug: reverse-words-in-a-string-iii
 difficulty:
-topics: [operation, string]
+topics: [string]
 leetcode: https://leetcode.com/problems/reverse-words-in-a-string-iii/
+relations: []
 ---
 
 # 557. Reverse Words In A String Iii

@@ -5,6 +5,7 @@ slug: missing-number
 difficulty:
 topics: [math]
 leetcode: 
+relations: []
 ---
 
 # 268. Missing Number

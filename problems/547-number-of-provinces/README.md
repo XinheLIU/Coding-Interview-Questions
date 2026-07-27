@@ -5,6 +5,7 @@ slug: number-of-provinces
 difficulty:
 topics: [union-find]
 leetcode: https://leetcode.com/problems/number-of-provinces/
+relations: []
 ---
 
 # 547. Number Of Provinces

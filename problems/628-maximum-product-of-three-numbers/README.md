@@ -5,6 +5,7 @@ slug: maximum-product-of-three-numbers
 difficulty:
 topics: [math]
 leetcode: 
+relations: []
 ---
 
 # 628. Maximum Product of Three Numbers

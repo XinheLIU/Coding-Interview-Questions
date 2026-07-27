@@ -5,6 +5,7 @@ slug: ones-and-zeroes
 difficulty:
 topics: [dynamic-programming, knapsack]
 leetcode: https://leetcode.com/problems/ones-and-zeroes/
+relations: []
 ---
 
 # 474. Ones And Zeroes

@@ -5,6 +5,7 @@ slug: reverse-linked-list
 difficulty:
 topics: [linked-list]
 leetcode: https://leetcode.com/problems/reverse-linked-list/
+relations: [{"type": "specializes", "target": 92, "reason": "Reverse sublist [m,n] by inserting each node after the anchor rather than reversing the whole list."}]
 ---
 
 # 206. Reverse Linked List
