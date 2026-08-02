@@ -8,7 +8,7 @@
         "link": "/book/by-topic/2d-array"
       },
       {
-        "text": "array (78)",
+        "text": "array (79)",
         "link": "/book/by-topic/array"
       },
       {
@@ -52,7 +52,7 @@
         "link": "/book/by-topic/divide-and-conquer"
       },
       {
-        "text": "dynamic-programming (47)",
+        "text": "dynamic-programming (48)",
         "link": "/book/by-topic/dynamic-programming"
       },
       {
@@ -60,7 +60,7 @@
         "link": "/book/by-topic/graph"
       },
       {
-        "text": "greedy (13)",
+        "text": "greedy (14)",
         "link": "/book/by-topic/greedy"
       },
       {
@@ -100,7 +100,7 @@
         "link": "/book/by-topic/queue"
       },
       {
-        "text": "recursion (20)",
+        "text": "recursion (21)",
         "link": "/book/by-topic/recursion"
       },
       {
@@ -112,7 +112,7 @@
         "link": "/book/by-topic/sorting"
       },
       {
-        "text": "sql (22)",
+        "text": "sql (27)",
         "link": "/book/by-topic/sql"
       },
       {
@@ -150,11 +150,19 @@
     "collapsed": true,
     "items": [
       {
-        "text": "Easy (12)",
+        "text": "Easy (13)",
         "link": "/book/by-difficulty/easy"
       },
       {
-        "text": "Unrated (385)",
+        "text": "Hard (4)",
+        "link": "/book/by-difficulty/hard"
+      },
+      {
+        "text": "Medium (5)",
+        "link": "/book/by-difficulty/medium"
+      },
+      {
+        "text": "Unrated (381)",
         "link": "/book/by-difficulty/unrated"
       }
     ]

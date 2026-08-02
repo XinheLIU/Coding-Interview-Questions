@@ -135,7 +135,7 @@
       "blurb": "Naming a state, writing its transition, and paying for each subproblem once.",
       "col": 3,
       "row": 1,
-      "count": 47,
+      "count": 48,
       "sections": [
         {
           "name": "Knapsack",
@@ -143,7 +143,7 @@
         },
         {
           "name": "Core DP",
-          "count": 44
+          "count": 45
         }
       ]
     },
@@ -181,11 +181,11 @@
       "blurb": "Set-at-a-time thinking: joins, grouping, and window functions.",
       "col": 4,
       "row": 2.6,
-      "count": 22,
+      "count": 27,
       "sections": [
         {
           "name": "SQL",
-          "count": 22
+          "count": 27
         }
       ]
     }
@@ -878,9 +878,10 @@
       "dir": "53-maximum-subarray",
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "greedy"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "dynamic-programming",
       "section": "Core DP",
       "langs": [
@@ -1606,9 +1607,10 @@
       "title": "Triangle",
       "dir": "120-triangle",
       "topics": [
+        "array",
         "dynamic-programming"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "dynamic-programming",
       "section": "Core DP",
       "langs": [
@@ -1966,7 +1968,7 @@
         "array",
         "dynamic-programming"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "dynamic-programming",
       "section": "Core DP",
       "langs": [
@@ -4295,9 +4297,10 @@
       "title": "Fibonacci Number",
       "dir": "509-fibonacci-number",
       "topics": [
-        "dynamic-programming"
+        "dynamic-programming",
+        "recursion"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Easy",
       "chapter": "dynamic-programming",
       "section": "Core DP",
       "langs": [
@@ -4592,6 +4595,34 @@
       "section": "Sliding Window",
       "langs": [
         "py"
+      ]
+    },
+    {
+      "id": 569,
+      "title": "Median Employee Salary",
+      "dir": "569-median-employee-salary",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Hard",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
+      "id": 571,
+      "title": "Find Median Given Frequency of Numbers",
+      "dir": "571-find-median-given-frequency-of-numbers",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Hard",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
       ]
     },
     {
@@ -5847,6 +5878,20 @@
       ]
     },
     {
+      "id": 1126,
+      "title": "Active Businesses",
+      "dir": "1126-active-businesses",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Medium",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
       "id": 1143,
       "title": "Longest Common Subsequence",
       "dir": "1143-longest-common-subsequence",
@@ -5931,6 +5976,20 @@
       "section": "Sorting",
       "langs": [
         "py"
+      ]
+    },
+    {
+      "id": 1225,
+      "title": "Report Contiguous Dates",
+      "dir": "1225-report-contiguous-dates",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Hard",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
       ]
     },
     {
@@ -6020,6 +6079,20 @@
       ]
     },
     {
+      "id": 1412,
+      "title": "Find the Quiet Students in All Exams",
+      "dir": "1412-find-the-quiet-students-in-all-exams",
+      "topics": [
+        "sql"
+      ],
+      "difficulty": "Hard",
+      "chapter": "sql",
+      "section": "SQL",
+      "langs": [
+        "sql"
+      ]
+    },
+    {
       "id": 1544,
       "title": "Make The String Great",
       "dir": "1544-make-the-string-great",
@@ -6046,6 +6119,20 @@
       "section": "SQL",
       "langs": [
         "sql"
+      ]
+    },
+    {
+      "id": 3693,
+      "title": "Climbing Stairs II",
+      "dir": "3693-climbing-stairs-ii",
+      "topics": [
+        "dynamic-programming"
+      ],
+      "difficulty": "Medium",
+      "chapter": "dynamic-programming",
+      "section": "Core DP",
+      "langs": [
+        "py"
       ]
     }
   ],
@@ -6213,6 +6300,12 @@
       "reason": "Sudoku Solver is the same constraint-propagation backtracking: place, check conflicts, recurse, undo."
     },
     {
+      "source": 53,
+      "target": 509,
+      "type": "builds-on",
+      "reason": "Applies the 1D DP recurrence pattern to subarrays \u2014 dp[i] depends only on dp[i-1]."
+    },
+    {
       "source": 54,
       "target": 59,
       "type": "specializes",
@@ -6345,6 +6438,18 @@
       "reason": "Pascal's Triangle II needs only row k, so the O(n^2) table collapses to one rolling row."
     },
     {
+      "source": 120,
+      "target": 509,
+      "type": "builds-on",
+      "reason": "Extends the 1D recurrence to 2D \u2014 dp[i][j] depends on two neighbors below instead of one behind."
+    },
+    {
+      "source": 120,
+      "target": 64,
+      "type": "builds-on",
+      "reason": "Same minimum-path-sum DP structure, but the grid is a triangle and you work bottom-up instead of top-down."
+    },
+    {
       "source": 121,
       "target": 122,
       "type": "specializes",
@@ -6427,6 +6532,12 @@
       "target": 186,
       "type": "specializes",
       "reason": "Reverse Words II must work in place \u2014 reverse the whole array, then reverse each word."
+    },
+    {
+      "source": 152,
+      "target": 53,
+      "type": "builds-on",
+      "reason": "Same 'max ending at i' DP structure, but tracks both max and min because negatives flip signs."
     },
     {
       "source": 153,
@@ -6775,6 +6886,18 @@
       "target": 1084,
       "type": "specializes",
       "reason": "Sales Analysis III further restricts to the first and last reporting period, adding a date range filter."
+    },
+    {
+      "source": 3693,
+      "target": 509,
+      "type": "builds-on",
+      "reason": "Extends Fibonacci/Climbing Stairs to 3-step choices with weighted costs \u2014 same rolling-variable optimization."
+    },
+    {
+      "source": 3693,
+      "target": 70,
+      "type": "builds-on",
+      "reason": "Generalizes Climbing Stairs by adding cost constraints and 3-step option instead of just 1/2 steps."
     }
   ]
 }
