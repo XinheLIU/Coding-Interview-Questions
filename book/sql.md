@@ -4,12 +4,14 @@ chapter: sql
 
 # SQL
 
-Last updated: 2026-07-26
+Last updated: 2026-08-10
 
 SQL sits off the main spine of this book: it is a separate skill, not a later stage
 of the same one. The shift is from **step-at-a-time** to **set-at-a-time** thinking.
 You do not tell the database how to loop; you describe the shape of the result and
 let the planner choose the loop.
+
+<ChapterChildren parent="sql" />
 
 Ranking-within-group problems are where window functions earn their keep. The
 pattern: partition the rows into groups, rank inside each group, then filter by
@@ -32,7 +34,5 @@ keeps ranks 1–3.
 
 <<< @/problems/185-department-top-three-salaries/solution.sql{sql}
 
-
-<ChapterGraph chapter="sql" />
 
 <ChapterIndex chapter="sql" />

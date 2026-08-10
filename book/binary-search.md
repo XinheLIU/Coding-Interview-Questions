@@ -1,4 +1,10 @@
+---
+chapter: binary-search
+---
+
 # Binary Search
+
+Last updated: 2026-08-10
 
 ```py
 # Template 1
@@ -61,3 +67,7 @@ Use In Engineering
 The existence of sorted data structures\(tree, hash tables\) with fast search make binary search become most useful in searching approximation values \(eg. first/last occurrence of a value/in a range\)
 
 * search location range of IP adrress
+
+<ChapterGraph chapter="binary-search" />
+
+<ChapterIndex chapter="binary-search" />

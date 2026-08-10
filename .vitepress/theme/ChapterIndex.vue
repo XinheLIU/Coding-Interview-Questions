@@ -19,6 +19,9 @@ interface ChapterSection {
 interface Chapter {
   id: string
   title: string
+  page?: string
+  parent: string | null
+  level: number
   sections: ChapterSection[]
 }
 
@@ -52,14 +55,25 @@ const chapterMeta = computed(() =>
   graph.chapters.find((chapter) => chapter.id === props.chapter)
 )
 
+const childIds = computed(() =>
+  graph.chapters
+    .filter((chapter) => chapter.parent === props.chapter)
+    .map((chapter) => chapter.id)
+)
+
 const members = computed(() =>
   graph.nodes
-    .filter((node) => node.chapter === props.chapter)
+    .filter((node) =>
+      chapterMeta.value?.level === 1
+        ? childIds.value.includes(node.chapter)
+        : node.chapter === props.chapter
+    )
     .sort((a, b) => a.id - b.id)
 )
 
 /** Sections in the taxonomy's declared order, empty ones dropped. */
 const sections = computed(() => {
+  if (chapterMeta.value?.level === 1) return []
   const order = chapterMeta.value?.sections.map((section) => section.name) ?? []
   return order
     .map((name) => ({
@@ -90,7 +104,9 @@ const chapterTopics = computed(() => {
 })
 
 const crossReferenced = computed(() =>
-  graph.nodes
+  chapterMeta.value?.level === 1
+    ? []
+    : graph.nodes
     .filter(
       (node) =>
         node.chapter !== props.chapter &&
@@ -106,15 +122,33 @@ const chapterTitleById = computed(
 function problemLink(node: ProblemNode): string {
   return withBase(`/problems/${node.dir}/`)
 }
+
+function chapterTitle(chapterId: string): string {
+  return chapterTitleById.value.get(chapterId) ?? chapterId
+}
 </script>
 
 <template>
   <section class="chapter-index" aria-labelledby="chapter-index-title">
     <h2 id="chapter-index-title">Problems in this chapter</h2>
     <p class="lede">
-      {{ members.length }} problems, grouped by the section their topics place them in.
-      A dot marks a problem that already has at least one recorded relationship.
+      <template v-if="chapterMeta?.level === 1">
+        {{ members.length }} problems across {{ childIds.length }} concept chapters.
+      </template>
+      <template v-else>
+        {{ members.length }} problems, grouped by the section their topics place them in.
+        A dot marks a problem that already has at least one recorded relationship.
+      </template>
     </p>
+
+    <ul v-if="chapterMeta?.level === 1" class="meta-summary">
+      <li v-for="childId in childIds" :key="childId">
+        <a :href="withBase(graph.chapters.find((chapter) => chapter.id === childId)?.page ?? '')">
+          {{ chapterTitle(childId) }}
+        </a>
+        <span>{{ graph.nodes.filter((node) => node.chapter === childId).length }} problems</span>
+      </li>
+    </ul>
 
     <div v-for="section in sections" :key="section.name" class="section">
       <h3>{{ section.name }} <span class="count">{{ section.problems.length }}</span></h3>
@@ -170,6 +204,29 @@ function problemLink(node: ProblemNode): string {
 
 .section {
   margin-bottom: 26px;
+}
+
+.meta-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 6px 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.meta-summary li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+.meta-summary span {
+  color: var(--vp-c-text-3);
+  white-space: nowrap;
 }
 
 .section h3 {

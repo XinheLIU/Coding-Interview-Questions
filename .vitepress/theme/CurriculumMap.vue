@@ -22,7 +22,8 @@ interface Chapter {
   col: number
   row: number
   count: number
-  sections: ChapterSection[]
+  sections?: ChapterSection[]
+  children?: string[]
 }
 
 interface Flow {
@@ -31,6 +32,7 @@ interface Flow {
 }
 
 const graph = graphData as unknown as {
+  meta_chapters: Chapter[]
   chapters: Chapter[]
   flow: Flow[]
   nodes: unknown[]
@@ -44,7 +46,7 @@ const BOX_W = 190
 const BOX_H = 86
 const PAD = 24
 
-const chapters = computed(() => graph.chapters.filter((c) => c.count > 0))
+const chapters = computed(() => graph.meta_chapters.filter((c) => c.count > 0))
 
 const bounds = computed(() => {
   const cols = chapters.value.map((c) => c.col)
@@ -121,9 +123,17 @@ function pageLink(chapter: Chapter): string {
 }
 
 function sectionSummary(chapter: Chapter): string {
-  return chapter.sections
-    .filter((section) => section.count > 0)
-    .map((section) => `${section.name} (${section.count})`)
+  if (chapter.sections) {
+    return chapter.sections
+      .filter((section) => section.count > 0)
+      .map((section) => `${section.name} (${section.count})`)
+      .join(' · ')
+  }
+  const childById = new Map(graph.chapters.map((child) => [child.id, child]))
+  return (chapter.children ?? [])
+    .map((childId) => childById.get(childId))
+    .filter((child): child is Chapter => Boolean(child))
+    .map((child) => `${child.title} (${child.count})`)
     .join(' · ')
 }
 </script>

@@ -4,7 +4,7 @@ chapter: linear-structures
 
 # Linear Structures
 
-Last updated: 2026-07-26
+Last updated: 2026-08-10
 
 Arrays, strings, linked lists, hash tables, stacks and queues. This is the
 foundation chapter: everything later in the book is built out of these, and the
@@ -12,6 +12,8 @@ habits you form here — reaching for a sentinel node, knowing when a hash map b
 you an order of magnitude — are the ones you reuse for the rest of your career.
 
 The through-line is a single trade-off, restated in different clothes.
+
+<ChapterChildren parent="linear-structures" />
 
 ## The trade-off, sharpened
 
@@ -46,7 +48,5 @@ Arrays buy **O(1) random access** with contiguity (address is `base + i*size`, a
 - *Arrays:* two pointers, sliding window, prefix sums, binary search.
 - *Lists:* fast/slow pointers (midpoint, cycle), in-place reversal, merge sorted.
 
-
-<ChapterGraph chapter="linear-structures" />
 
 <ChapterIndex chapter="linear-structures" />

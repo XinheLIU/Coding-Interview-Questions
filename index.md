@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Coding Interview Notes"
   text: "A knowledge graph of solved problems"
-  tagline: Seven chapters in learning order, every problem linked to what it builds on — with code pulled straight from the solution files.
+  tagline: Seven curriculum stages, 22 concept chapters, and every problem linked to what it builds on.
   actions:
     - theme: brand
       text: Start with Linear Structures
@@ -21,6 +21,8 @@ features:
   - title: The "why", not just the "what"
     details: Prose focuses on intuition, invariants, and complexity; the code carries the details.
 ---
+
+Last updated: 2026-08-10
 
 ## Principles
 
@@ -48,8 +50,8 @@ file includes (`<<< @/problems/70-climbing-stairs/solution.py`). The `.py` / `.c
 **Structure is generated, not maintained.** Each problem's `README.md` frontmatter
 carries its `topics` and its `relations`; `scripts/gen_index.py` rolls those up into
 the chapter map above, the topic and difficulty indexes, and the sidebar.
-`scripts/taxonomy.py` is the one place that decides which topics belong to which
-chapter.
+`scripts/taxonomy.py` is the one place that defines the seven meta-chapters, their
+concept-sized children, and which leaf chapter owns each topic.
 
 **The graph grows deliberately.** A relationship needs a stated reason naming the
 shared invariant — a shared topic tag is not evidence.

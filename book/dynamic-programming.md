@@ -4,12 +4,14 @@ chapter: dynamic-programming
 
 # Dynamic Programming
 
-Last updated: 2026-08-02
+Last updated: 2026-08-10
 
 DP turns an exponential search into a polynomial table fill. The recurring job is
 to name a **state**, write the **transition** between states, and pin down the
 **base cases** and **answer cell**. Everything below embeds the real solution
 files — edit a `.py` and this page updates.
+
+<ChapterChildren parent="dynamic-programming" />
 
 ## Why this chapter comes late
 
@@ -190,7 +192,5 @@ rolled version is kept as a comment at the bottom of the file below.
 
 <<< @/problems/64-minimum-path-sum/solution.py
 
-
-<ChapterGraph chapter="dynamic-programming" />
 
 <ChapterIndex chapter="dynamic-programming" />

@@ -4,12 +4,14 @@ chapter: recursion
 
 # Recursion & Divide and Conquer
 
-Last updated: 2026-07-26
+Last updated: 2026-08-10
 
 Recursion is the foundation of algorithmic thinking, and divide and conquer is the
 first thing you build with it. The chapter is small on purpose: only a handful of
 problems here are *about* the technique. Everything after it — sorting, search,
 dynamic programming — is an application.
+
+<ChapterChildren parent="recursion" />
 
 ## Recursion: three questions, in order
 
@@ -86,7 +88,5 @@ search, applied to an unsorted array.
   limit is 1000 frames. Convert to iteration with an explicit stack.
 - **Tail-recursive shapes** → Python does not optimize them. A `while` loop is
   clearer and cheaper.
-
-<ChapterGraph chapter="recursion" />
 
 <ChapterIndex chapter="recursion" />

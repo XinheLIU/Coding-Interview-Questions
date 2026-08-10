@@ -4,7 +4,7 @@ chapter: trees
 
 # Trees & Heaps
 
-Last updated: 2026-07-26
+Last updated: 2026-08-10
 
 The first structure that branches. A linked list has one `next`; a tree has two or
 more, and that single change is what turns "walk the whole thing" into "walk the
@@ -12,6 +12,8 @@ half that matters" — the seed of every logarithmic algorithm in the book.
 
 This is also where recursion stops being a trick and becomes the natural way to
 write code. A tree is defined recursively, so the code that processes it is too.
+
+<ChapterChildren parent="trees" />
 
 ## Why trees come after linear structures
 
@@ -81,7 +83,5 @@ for a heap whenever you need "the k best" rather than "everything, sorted":
   min-heap for the high half, kept within one element of balance (#295).
 - **k-way merge** — one heap slot per list, pop the global minimum, push its
   successor. #23 Merge K Sorted Lists, #373, and #632 are all this one algorithm.
-
-<ChapterGraph chapter="trees" />
 
 <ChapterIndex chapter="trees" />

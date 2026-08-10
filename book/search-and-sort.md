@@ -4,7 +4,7 @@ chapter: search-and-sort
 
 # Search & Sort
 
-Last updated: 2026-07-26
+Last updated: 2026-08-10
 
 Two ideas that look unrelated and are not: **sorting establishes an order you can
 exploit**, and **searching exploits an order you already have**. Once you see that
@@ -13,6 +13,8 @@ binary search only needs a monotonic predicate — not a sorted array — half t
 
 This chapter also covers systematic exploration: DFS, BFS, and backtracking. They
 belong here because they are search too, over a graph instead of an interval.
+
+<ChapterChildren parent="search-and-sort" />
 
 > Deep dives on the individual templates live in
 > [DFS](/book/dfs), [BFS](/book/bfs), and [Binary Search](/book/binary-search).
@@ -118,7 +120,5 @@ Two details account for most of the bugs:
 Pruning is what makes backtracking viable: return early the moment the partial
 solution cannot succeed. #51 N-Queens tracking `x+y` and `x-y` diagonals is the
 canonical example — the conflict check is `O(1)` instead of a board scan.
-
-<ChapterGraph chapter="search-and-sort" />
 
 <ChapterIndex chapter="search-and-sort" />

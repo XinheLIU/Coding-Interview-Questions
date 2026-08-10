@@ -4,12 +4,14 @@ chapter: techniques
 
 # Techniques
 
-Last updated: 2026-07-26
+Last updated: 2026-08-10
 
 Sharp tools that assume the fundamentals. Nothing here is a new way of thinking the
 way trees or DP are — these are specific instruments you reach for once you
 recognize the shape of the problem. That recognition is the only thing worth
 practising.
+
+<ChapterChildren parent="techniques" />
 
 ## Bit manipulation
 
@@ -93,7 +95,5 @@ structures facing each other** exposes a boundary element in `O(1)`.
 
 Before writing code, state the required complexity of *every* operation. The bound
 you overlook is the one the design fails on.
-
-<ChapterGraph chapter="techniques" />
 
 <ChapterIndex chapter="techniques" />

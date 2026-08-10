@@ -1,0 +1,132 @@
+[
+  {
+    "text": "Linear Structures",
+    "link": "/book/linear-structures",
+    "items": [
+      {
+        "text": "Arrays & Matrices (61)",
+        "link": "/book/arrays"
+      },
+      {
+        "text": "Strings (23)",
+        "link": "/book/strings"
+      },
+      {
+        "text": "Hashing (20)",
+        "link": "/book/hashing"
+      },
+      {
+        "text": "Linked Lists (25)",
+        "link": "/book/linked-lists"
+      },
+      {
+        "text": "Stacks & Queues (23)",
+        "link": "/book/stacks-and-queues"
+      }
+    ]
+  },
+  {
+    "text": "Trees & Heaps",
+    "link": "/book/trees",
+    "items": [
+      {
+        "text": "Binary Trees (33)",
+        "link": "/book/binary-trees"
+      },
+      {
+        "text": "Binary Search Trees (9)",
+        "link": "/book/binary-search-trees"
+      },
+      {
+        "text": "Heaps & Priority Queues (10)",
+        "link": "/book/heaps"
+      },
+      {
+        "text": "Tries (3)",
+        "link": "/book/tries"
+      }
+    ]
+  },
+  {
+    "text": "Recursion & Divide and Conquer",
+    "link": "/book/recursion",
+    "items": [
+      {
+        "text": "Recursion (0)",
+        "link": "/book/recursion-basics"
+      },
+      {
+        "text": "Divide and Conquer (8)",
+        "link": "/book/divide-and-conquer"
+      }
+    ]
+  },
+  {
+    "text": "Search & Sort",
+    "link": "/book/search-and-sort",
+    "items": [
+      {
+        "text": "Binary Search (25)",
+        "link": "/book/binary-search"
+      },
+      {
+        "text": "Sorting (14)",
+        "link": "/book/sorting"
+      },
+      {
+        "text": "Graphs & Traversal (16)",
+        "link": "/book/graphs-and-traversal"
+      },
+      {
+        "text": "Backtracking (23)",
+        "link": "/book/backtracking"
+      }
+    ]
+  },
+  {
+    "text": "Dynamic Programming",
+    "link": "/book/dynamic-programming",
+    "items": [
+      {
+        "text": "Core Dynamic Programming (45)",
+        "link": "/book/core-dp"
+      },
+      {
+        "text": "Knapsack DP (3)",
+        "link": "/book/knapsack-dp"
+      }
+    ]
+  },
+  {
+    "text": "Techniques",
+    "link": "/book/techniques",
+    "items": [
+      {
+        "text": "Data Structure Design (8)",
+        "link": "/book/data-structure-design"
+      },
+      {
+        "text": "Bit Manipulation (6)",
+        "link": "/book/bit-manipulation"
+      },
+      {
+        "text": "Greedy (9)",
+        "link": "/book/greedy"
+      },
+      {
+        "text": "Math & Number Theory (12)",
+        "link": "/book/math-number-theory"
+      }
+    ]
+  },
+  {
+    "text": "SQL",
+    "link": "/book/sql",
+    "items": [
+      {
+        "text": "SQL (27)",
+        "link": "/book/sql-queries"
+      }
+    ]
+  }
+]

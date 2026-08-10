@@ -4,7 +4,8 @@
 Run this after filing new problems to find the next edges worth adding:
 
     python3 scripts/suggest_relations.py            # summary
-    python3 scripts/suggest_relations.py --chapter dynamic-programming
+    python3 scripts/suggest_relations.py --chapter dynamic-programming  # meta
+    python3 scripts/suggest_relations.py --chapter core-dp              # leaf
     python3 scripts/suggest_relations.py --isolated # just the unconnected problems
 
 It reports candidates, not conclusions. A shared topic tag is not evidence of a
@@ -63,11 +64,15 @@ def main() -> None:
         connected.add(edge["target"])
         edge_pairs.add(frozenset((edge["source"], edge["target"])))
 
-    chapters = [c for c in graph["chapters"]
-                if not args.chapter or c["id"] == args.chapter]
-    if args.chapter and not chapters:
+    if args.chapter and args.chapter not in taxonomy.CHAPTERS_BY_ID:
         allowed = ", ".join(c.id for c in taxonomy.CHAPTERS)
         sys.exit(f"unknown chapter '{args.chapter}'. Try one of: {allowed}")
+
+    if not args.chapter:
+        selected_ids = set(taxonomy.LEAF_CHAPTERS_BY_ID)
+    else:
+        selected_ids = {chapter.id for chapter in taxonomy.descendants_of(args.chapter)}
+    chapters = [c for c in graph["chapters"] if c["id"] in selected_ids]
     chapter_ids = {c["id"] for c in chapters}
     scoped = [n for n in graph["nodes"] if n["chapter"] in chapter_ids]
 
