@@ -13,11 +13,13 @@
 
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
-        fast, slow = head, head
-        while fast and fast.next:
-            fast, slow = fast.next.next, slow.next
+        # Floyd's cycle detection: fast moves two steps per one of slow, so the
+        # gap between them grows by exactly one each iteration. Inside a cycle of
+        # length L that gap is taken mod L, so it eventually hits 0 — they meet.
+        slow = fast = head
+        while fast and fast.next:  # only fast can fall off; checking it covers both
+            slow, fast = slow.next, fast.next.next
             if slow is fast:
                 return True
         return False
-        
 # @lc code=end

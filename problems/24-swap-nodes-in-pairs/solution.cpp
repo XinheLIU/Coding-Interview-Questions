@@ -1,28 +1,29 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        ListNode *dummy = new ListNode(-1), *pre = dummy;
+        // Invariant: prev sits immediately before the pair being swapped, so
+        // prev -> first -> second becomes prev -> second -> first.
+        // The dummy head turns the first pair into an interior case like the rest.
+        ListNode *dummy = new ListNode(-1), *prev = dummy;
         dummy->next = head;
-        while (pre->next && pre->next->next) {
-            ListNode *t = pre->next->next;
-            pre->next->next = t->next;
-            t->next = pre->next;
-            pre->next = t;
-            pre = t->next;
+        while (prev->next && prev->next->next) {  // a lone final node stays put
+            ListNode *first = prev->next, *second = prev->next->next;
+            // Order matters: first must adopt second's successor before second
+            // points back at first, or the tail of the list is dropped.
+            first->next = second->next;
+            second->next = first;
+            prev->next = second;
+            prev = first;  // first is now the tail of the swapped pair
         }
         return dummy->next;
     }
 };
-
-/*
-class Solution {
-public:
-    ListNode* swapPairs(ListNode* head) {
-        if (!head || !head->next) return head;
-        ListNode *t = head->next;
-        head->next = swapPairs(head->next->next);
-        t->next = head;
-        return t;
-    }
-};
-*/

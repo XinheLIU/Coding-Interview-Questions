@@ -6,28 +6,19 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
- // ListNode* reverseList(ListNode* head) {
-    //     if (!head) return head;
-    //     ListNode *dummy = new ListNode(-1);
-    //     dummy->next = head;
-    //     ListNode *cur = head;
-    //     while (cur->next) {
-    //         ListNode *tmp = cur->next;
-    //         cur->next = tmp->next;
-    //         tmp->next = dummy->next;
-    //         dummy->next = tmp;
-    //     }
-    //     return dummy->next;
-    // }
-    
+
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
+        // Recurse to the tail first, then flip links on the way back up.
+        // new_head is the original tail, passed through every frame unchanged.
         if (!head || !head->next) return head;
-        ListNode* p=head;
-        head=reverseList(p->next);
-        p->next->next=p;
-        p->next=NULL;
-        return head;
+        ListNode* cur = head;
+        ListNode* new_head = reverseList(cur->next);
+        // cur->next is still the node ahead of us; point it back at cur,
+        // then cut cur's forward link or the two nodes form a cycle.
+        cur->next->next = cur;
+        cur->next = NULL;
+        return new_head;
     }
 };

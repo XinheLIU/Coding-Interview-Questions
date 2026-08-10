@@ -1,46 +1,35 @@
 class MyQueue:
+    # Two stacks, one queue: in_stack takes pushes, out_stack serves pops.
+    # Pouring one stack into another reverses it, so the oldest element ends up
+    # on top of out_stack — exactly the queue front.
+    # Invariant: out_stack holds the front of the queue in pop order, in_stack
+    # holds the back in push order. Elements move in_stack -> out_stack only
+    # when out_stack is empty, which is what keeps the amortized cost O(1).
 
     def __init__(self):
-        """
-        Initialize your data structure here.
-        """
-        self.stack1 = []
-        self.stack2 = []
-        
+        self.in_stack = []
+        self.out_stack = []
 
-    def adjust(self):
-        if not len(self.stack2):
-            while len(self.stack1):
-                self.stack2.append(self.stack1.pop())
-                
+    def _refill_out_stack(self) -> None:
+        # Only when out_stack is empty. Pouring early would drop newer elements
+        # on top of older ones and break FIFO order.
+        if not self.out_stack:
+            while self.in_stack:
+                self.out_stack.append(self.in_stack.pop())
+
     def push(self, x: int) -> None:
-        """
-        Push element x to the back of queue.
-        """
-        # input stack
-        self.stack1.append(x)
+        self.in_stack.append(x)
 
     def pop(self) -> int:
-        """
-        Removes the element from in front of queue and returns that element.
-        """
-        # output stack
-        self.adjust()
-        return self.stack2.pop()
+        self._refill_out_stack()
+        return self.out_stack.pop()
 
     def peek(self) -> int:
-        """
-        Get the front element.
-        """
-        self.adjust()
-        if len(self.stack2):
-            return self.stack2[-1]     
+        self._refill_out_stack()
+        return self.out_stack[-1]
 
     def empty(self) -> bool:
-        """
-        Returns whether the queue is empty.
-        """
-        return not len(self.stack1) and not len(self.stack2)
+        return not self.in_stack and not self.out_stack
 
 
 # Your MyQueue object will be instantiated and called as such:

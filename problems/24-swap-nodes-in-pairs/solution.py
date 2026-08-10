@@ -13,25 +13,19 @@
 
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
-        self.next = head
-        prev, cur = self, head
-        while cur and cur.next:
-            next = cur.next
-            cur.next = cur.next.next
-            next.next = prev.next
-            prev.next = next
-            # move
-            prev, cur = cur, next
-        return self.next
-'''
-class Solution:
-    def swapPairs(self, head: ListNode) -> ListNode:
-        if not head or not head.next:
-            return None
-        new_head = head.next
-        new_head.next, head.next = head, self.swapPairs(head.next.next)
-        return new_head    
-'''
-        
+        # Invariant: prev sits immediately before the pair being swapped, so
+        # prev -> first -> second becomes prev -> second -> first.
+        # The dummy head turns the first pair into an interior case like the rest.
+        dummy = ListNode(0)
+        dummy.next = head
+        prev = dummy
+        while prev.next and prev.next.next:  # a lone final node stays put
+            first, second = prev.next, prev.next.next
+            # Order matters: first must adopt second's successor before second
+            # points back at first, or the tail of the list is dropped.
+            first.next = second.next
+            second.next = first
+            prev.next = second
+            prev = first  # first is now the tail of the swapped pair
+        return dummy.next
 # @lc code=end
-

@@ -345,11 +345,11 @@
       "sections": [
         {
           "name": "Stacks",
-          "count": 20
+          "count": 21
         },
         {
           "name": "Queues",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -1006,7 +1006,7 @@
       "topics": [
         "linked-list"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "linked-lists",
       "section": "Linked Lists",
       "langs": [
@@ -2325,7 +2325,7 @@
         "linked-list",
         "two-pointers"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Easy",
       "chapter": "linked-lists",
       "section": "Linked Lists",
       "langs": [
@@ -2335,13 +2335,13 @@
     },
     {
       "id": 142,
-      "title": "Linked List Cycle Ii",
+      "title": "Linked List Cycle II",
       "dir": "142-linked-list-cycle-ii",
       "topics": [
         "linked-list",
         "two-pointers"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "linked-lists",
       "section": "Linked Lists",
       "langs": [
@@ -2964,7 +2964,7 @@
       "topics": [
         "linked-list"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Easy",
       "chapter": "linked-lists",
       "section": "Linked Lists",
       "langs": [
@@ -3246,11 +3246,12 @@
       "title": "Implement Queue using Stacks",
       "dir": "232-implement-queue-using-stacks",
       "topics": [
-        "queue"
+        "queue",
+        "stack"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Easy",
       "chapter": "stacks-and-queues",
-      "section": "Queues",
+      "section": "Stacks",
       "langs": [
         "py"
       ]
@@ -6734,6 +6735,12 @@
       "reason": "Smallest Range Covering K Lists advances the same k-way heap frontier, tracking the window span instead of emitting nodes."
     },
     {
+      "source": 24,
+      "target": 206,
+      "type": "builds-on",
+      "reason": "Reuses the save-next-then-relink discipline of in-place reversal, bounded to a window of two nodes."
+    },
+    {
       "source": 26,
       "target": 80,
       "type": "specializes",
@@ -7016,10 +7023,10 @@
       "reason": "Missing Number can also be solved by XOR-ing indices against values \u2014 same self-cancelling-pairs invariant."
     },
     {
-      "source": 141,
-      "target": 142,
-      "type": "specializes",
-      "reason": "Linked List Cycle II extends Floyd's two-pointer to locate the exact entry node of the cycle."
+      "source": 142,
+      "target": 141,
+      "type": "builds-on",
+      "reason": "Phase 1 is Floyd's detection unchanged; phase 2 adds a second walk from the head that meets at the cycle entry."
     },
     {
       "source": 146,

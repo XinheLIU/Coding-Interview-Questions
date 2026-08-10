@@ -14,7 +14,7 @@ Last updated: 2026-08-10
 - [#88 Merge Sorted Array](/problems/88-merge-sorted-array/) · `py` · [LeetCode](https://leetcode.com/problems/merge-sorted-array/)
 - [#109 Convert Sorted List To Binary Search Tree](/problems/109-convert-sorted-list-to-binary-search-tree/) · `py` · [LeetCode](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
 - [#141 Linked List Cycle](/problems/141-linked-list-cycle/) · `cpp, py` · [LeetCode](https://leetcode.com/problems/linked-list-cycle/)
-- [#142 Linked List Cycle Ii](/problems/142-linked-list-cycle-ii/) · `py` · [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [#142 Linked List Cycle II](/problems/142-linked-list-cycle-ii/) · `py` · [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/)
 - [#148 Sort List](/problems/148-sort-list/) · `py` · [LeetCode](https://leetcode.com/problems/sort-list/)
 - [#160 Intersection of Two Linked Lists](/problems/160-intersection-of-two-linked-lists/) · `py`
 - [#234 Palindrome Linked List](/problems/234-palindrome-linked-list/) · `py`

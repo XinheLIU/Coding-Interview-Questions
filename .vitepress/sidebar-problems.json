@@ -116,7 +116,7 @@
         "link": "/book/by-topic/sql"
       },
       {
-        "text": "stack (22)",
+        "text": "stack (23)",
         "link": "/book/by-topic/stack"
       },
       {
@@ -150,7 +150,7 @@
     "collapsed": true,
     "items": [
       {
-        "text": "Easy (13)",
+        "text": "Easy (16)",
         "link": "/book/by-difficulty/easy"
       },
       {
@@ -158,11 +158,11 @@
         "link": "/book/by-difficulty/hard"
       },
       {
-        "text": "Medium (5)",
+        "text": "Medium (7)",
         "link": "/book/by-difficulty/medium"
       },
       {
-        "text": "Unrated (381)",
+        "text": "Unrated (376)",
         "link": "/book/by-difficulty/unrated"
       }
     ]
