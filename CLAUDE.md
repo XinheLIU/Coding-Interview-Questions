@@ -4,6 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Last updated: 2026-08-10
 
+## Design System
+
+Always read `DESIGN.md` before making visual or UI decisions. Font choices, colors, spacing, and the compact editorial direction are defined there. Do not deviate without explicit user approval. In QA work, flag UI that does not match `DESIGN.md`.
+
 ## What this repo is
 
 Two layers over the same files:

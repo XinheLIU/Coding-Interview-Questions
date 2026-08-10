@@ -163,18 +163,18 @@ function topicLabel(topic: string): string {
 
 <style scoped>
 .problem-meta {
-  margin: 20px 0 32px;
-  padding: 20px 0 0;
+  margin: 16px 0 32px;
+  padding: 16px 0 0;
   border-top: 1px solid var(--vp-c-divider);
 }
 
 .summary {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin: 0 0 20px;
+  gap: 10px;
+  margin: 0 0 16px;
   color: var(--vp-c-text-2);
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .difficulty {
@@ -183,21 +183,25 @@ function topicLabel(topic: string): string {
 }
 
 .meta-section + .meta-section {
-  margin-top: 28px;
+  margin-top: 22px;
 }
 
 .meta-section h2 {
-  margin: 0 0 12px;
+  margin: 0 0 10px;
   border: 0;
   padding: 0;
-  font-size: 18px;
-  letter-spacing: 0;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  text-transform: uppercase;
 }
 
 .topics {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px 12px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -205,12 +209,11 @@ function topicLabel(topic: string): string {
 
 .topics a {
   display: block;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
-  padding: 3px 10px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding: 1px 0;
   color: var(--vp-c-text-2);
-  font-size: 13px;
-  line-height: 1.5;
+  font-size: 12px;
+  line-height: 1.6;
   text-transform: capitalize;
 }
 
@@ -220,22 +223,18 @@ function topicLabel(topic: string): string {
 }
 
 .relation-group {
-  display: grid;
-  grid-template-columns: minmax(112px, 0.28fr) minmax(0, 1fr);
-  gap: 16px;
-  padding: 18px 0;
+  padding: 14px 0;
   border-top: 1px solid var(--vp-c-divider);
 }
 
 .relation-group h3 {
-  margin: 2px 0 0;
-  border-left: 3px solid var(--vp-c-brand-1);
-  padding-left: 10px;
+  margin: 0 0 6px;
   color: var(--vp-c-text-2);
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: 0;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .relation-group ul {
@@ -245,24 +244,18 @@ function topicLabel(topic: string): string {
 }
 
 .relation-group li + li {
-  margin-top: 14px;
+  margin-top: 12px;
 }
 
 .relation-group a {
   font-weight: 600;
+  text-underline-offset: 3px;
 }
 
 .relation-group p {
-  margin: 3px 0 0;
+  margin: 2px 0 0;
   color: var(--vp-c-text-2);
   font-size: 14px;
-  line-height: 1.55;
-}
-
-@media (max-width: 640px) {
-  .relation-group {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
+  line-height: 1.6;
 }
 </style>
