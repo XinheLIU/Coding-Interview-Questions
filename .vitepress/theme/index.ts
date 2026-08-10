@@ -4,6 +4,7 @@ import ChapterGraph from './ChapterGraph.vue'
 import ChapterChildren from './ChapterChildren.vue'
 import ChapterIndex from './ChapterIndex.vue'
 import CurriculumMap from './CurriculumMap.vue'
+import ProblemMeta from './ProblemMeta.vue'
 
 export default {
   extends: DefaultTheme,
@@ -14,5 +15,6 @@ export default {
     app.component('ChapterChildren', ChapterChildren)
     app.component('ChapterIndex', ChapterIndex)
     app.component('CurriculumMap', CurriculumMap)
+    app.component('ProblemMeta', ProblemMeta)
   }
 }

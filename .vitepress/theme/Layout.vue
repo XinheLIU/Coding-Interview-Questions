@@ -1,21 +1,17 @@
 <script setup lang="ts">
 import DefaultTheme from 'vitepress/theme'
 import CurriculumMap from './CurriculumMap.vue'
-import ProblemRelations from './ProblemRelations.vue'
+import RecentProblems from './RecentProblems.vue'
 
 const DefaultLayout = DefaultTheme.Layout
 </script>
 
 <template>
   <DefaultLayout>
-    <!-- Homepage: the curriculum map sits under the hero feature cards. -->
+    <!-- Homepage: personal history appears before the shared curriculum map. -->
     <template #home-features-after>
+      <RecentProblems />
       <CurriculumMap />
-    </template>
-
-    <!-- Problem pages: incoming/outgoing relationships after the solution. -->
-    <template #doc-after>
-      <ProblemRelations />
     </template>
   </DefaultLayout>
 </template>

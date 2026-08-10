@@ -23,6 +23,30 @@ export default defineConfig({
     'problems/:slug/README.md': 'problems/:slug/index.md'
   },
 
+  markdown: {
+    config(md) {
+      // Problem metadata lives in README frontmatter. Insert its renderer after
+      // the title so every problem page exposes the same source of truth.
+      md.core.ruler.after('block', 'problem-metadata', (state) => {
+        const relativePath = String(state.env.relativePath ?? '')
+        const realPath = String(state.env.realPath ?? '')
+        const isProblemReadme =
+          /^problems\/[^/]+\/README\.md$/.test(relativePath) ||
+          /\/problems\/[^/]+\/README\.md$/.test(realPath)
+        if (!isProblemReadme) return
+
+        const headingCloseIndex = state.tokens.findIndex(
+          (token) => token.type === 'heading_close' && token.tag === 'h1'
+        )
+        if (headingCloseIndex === -1) return
+
+        const component = new state.Token('html_block', '', 0)
+        component.content = '<ProblemMeta />\n'
+        state.tokens.splice(headingCloseIndex + 1, 0, component)
+      })
+    }
+  },
+
   themeConfig: {
     search: { provider: 'local' },
 
@@ -35,7 +59,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Getting Started',
-        items: [{ text: 'Interview Principles', link: '/' }]
+        items: [{ text: 'Interview Principles', link: '/docs/INTERVIEW_GUIDE' }]
       },
       {
         // Both levels are generated from scripts/taxonomy.py so curriculum order
