@@ -4,11 +4,11 @@
     "collapsed": true,
     "items": [
       {
-        "text": "2d-array (18)",
+        "text": "2d-array (19)",
         "link": "/book/by-topic/2d-array"
       },
       {
-        "text": "array (79)",
+        "text": "array (80)",
         "link": "/book/by-topic/array"
       },
       {
@@ -20,7 +20,7 @@
         "link": "/book/by-topic/bfs"
       },
       {
-        "text": "binary-search (27)",
+        "text": "binary-search (28)",
         "link": "/book/by-topic/binary-search"
       },
       {
@@ -150,7 +150,7 @@
     "collapsed": true,
     "items": [
       {
-        "text": "Easy (16)",
+        "text": "Easy (17)",
         "link": "/book/by-difficulty/easy"
       },
       {
@@ -162,8 +162,12 @@
         "link": "/book/by-difficulty/medium"
       },
       {
-        "text": "Unrated (376)",
+        "text": "Unrated (375)",
         "link": "/book/by-difficulty/unrated"
+      },
+      {
+        "text": "medium (1)",
+        "link": "/book/by-difficulty/medium"
       }
     ]
   }

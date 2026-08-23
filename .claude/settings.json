@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(/.claude/skills/shared/**)",
+      "Edit(/.claude/skills/resolve-problems/**)",
+      "Edit(/.claude/skills/write-article/**)",
+      "Bash(python3 /tmp/claude-1000/-Users-xhl-GitHub-writing-Coding-Interview-Questions/e8eee8d8-0bf1-08f4-abc7-0995f15d8659/scratchpad/eval_check.py)",
+      "Bash(curl -s http://localhost:5173/Coding-Interview-Questions/)"
+    ],
+    "additionalDirectories": [
+      "/tmp/claude-1000/-Users-xhl-GitHub-writing-Coding-Interview-Questions/e8eee8d8-0bf1-08f4-abc7-0995f15d8659/scratchpad",
+      "/private/tmp/claude-1000/-Users-xhl-GitHub-writing-Coding-Interview-Questions/e8eee8d8-0bf1-08f4-abc7-0995f15d8659/scratchpad"
+    ]
+  }
+}

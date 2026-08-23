@@ -7,33 +7,28 @@
 # @lc code=start
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
-        if not len(nums):
-            return (-1,-1)
-        return self.findFirst(nums, target), self.findLast(nums, target)
-        
-    def findFirst(self, nums, target):
-        l, r = 0, len(nums) - 1
-        while l + 1 < r:
-            mid = l + ((r-l) >> 1)
-            if nums[mid] >= target:
-                r = mid
-            else:
-                l = mid
-        if nums[l] == target: return l
-        if nums[r] == target: return r
-        return -1
-    
-    def findLast(self, nums, target):
-        l, r = 0, len(nums) - 1
-        while l + 1 < r:
-            mid = l + ((r-l) >> 1)
-            if nums[mid] <= target:
-                l = mid
-            else:
-                r = mid
-        if nums[r] == target: return r
-        if nums[l] == target: return l
-        return -1 
-        
-# @lc code=end
+        if not nums: return [-1, -1]
 
+        def findFirst(nums, target):
+            l, r = 0, len(nums) - 1
+            while l <= r:
+                mid = (l + r) >> 1
+                if nums[mid] >= target:
+                    r = mid - 1
+                else:
+                    l = mid + 1
+            return l if l < len(nums) and nums[l] == target else -1
+
+        def findLast(nums, target):
+            l, r = 0, len(nums) - 1
+            while l <= r:
+                mid = (l + r) >> 1
+                if nums[mid] <= target:
+                    l = mid + 1
+                else:
+                    r = mid - 1
+            return r if r >= 0 and nums[r] == target else -1
+
+        return [findFirst(nums, target), findLast(nums, target)]
+
+# @lc code=end

@@ -59,7 +59,7 @@
       "row": 1,
       "parent": null,
       "level": 1,
-      "count": 78,
+      "count": 79,
       "children": [
         "binary-search",
         "sorting",
@@ -177,7 +177,7 @@
       "row": 1,
       "parent": null,
       "level": 1,
-      "count": 78,
+      "count": 79,
       "children": [
         "binary-search",
         "sorting",
@@ -474,12 +474,12 @@
       "row": 0,
       "parent": "search-and-sort",
       "level": 2,
-      "count": 25,
+      "count": 26,
       "children": [],
       "sections": [
         {
           "name": "Binary Search",
-          "count": 25
+          "count": 26
         }
       ]
     },
@@ -1587,9 +1587,10 @@
       "title": "Search A 2 D Matrix",
       "dir": "74-search-a-2-d-matrix",
       "topics": [
-        "binary-search"
+        "binary-search",
+        "2d-array"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "medium",
       "chapter": "binary-search",
       "section": "Binary Search",
       "langs": [
@@ -5720,6 +5721,21 @@
       "difficulty": "Unrated",
       "chapter": "stacks-and-queues",
       "section": "Stacks",
+      "langs": [
+        "py"
+      ]
+    },
+    {
+      "id": 744,
+      "title": "Find Smallest Letter Greater Than Target",
+      "dir": "744-find-smallest-letter-greater-than-target",
+      "topics": [
+        "binary-search",
+        "array"
+      ],
+      "difficulty": "Easy",
+      "chapter": "binary-search",
+      "section": "Binary Search",
       "langs": [
         "py"
       ]
