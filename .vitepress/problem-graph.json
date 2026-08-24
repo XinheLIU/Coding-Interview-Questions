@@ -901,7 +901,7 @@
         "back-tracking",
         "dfs"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "backtracking",
       "section": "Backtracking",
       "langs": [
@@ -1181,7 +1181,7 @@
         "back-tracking",
         "dfs"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "backtracking",
       "section": "Backtracking",
       "langs": [
@@ -1196,7 +1196,7 @@
         "back-tracking",
         "dfs"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "backtracking",
       "section": "Backtracking",
       "langs": [
@@ -1282,7 +1282,7 @@
         "back-tracking",
         "dfs"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "backtracking",
       "section": "Backtracking",
       "langs": [
@@ -1291,13 +1291,13 @@
     },
     {
       "id": 47,
-      "title": "Permutations Ii",
+      "title": "Permutations II",
       "dir": "47-permutations-ii",
       "topics": [
         "back-tracking",
         "dfs"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "backtracking",
       "section": "Backtracking",
       "langs": [
@@ -1633,7 +1633,7 @@
         "back-tracking",
         "dfs"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "backtracking",
       "section": "Backtracking",
       "langs": [
@@ -1648,7 +1648,7 @@
         "back-tracking",
         "dfs"
       ],
-      "difficulty": "Unrated",
+      "difficulty": "Medium",
       "chapter": "backtracking",
       "section": "Backtracking",
       "langs": [
