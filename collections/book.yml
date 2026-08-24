@@ -1,0 +1,63 @@
+# Book navigation and publication manifest for Coding Interview Questions.
+# Contract: https://github.com/XinheLIU/XinheLIU.github.io/blob/source/docs/architecture/CONTENT-CONTRACT.md
+# Initial adoption covers the concept chapters under book/ (English, single
+# locale). The problems/ tree keeps its specialized structure and metadata
+# model; its items join this manifest incrementally.
+id: coding-interview-questions
+items:
+  - id: binary-search
+    source:
+      en: book/binary-search.md
+    part: core-techniques
+    order: 1
+    route: /Coding-Interview-Questions/book/binary-search
+    layout: concept
+  - id: arrays
+    source:
+      en: book/arrays.md
+    part: data-structures
+    order: 2
+    route: /Coding-Interview-Questions/book/arrays
+    layout: concept
+  - id: bfs
+    source:
+      en: book/bfs.md
+    part: graph-traversal
+    order: 3
+    route: /Coding-Interview-Questions/book/bfs
+    layout: concept
+  - id: dfs
+    source:
+      en: book/dfs.md
+    part: graph-traversal
+    order: 4
+    route: /Coding-Interview-Questions/book/dfs
+    layout: concept
+  - id: binary-search-trees
+    source:
+      en: book/binary-search-trees.md
+    part: data-structures
+    order: 5
+    route: /Coding-Interview-Questions/book/binary-search-trees
+    layout: concept
+  - id: core-dp
+    source:
+      en: book/core-dp.md
+    part: dynamic-programming
+    order: 6
+    route: /Coding-Interview-Questions/book/core-dp
+    layout: concept
+  - id: backtracking
+    source:
+      en: book/backtracking.md
+    part: search
+    order: 7
+    route: /Coding-Interview-Questions/book/backtracking
+    layout: concept
+  - id: bit-manipulation
+    source:
+      en: book/bit-manipulation.md
+    part: core-techniques
+    order: 8
+    route: /Coding-Interview-Questions/book/bit-manipulation
+    layout: concept
